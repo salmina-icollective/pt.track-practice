@@ -17,3 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://pointposmqa.live1.dev.radixweb.net/pointposm#/ZGFzaGJvYXJk')
+
+CustomKeywords.'com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow'('Login UI')
+
+WebUI.closeBrowser()
+

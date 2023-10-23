@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Data validation,Firefox 118.0,,,2023-10-11 15:22:45,2023-10-11 15:23:16,31.413s,FAILED
+,,,,,,,
+Test Cases/Login test/Login-validating test data,Firefox 118.0,,,2023-10-11 15:22:46,2023-10-11 15:23:16,30.639s,FAILED
+"openBrowser("""")",Firefox 118.0,,,2023-10-11 15:22:47,2023-10-11 15:22:56,9.026s,PASSED
+"navigateToUrl(""https://pointposmqa.live1.dev.radixweb.net/pointposm#/cHJvamVjdHdpc2VBY3RpdmF0aW9uUHJvY2Vzcw0000"")",Firefox 118.0,,,2023-10-11 15:22:56,2023-10-11 15:23:13,17.269s,PASSED
+"setText(findTestObject(""Object Repository/Validating test data/Page_Point POSM/input_Login_email""), Username)",Firefox 118.0,,,2023-10-11 15:23:13,2023-10-11 15:23:16,2.737s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Validating test data/Page_Point POSM/input_Login_password""), Password)",Firefox 118.0,,,2023-10-11 15:23:16,2023-10-11 15:23:16,0.606s,FAILED
