@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>decrement_spec_details</name>
+   <tag></tag>
+   <elementGuidId>370c2e23-06d8-40df-b226-a33eaca2c2d2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-wrapper']/div[2]/div/div[2]/div/div/div/div/form/div/div/div[10]/div[2]/div/div[9]/div[2]/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>bf858f3c-2b64-435e-bef9-cb59044cbae2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary fa fa-minus</value>
+      <webElementGuid>95ed6733-23a1-4647-a6ee-59c5e982d2c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-hide</name>
+      <type>Main</type>
+      <value>isAllowedView == true</value>
+      <webElementGuid>5bc43fe1-ca16-4732-a7fa-ee6854376305</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>removeNewSpecForEdit($index, spec.specName)</value>
+      <webElementGuid>a7047052-c813-4fbd-b956-33b8ca89225a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-wrapper&quot;)/div[@class=&quot;main ng-scope&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;wrapper wrapper-content animated fadeInRight&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;ibox float-e-margins&quot;]/div[@class=&quot;ibox-content&quot;]/form[@class=&quot;form-horizontal ng-valid-brief.project-name ng-valid-required ng-dirty ng-invalid ng-invalid-spec.element-name ng-invalid-spec.unit-class-id ng-invalid-spec.brand-id ng-valid-spec.quantity ng-invalid-spec.product-type-name&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;ng-scope&quot;]/div[1]/div[9]/div[2]/i[@class=&quot;btn btn-primary fa fa-minus&quot;]</value>
+      <webElementGuid>5cab5590-760c-481d-9971-ef1bf8a216f8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-wrapper']/div[2]/div/div[2]/div/div/div/div/form/div/div/div[10]/div[2]/div/div[9]/div[2]/i</value>
+      <webElementGuid>2d96db4c-9688-4610-9d18-e27bd654aae3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[9]/div[2]/i</value>
+      <webElementGuid>3e860e27-df12-40f0-b443-e731625a0209</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

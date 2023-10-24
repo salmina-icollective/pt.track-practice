@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Select CompanyA.M Design AgencyAddvi_c53b82</name>
+   <tag></tag>
+   <elementGuidId>9cba6ac5-2f04-4792-98a0-621e726b68b1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-wrapper']/div[2]/div/div[2]/div/div/div/div/form/div/div[2]/div[3]/div/div/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>021b6096-c70c-4da2-b321-593804f0cfd5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-pristine ng-invalid ng-invalid-company-structure.company-id rx-error</value>
+      <webElementGuid>6a828d83-51b5-48bc-adfa-88811162037f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>companyStructure.companyId</value>
+      <webElementGuid>c52716a5-90b8-4388-b0cf-057e08ca65d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-options</name>
+      <type>Main</type>
+      <value>company.companyId as company.companyName for company in companies</value>
+      <webElementGuid>bf27267a-162c-400f-9848-58fc3e072a12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-change</name>
+      <type>Main</type>
+      <value>companyChangeAdd(companyStructure.companyId,$index)</value>
+      <webElementGuid>3ea0d285-b7e5-476d-90f7-484a38a1376f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select CompanyA.M Design AgencyAddvice Promotions LtdAdjust - KSAAdjust SAAdvance Production Company (Rely)African MediumsAl Qimam (Summits)Atlas Printers (Pty) Ltd_BEE08_BO100AVVO Labels_BEE01_BO100_BWO50Awael Al TasneefBeith Digital_BEE02_BO74Best Enough TradingBrainfoodBrand AidCactusCactus Advertising &amp; Promotions W.L.LCap Pop Media Solutions_BEE01_BO100Chimolin EnterprisesCNS012 E503 Northern NatalCNS015 E502 Sticks and Licks Pty (ltd)CNS019 E507 Teak IceCNS020 E508 Milnex 700 / Cool RunnersCNS021 E509 Ice Cream LogisticsCNS022 E510 A &amp; M UYS MARKETING ENT CCCNS023 E511 MITJA INVESTMENTS NO.48 PTYCNS024 E512 Carbon Freeze CCCNS025 E513 CHILLI 4 U CCCNS041 E506 BVS TRUST T/A CENTRAL SA DIST.CNS041 EB01 BVS TRUST T/A CENTRAL SA DIST.CNS051 E515 BERNARD BIGARACNS052 E516 Chill Out DistributionCNS057 E514 KLL Ice CreamCNS058 E517 Stay Cool DistributorsCNS061 E518 M P MERCHANDISING CCCNS062 E519 Heartland IceCNS063 E520 WILDFIRE TRADING 7 CCCNS064 E521 H J DE JAGER SIVIELE KONT. BKCNS097 E505 EVEREST ICECompany A DistributionCompany A Distribution WarehouseCompany B ExecutionCompany B Execution WarehouseCreate-OnlineCyanDahlia CreationsDeltaDelta ExecutionDemo Customer 1DEMO UL SAUDIDiplomatDistribution SupplierDistribution TestDSV global transport and logisticsEco LogisticsEdge WarehouseElegance Designers Printers LtdEstee LauderExecution supplierFab12veFab12ve WarehouseFAST TRACK COFirst Impressions Labels (Pty) Ltd._BEE04FusionTechFutureFusion TechnologiesGlaxoSmithKline LimitedGlaxoSmithKline South AfricaGSKGSK SAH&amp;A DesignH&amp;A ManufacturingHirt &amp; CarterHirt &amp; Carter - DesignHirt&amp;Carter DistributionInterflexJohnson and JohnsonL&amp;K Imaging and Print_BEE02_BO51_BWO30M.D.B AgencyMagnusMarin's Southern Africa_BEE02MAS LogisticsMasaahaatMTNNAMBOTSNestleNestle SANestlé Saudi Arabia LLCNestle UAENu Pop Displays CC T/A Nu Displays_BEE04Online AdvertisingOnline PrintPaton TupperPepsiCoPHDPhoenix DesignPinetown Printers_BEE02_BO51_BWO17PointPoint - Colgate Palmolive KSAPoint - Colgate Palmolive UAEPoint - Henkel UAEPoint - Procter &amp; Gamble MoroccoPoint - Procter &amp; Gamble UAEPoint - TCCC Middle East - USDPoint Johnson &amp; Johnson UAE USDPOP LogisticsPOP2POSITIONPrimediaPrinter ProfessionalsProcter &amp; Gamble - Gulf FZEProcter &amp; Gamble EgyptProcter &amp; Gamble Egypt USD ParentProcter &amp; Gamble Middle East FZEProcter and Gamble KSAProcter and Gamble PakistanProcter and Gamble RSAProduction SupplierProduction Supplier Link TestProduction Supplier TestProject RoomPt.Track Asset ClientPt.Track ClientPURLE RAIN DIGITAL PRINTING PTY LTDPyramidQ&amp;R for Plastics and FurnitureRASCASSE (PTY) LTD_BEE02_BO51Reactive Networks FZ LLCScreenline_BEE04SGRP MeridianSGRP Meridian  WarehouseShereno Printers cc_BEE01_BO100_BWO10SmartRetailSmartRetail - InstallersSmollans ufsSpandan International Cargo Packaging LLCSuhool Al Khaleej InternationalSupplier TestTelkom SATelkom SMTest Execution SupplierTest Production SupplierThe Production HubTiger BrandsTiger Brands Field ServicesTiger Brands General TradeTiger Brands SATiger StudioTimex ShippingTitan Supplies LtdTorqueTriumph PrintingTSS Advertising Company - SARUnilever - SAUnilever - UAEUNILEVER GULF FZEUnilever IsraelUnilever SaudiUniprintUTRACK DEMO UNILEVERVisible WorxWhatIfZapop_BEE08</value>
+      <webElementGuid>e9a5a026-08cb-4028-aab3-2866beac89bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-wrapper&quot;)/div[@class=&quot;main ng-scope&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;wrapper wrapper-content animated fadeInRight&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;ibox float-e-margins&quot;]/div[@class=&quot;ibox-content&quot;]/form[@class=&quot;form-horizontal ng-invalid ng-invalid-user.country ng-invalid-user.security-role-id ng-invalid-company-structure.company-id ng-invalid-company-structure.structure-id ng-dirty ng-valid-user.user-type-id ng-valid-user.first-name ng-valid-user.last-name ng-valid-user.time-zone ng-valid-email ng-valid-user.email-address&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-6&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-sm-3&quot;]/select[@class=&quot;form-control ng-pristine ng-invalid ng-invalid-company-structure.company-id rx-error&quot;]</value>
+      <webElementGuid>c928ef21-ec27-4d34-ab9e-315b34d47fa3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-wrapper']/div[2]/div/div[2]/div/div/div/div/form/div/div[2]/div[3]/div/div/select</value>
+      <webElementGuid>08fb5cef-af1b-4bc7-adb5-4a3cad181e9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Company'])[1]/following::select[1]</value>
+      <webElementGuid>c4d828a9-491f-4c8e-894a-a58276f9ff80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Country'])[1]/preceding::select[2]</value>
+      <webElementGuid>3bd2fbd9-240d-4035-83c6-327e4881debf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='State'])[1]/preceding::select[3]</value>
+      <webElementGuid>027aa87d-4390-4ab7-b08a-81187d73d190</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/select</value>
+      <webElementGuid>8914a700-e79d-4898-a720-a44d85905a66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = concat(&quot;Select CompanyA.M Design AgencyAddvice Promotions LtdAdjust - KSAAdjust SAAdvance Production Company (Rely)African MediumsAl Qimam (Summits)Atlas Printers (Pty) Ltd_BEE08_BO100AVVO Labels_BEE01_BO100_BWO50Awael Al TasneefBeith Digital_BEE02_BO74Best Enough TradingBrainfoodBrand AidCactusCactus Advertising &amp; Promotions W.L.LCap Pop Media Solutions_BEE01_BO100Chimolin EnterprisesCNS012 E503 Northern NatalCNS015 E502 Sticks and Licks Pty (ltd)CNS019 E507 Teak IceCNS020 E508 Milnex 700 / Cool RunnersCNS021 E509 Ice Cream LogisticsCNS022 E510 A &amp; M UYS MARKETING ENT CCCNS023 E511 MITJA INVESTMENTS NO.48 PTYCNS024 E512 Carbon Freeze CCCNS025 E513 CHILLI 4 U CCCNS041 E506 BVS TRUST T/A CENTRAL SA DIST.CNS041 EB01 BVS TRUST T/A CENTRAL SA DIST.CNS051 E515 BERNARD BIGARACNS052 E516 Chill Out DistributionCNS057 E514 KLL Ice CreamCNS058 E517 Stay Cool DistributorsCNS061 E518 M P MERCHANDISING CCCNS062 E519 Heartland IceCNS063 E520 WILDFIRE TRADING 7 CCCNS064 E521 H J DE JAGER SIVIELE KONT. BKCNS097 E505 EVEREST ICECompany A DistributionCompany A Distribution WarehouseCompany B ExecutionCompany B Execution WarehouseCreate-OnlineCyanDahlia CreationsDeltaDelta ExecutionDemo Customer 1DEMO UL SAUDIDiplomatDistribution SupplierDistribution TestDSV global transport and logisticsEco LogisticsEdge WarehouseElegance Designers Printers LtdEstee LauderExecution supplierFab12veFab12ve WarehouseFAST TRACK COFirst Impressions Labels (Pty) Ltd._BEE04FusionTechFutureFusion TechnologiesGlaxoSmithKline LimitedGlaxoSmithKline South AfricaGSKGSK SAH&amp;A DesignH&amp;A ManufacturingHirt &amp; CarterHirt &amp; Carter - DesignHirt&amp;Carter DistributionInterflexJohnson and JohnsonL&amp;K Imaging and Print_BEE02_BO51_BWO30M.D.B AgencyMagnusMarin&quot; , &quot;'&quot; , &quot;s Southern Africa_BEE02MAS LogisticsMasaahaatMTNNAMBOTSNestleNestle SANestlé Saudi Arabia LLCNestle UAENu Pop Displays CC T/A Nu Displays_BEE04Online AdvertisingOnline PrintPaton TupperPepsiCoPHDPhoenix DesignPinetown Printers_BEE02_BO51_BWO17PointPoint - Colgate Palmolive KSAPoint - Colgate Palmolive UAEPoint - Henkel UAEPoint - Procter &amp; Gamble MoroccoPoint - Procter &amp; Gamble UAEPoint - TCCC Middle East - USDPoint Johnson &amp; Johnson UAE USDPOP LogisticsPOP2POSITIONPrimediaPrinter ProfessionalsProcter &amp; Gamble - Gulf FZEProcter &amp; Gamble EgyptProcter &amp; Gamble Egypt USD ParentProcter &amp; Gamble Middle East FZEProcter and Gamble KSAProcter and Gamble PakistanProcter and Gamble RSAProduction SupplierProduction Supplier Link TestProduction Supplier TestProject RoomPt.Track Asset ClientPt.Track ClientPURLE RAIN DIGITAL PRINTING PTY LTDPyramidQ&amp;R for Plastics and FurnitureRASCASSE (PTY) LTD_BEE02_BO51Reactive Networks FZ LLCScreenline_BEE04SGRP MeridianSGRP Meridian  WarehouseShereno Printers cc_BEE01_BO100_BWO10SmartRetailSmartRetail - InstallersSmollans ufsSpandan International Cargo Packaging LLCSuhool Al Khaleej InternationalSupplier TestTelkom SATelkom SMTest Execution SupplierTest Production SupplierThe Production HubTiger BrandsTiger Brands Field ServicesTiger Brands General TradeTiger Brands SATiger StudioTimex ShippingTitan Supplies LtdTorqueTriumph PrintingTSS Advertising Company - SARUnilever - SAUnilever - UAEUNILEVER GULF FZEUnilever IsraelUnilever SaudiUniprintUTRACK DEMO UNILEVERVisible WorxWhatIfZapop_BEE08&quot;) or . = concat(&quot;Select CompanyA.M Design AgencyAddvice Promotions LtdAdjust - KSAAdjust SAAdvance Production Company (Rely)African MediumsAl Qimam (Summits)Atlas Printers (Pty) Ltd_BEE08_BO100AVVO Labels_BEE01_BO100_BWO50Awael Al TasneefBeith Digital_BEE02_BO74Best Enough TradingBrainfoodBrand AidCactusCactus Advertising &amp; Promotions W.L.LCap Pop Media Solutions_BEE01_BO100Chimolin EnterprisesCNS012 E503 Northern NatalCNS015 E502 Sticks and Licks Pty (ltd)CNS019 E507 Teak IceCNS020 E508 Milnex 700 / Cool RunnersCNS021 E509 Ice Cream LogisticsCNS022 E510 A &amp; M UYS MARKETING ENT CCCNS023 E511 MITJA INVESTMENTS NO.48 PTYCNS024 E512 Carbon Freeze CCCNS025 E513 CHILLI 4 U CCCNS041 E506 BVS TRUST T/A CENTRAL SA DIST.CNS041 EB01 BVS TRUST T/A CENTRAL SA DIST.CNS051 E515 BERNARD BIGARACNS052 E516 Chill Out DistributionCNS057 E514 KLL Ice CreamCNS058 E517 Stay Cool DistributorsCNS061 E518 M P MERCHANDISING CCCNS062 E519 Heartland IceCNS063 E520 WILDFIRE TRADING 7 CCCNS064 E521 H J DE JAGER SIVIELE KONT. BKCNS097 E505 EVEREST ICECompany A DistributionCompany A Distribution WarehouseCompany B ExecutionCompany B Execution WarehouseCreate-OnlineCyanDahlia CreationsDeltaDelta ExecutionDemo Customer 1DEMO UL SAUDIDiplomatDistribution SupplierDistribution TestDSV global transport and logisticsEco LogisticsEdge WarehouseElegance Designers Printers LtdEstee LauderExecution supplierFab12veFab12ve WarehouseFAST TRACK COFirst Impressions Labels (Pty) Ltd._BEE04FusionTechFutureFusion TechnologiesGlaxoSmithKline LimitedGlaxoSmithKline South AfricaGSKGSK SAH&amp;A DesignH&amp;A ManufacturingHirt &amp; CarterHirt &amp; Carter - DesignHirt&amp;Carter DistributionInterflexJohnson and JohnsonL&amp;K Imaging and Print_BEE02_BO51_BWO30M.D.B AgencyMagnusMarin&quot; , &quot;'&quot; , &quot;s Southern Africa_BEE02MAS LogisticsMasaahaatMTNNAMBOTSNestleNestle SANestlé Saudi Arabia LLCNestle UAENu Pop Displays CC T/A Nu Displays_BEE04Online AdvertisingOnline PrintPaton TupperPepsiCoPHDPhoenix DesignPinetown Printers_BEE02_BO51_BWO17PointPoint - Colgate Palmolive KSAPoint - Colgate Palmolive UAEPoint - Henkel UAEPoint - Procter &amp; Gamble MoroccoPoint - Procter &amp; Gamble UAEPoint - TCCC Middle East - USDPoint Johnson &amp; Johnson UAE USDPOP LogisticsPOP2POSITIONPrimediaPrinter ProfessionalsProcter &amp; Gamble - Gulf FZEProcter &amp; Gamble EgyptProcter &amp; Gamble Egypt USD ParentProcter &amp; Gamble Middle East FZEProcter and Gamble KSAProcter and Gamble PakistanProcter and Gamble RSAProduction SupplierProduction Supplier Link TestProduction Supplier TestProject RoomPt.Track Asset ClientPt.Track ClientPURLE RAIN DIGITAL PRINTING PTY LTDPyramidQ&amp;R for Plastics and FurnitureRASCASSE (PTY) LTD_BEE02_BO51Reactive Networks FZ LLCScreenline_BEE04SGRP MeridianSGRP Meridian  WarehouseShereno Printers cc_BEE01_BO100_BWO10SmartRetailSmartRetail - InstallersSmollans ufsSpandan International Cargo Packaging LLCSuhool Al Khaleej InternationalSupplier TestTelkom SATelkom SMTest Execution SupplierTest Production SupplierThe Production HubTiger BrandsTiger Brands Field ServicesTiger Brands General TradeTiger Brands SATiger StudioTimex ShippingTitan Supplies LtdTorqueTriumph PrintingTSS Advertising Company - SARUnilever - SAUnilever - UAEUNILEVER GULF FZEUnilever IsraelUnilever SaudiUniprintUTRACK DEMO UNILEVERVisible WorxWhatIfZapop_BEE08&quot;))]</value>
+      <webElementGuid>fbbaf3f9-3846-408e-9ce4-9d8bbd7bb01c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

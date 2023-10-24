@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Welcome, Raeesa Mahomed</name>
+   <tag></tag>
+   <elementGuidId>63ef452e-fb58-48b1-aead-ee3778943e24</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>label.ng-binding</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-wrapper']/div/div/div/nav/ul/li/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>eb8fd363-e4cd-4cd2-b45d-6ccf8e2bd139</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-binding</value>
+      <webElementGuid>26741b40-1d92-4c44-b004-b0d97fb59627</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Welcome, Raeesa Mahomed </value>
+      <webElementGuid>de109b2c-4907-4c25-9cb8-a30394925d5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-wrapper&quot;)/div[@class=&quot;row border-bottom&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 col-lg-12 col-xs-12&quot;]/nav[@class=&quot;navbar navbar-static-top ng-scope&quot;]/ul[@class=&quot;nav navbar-top-links navbar-right ng-scope&quot;]/li[1]/label[@class=&quot;ng-binding&quot;]</value>
+      <webElementGuid>65fe90fa-1853-47ca-908c-9b1950f8375c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-wrapper']/div/div/div/nav/ul/li/label</value>
+      <webElementGuid>5c3c6b8f-30df-4b0f-afb5-0862368fd5a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Work Schedule Stock Quantity Report'])[1]/following::label[1]</value>
+      <webElementGuid>61784a2c-53ca-45c8-a0c8-025c46fd4771</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Work Schedule Failure Report'])[1]/following::label[1]</value>
+      <webElementGuid>56739ec6-c599-4f72-be13-9e3940b04263</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Welcome, Raeesa Mahomed']/parent::*</value>
+      <webElementGuid>5ea6794b-ebec-4eb6-9e13-6c7faec5f774</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label</value>
+      <webElementGuid>b2d38c1f-ad11-43bc-b078-6a74d4970a33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = ' Welcome, Raeesa Mahomed ' or . = ' Welcome, Raeesa Mahomed ')]</value>
+      <webElementGuid>9c7e5a4c-bf5d-45a6-ba4d-b4b212183c1b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

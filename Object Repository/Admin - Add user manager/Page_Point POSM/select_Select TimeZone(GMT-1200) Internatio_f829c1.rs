@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Select TimeZone(GMT-1200) Internatio_f829c1</name>
+   <tag></tag>
+   <elementGuidId>1d9482b7-25bc-459c-a465-c4115f379941</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-wrapper']/div[2]/div/div[2]/div/div/div/div/form/div/div/div[4]/div/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>b611ecf9-1d5d-4159-b95b-215544d5eb26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-pristine ng-invalid ng-invalid-user.time-zone rx-error</value>
+      <webElementGuid>862b9ac1-ed97-41ca-97ef-9545e934eabb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>user.timeZone</value>
+      <webElementGuid>1e688416-cedd-4cd3-a7e8-b579fa5413eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-options</name>
+      <type>Main</type>
+      <value>t.timeZoneId as t.timeZoneName for t in timeZoneList</value>
+      <webElementGuid>32810fd6-25f1-4117-ae9e-68e9afb53839</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select TimeZone(GMT-12:00) International Date Line West(GMT-11:00) Midway Island, Samoa(GMT-10:00) Hawaii(GMT-09:00) Alaska(GMT-08:00) Pacific Time (US and Canada); Tijuana(GMT-07:00) Mountain Time (US and Canada)(GMT-07:00) Chihuahua, La Paz, Mazatlan(GMT-07:00) Arizona(GMT-06:00) Central Time (US and Canada)(GMT-06:00) Saskatchewan(GMT-06:00) Guadalajara, Mexico City, Monterrey(GMT-06:00) Central America(GMT-05:00) Eastern Time (US and Canada)(GMT-05:00) Indiana (East)(GMT-05:00) Bogota, Lima, Quito(GMT-04:00) Atlantic Time (Canada)(GMT-04:00) Caracas, La Paz(GMT-04:00) Santiago(GMT-03:30) Newfoundland and Labrador(GMT-03:00) Brasilia(GMT-03:00) Buenos Aires, Georgetown(GMT-03:00) Greenland(GMT-02:00) Mid-Atlantic(GMT-01:00) Azores(GMT-01:00) Cape Verde Islands(GMT) Greenwich Mean Time: Dublin, Edinburgh, Lisbon, London(GMT) Casablanca, Monrovia(GMT+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague(GMT+01:00) Sarajevo, Skopje, Warsaw, Zagreb(GMT+01:00) Brussels, Copenhagen, Madrid, Paris(GMT+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna(GMT+01:00) West Central Africa(GMT+02:00) Bucharest(GMT+02:00) Cairo(GMT+02:00) Helsinki, Kiev, Riga, Sofia, Tallinn, Vilnius(GMT+02:00) Athens, Istanbul, Minsk(GMT+02:00) Jerusalem(GMT+02:00) Harare, Pretoria(GMT+03:00) Moscow, St. Petersburg, Volgograd(GMT+03:00) Kuwait, Riyadh(GMT+03:00) Nairobi(GMT+03:00) Baghdad(GMT+03:30) Tehran(GMT+04:00) Abu Dhabi, Muscat(GMT+04:00) Baku, Tbilisi, Yerevan(GMT+04:30) Kabul(GMT+05:00) Ekaterinburg(GMT+05:00) Islamabad, Karachi, Tashkent(GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi(GMT+05:45) Kathmandu(GMT+06:00) Astana, Dhaka(GMT+06:00) Sri Jayawardenepura(GMT+06:00) Almaty, Novosibirsk(GMT+06:30) Yangon Rangoon(GMT+07:00) Bangkok, Hanoi, Jakarta(GMT+07:00) Krasnoyarsk(GMT+08:00) Beijing, Chongqing, Hong Kong SAR, Urumqi(GMT+08:00) Kuala Lumpur, Singapore(GMT+08:00) Taipei(GMT+08:00) Perth(GMT+08:00) Irkutsk, Ulaanbaatar(GMT+09:00) Seoul(GMT+09:00) Osaka, Sapporo, Tokyo(GMT+09:00) Yakutsk(GMT+09:30) Darwin(GMT+09:30) Adelaide(GMT+10:00) Canberra, Melbourne, Sydney(GMT+10:00) Brisbane(GMT+10:00) Hobart(GMT+10:00) Vladivostok(GMT+10:00) Guam, Port Moresby(GMT+11:00) Magadan, Solomon Islands, New Caledonia(GMT+12:00) Fiji Islands, Kamchatka, Marshall Islands(GMT+12:00) Auckland, Wellington(GMT+13:00) Nuku alofa</value>
+      <webElementGuid>b4c48c32-dc5e-4c9c-8820-621ca39732b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-wrapper&quot;)/div[@class=&quot;main ng-scope&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;wrapper wrapper-content animated fadeInRight&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;ibox float-e-margins&quot;]/div[@class=&quot;ibox-content&quot;]/form[@class=&quot;form-horizontal ng-invalid ng-invalid-user.time-zone ng-invalid-user.country ng-invalid-user.security-role-id ng-invalid-user.email-address ng-invalid-company-structure.company-id ng-invalid-company-structure.structure-id ng-dirty ng-valid-user.user-type-id ng-valid-user.first-name ng-valid-user.last-name&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-6&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-sm-8&quot;]/select[@class=&quot;form-control ng-pristine ng-invalid ng-invalid-user.time-zone rx-error&quot;]</value>
+      <webElementGuid>eef7333a-1603-45c3-94af-a0cac83da996</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-wrapper']/div[2]/div/div[2]/div/div/div/div/form/div/div/div[4]/div/select</value>
+      <webElementGuid>236b92c9-4438-4f05-8853-56b7f80cda25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TimeZone'])[1]/following::select[1]</value>
+      <webElementGuid>6dabb03e-fe42-4062-9f3c-9ef28207bfc6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Name'])[1]/following::select[1]</value>
+      <webElementGuid>cce6e82e-ed63-4929-a24f-3bf969b78be0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email (Username)'])[1]/preceding::select[1]</value>
+      <webElementGuid>0981782a-beb1-485b-b8f7-5b7c95b22ffc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gender'])[1]/preceding::select[1]</value>
+      <webElementGuid>79481024-d252-4972-bfc3-6676847f867d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/select</value>
+      <webElementGuid>62c8c898-ab3d-40b5-819d-280a6eb1a2dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = 'Select TimeZone(GMT-12:00) International Date Line West(GMT-11:00) Midway Island, Samoa(GMT-10:00) Hawaii(GMT-09:00) Alaska(GMT-08:00) Pacific Time (US and Canada); Tijuana(GMT-07:00) Mountain Time (US and Canada)(GMT-07:00) Chihuahua, La Paz, Mazatlan(GMT-07:00) Arizona(GMT-06:00) Central Time (US and Canada)(GMT-06:00) Saskatchewan(GMT-06:00) Guadalajara, Mexico City, Monterrey(GMT-06:00) Central America(GMT-05:00) Eastern Time (US and Canada)(GMT-05:00) Indiana (East)(GMT-05:00) Bogota, Lima, Quito(GMT-04:00) Atlantic Time (Canada)(GMT-04:00) Caracas, La Paz(GMT-04:00) Santiago(GMT-03:30) Newfoundland and Labrador(GMT-03:00) Brasilia(GMT-03:00) Buenos Aires, Georgetown(GMT-03:00) Greenland(GMT-02:00) Mid-Atlantic(GMT-01:00) Azores(GMT-01:00) Cape Verde Islands(GMT) Greenwich Mean Time: Dublin, Edinburgh, Lisbon, London(GMT) Casablanca, Monrovia(GMT+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague(GMT+01:00) Sarajevo, Skopje, Warsaw, Zagreb(GMT+01:00) Brussels, Copenhagen, Madrid, Paris(GMT+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna(GMT+01:00) West Central Africa(GMT+02:00) Bucharest(GMT+02:00) Cairo(GMT+02:00) Helsinki, Kiev, Riga, Sofia, Tallinn, Vilnius(GMT+02:00) Athens, Istanbul, Minsk(GMT+02:00) Jerusalem(GMT+02:00) Harare, Pretoria(GMT+03:00) Moscow, St. Petersburg, Volgograd(GMT+03:00) Kuwait, Riyadh(GMT+03:00) Nairobi(GMT+03:00) Baghdad(GMT+03:30) Tehran(GMT+04:00) Abu Dhabi, Muscat(GMT+04:00) Baku, Tbilisi, Yerevan(GMT+04:30) Kabul(GMT+05:00) Ekaterinburg(GMT+05:00) Islamabad, Karachi, Tashkent(GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi(GMT+05:45) Kathmandu(GMT+06:00) Astana, Dhaka(GMT+06:00) Sri Jayawardenepura(GMT+06:00) Almaty, Novosibirsk(GMT+06:30) Yangon Rangoon(GMT+07:00) Bangkok, Hanoi, Jakarta(GMT+07:00) Krasnoyarsk(GMT+08:00) Beijing, Chongqing, Hong Kong SAR, Urumqi(GMT+08:00) Kuala Lumpur, Singapore(GMT+08:00) Taipei(GMT+08:00) Perth(GMT+08:00) Irkutsk, Ulaanbaatar(GMT+09:00) Seoul(GMT+09:00) Osaka, Sapporo, Tokyo(GMT+09:00) Yakutsk(GMT+09:30) Darwin(GMT+09:30) Adelaide(GMT+10:00) Canberra, Melbourne, Sydney(GMT+10:00) Brisbane(GMT+10:00) Hobart(GMT+10:00) Vladivostok(GMT+10:00) Guam, Port Moresby(GMT+11:00) Magadan, Solomon Islands, New Caledonia(GMT+12:00) Fiji Islands, Kamchatka, Marshall Islands(GMT+12:00) Auckland, Wellington(GMT+13:00) Nuku alofa' or . = 'Select TimeZone(GMT-12:00) International Date Line West(GMT-11:00) Midway Island, Samoa(GMT-10:00) Hawaii(GMT-09:00) Alaska(GMT-08:00) Pacific Time (US and Canada); Tijuana(GMT-07:00) Mountain Time (US and Canada)(GMT-07:00) Chihuahua, La Paz, Mazatlan(GMT-07:00) Arizona(GMT-06:00) Central Time (US and Canada)(GMT-06:00) Saskatchewan(GMT-06:00) Guadalajara, Mexico City, Monterrey(GMT-06:00) Central America(GMT-05:00) Eastern Time (US and Canada)(GMT-05:00) Indiana (East)(GMT-05:00) Bogota, Lima, Quito(GMT-04:00) Atlantic Time (Canada)(GMT-04:00) Caracas, La Paz(GMT-04:00) Santiago(GMT-03:30) Newfoundland and Labrador(GMT-03:00) Brasilia(GMT-03:00) Buenos Aires, Georgetown(GMT-03:00) Greenland(GMT-02:00) Mid-Atlantic(GMT-01:00) Azores(GMT-01:00) Cape Verde Islands(GMT) Greenwich Mean Time: Dublin, Edinburgh, Lisbon, London(GMT) Casablanca, Monrovia(GMT+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague(GMT+01:00) Sarajevo, Skopje, Warsaw, Zagreb(GMT+01:00) Brussels, Copenhagen, Madrid, Paris(GMT+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna(GMT+01:00) West Central Africa(GMT+02:00) Bucharest(GMT+02:00) Cairo(GMT+02:00) Helsinki, Kiev, Riga, Sofia, Tallinn, Vilnius(GMT+02:00) Athens, Istanbul, Minsk(GMT+02:00) Jerusalem(GMT+02:00) Harare, Pretoria(GMT+03:00) Moscow, St. Petersburg, Volgograd(GMT+03:00) Kuwait, Riyadh(GMT+03:00) Nairobi(GMT+03:00) Baghdad(GMT+03:30) Tehran(GMT+04:00) Abu Dhabi, Muscat(GMT+04:00) Baku, Tbilisi, Yerevan(GMT+04:30) Kabul(GMT+05:00) Ekaterinburg(GMT+05:00) Islamabad, Karachi, Tashkent(GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi(GMT+05:45) Kathmandu(GMT+06:00) Astana, Dhaka(GMT+06:00) Sri Jayawardenepura(GMT+06:00) Almaty, Novosibirsk(GMT+06:30) Yangon Rangoon(GMT+07:00) Bangkok, Hanoi, Jakarta(GMT+07:00) Krasnoyarsk(GMT+08:00) Beijing, Chongqing, Hong Kong SAR, Urumqi(GMT+08:00) Kuala Lumpur, Singapore(GMT+08:00) Taipei(GMT+08:00) Perth(GMT+08:00) Irkutsk, Ulaanbaatar(GMT+09:00) Seoul(GMT+09:00) Osaka, Sapporo, Tokyo(GMT+09:00) Yakutsk(GMT+09:30) Darwin(GMT+09:30) Adelaide(GMT+10:00) Canberra, Melbourne, Sydney(GMT+10:00) Brisbane(GMT+10:00) Hobart(GMT+10:00) Vladivostok(GMT+10:00) Guam, Port Moresby(GMT+11:00) Magadan, Solomon Islands, New Caledonia(GMT+12:00) Fiji Islands, Kamchatka, Marshall Islands(GMT+12:00) Auckland, Wellington(GMT+13:00) Nuku alofa')]</value>
+      <webElementGuid>15d92359-ec6e-4954-bf3e-3f7ab61e5166</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Search,Chrome 118.0.0.0,,,2023-10-19 08:26:26,2023-10-19 08:29:12,2m - 45.566s,FAILED
+,,,,,,,
+Test Cases/Category_TC/Search_Category,Chrome 118.0.0.0,,,2023-10-19 08:26:27,2023-10-19 08:27:39,1m - 12.661s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-19 08:26:27,2023-10-19 08:26:33,6.130s,PASSED
+"navigateToUrl(""https://pointposmqa.live1.dev.radixweb.net/pointposm#/dHJhY2tTdGF0dXM00"")",Chrome 118.0.0.0,,,2023-10-19 08:26:33,2023-10-19 08:26:55,21.379s,PASSED
+"setText(findTestObject(""Object Repository/Search_Category/Page_Point POSM/input_Login_email""), ""raeesa@pointgroup.biz"")",Chrome 118.0.0.0,,,2023-10-19 08:26:55,2023-10-19 08:26:56,0.938s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Search_Category/Page_Point POSM/input_Login_password""), ""aeHFOx8jV/A="")",Chrome 118.0.0.0,,,2023-10-19 08:26:56,2023-10-19 08:26:56,0.675s,PASSED
+"click(findTestObject(""Object Repository/Search_Category/Page_Point POSM/button_Sign in""))",Chrome 118.0.0.0,,,2023-10-19 08:26:56,2023-10-19 08:26:57,0.533s,PASSED
+"click(findTestObject(""Object Repository/Search_Category/Page_Point POSM/a_Category""))",Chrome 118.0.0.0,,,2023-10-19 08:26:57,2023-10-19 08:27:38,40.650s,PASSED
+"setText(findTestObject(""Object Repository/Search_Category/Page_Point POSM/Searchin_Category""), Search)",Chrome 118.0.0.0,,,2023-10-19 08:27:38,2023-10-19 08:27:39,1.753s,PASSED
+,,,,,,,
+Test Cases/Category_TC/Search_Category,Chrome 118.0.0.0,,,2023-10-19 08:27:39,2023-10-19 08:28:49,1m - 9.211s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-19 08:27:39,2023-10-19 08:27:44,4.276s,PASSED
+"navigateToUrl(""https://pointposmqa.live1.dev.radixweb.net/pointposm#/dHJhY2tTdGF0dXM00"")",Chrome 118.0.0.0,,,2023-10-19 08:27:44,2023-10-19 08:27:55,10.865s,PASSED
+"setText(findTestObject(""Object Repository/Search_Category/Page_Point POSM/input_Login_email""), ""raeesa@pointgroup.biz"")",Chrome 118.0.0.0,,,2023-10-19 08:27:55,2023-10-19 08:28:05,10.366s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Search_Category/Page_Point POSM/input_Login_password""), ""aeHFOx8jV/A="")",Chrome 118.0.0.0,,,2023-10-19 08:28:05,2023-10-19 08:28:06,0.580s,PASSED
+"click(findTestObject(""Object Repository/Search_Category/Page_Point POSM/button_Sign in""))",Chrome 118.0.0.0,,,2023-10-19 08:28:06,2023-10-19 08:28:06,0.487s,PASSED
+"click(findTestObject(""Object Repository/Search_Category/Page_Point POSM/a_Category""))",Chrome 118.0.0.0,,,2023-10-19 08:28:06,2023-10-19 08:28:47,40.872s,PASSED
+"setText(findTestObject(""Object Repository/Search_Category/Page_Point POSM/Searchin_Category""), Search)",Chrome 118.0.0.0,,,2023-10-19 08:28:47,2023-10-19 08:28:49,1.744s,PASSED
+,,,,,,,
+Test Cases/Category_TC/Search_Category,Chrome 118.0.0.0,,,2023-10-19 08:28:49,2023-10-19 08:29:01,12.403s,FAILED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-19 08:28:49,2023-10-19 08:28:52,3.769s,PASSED
+"navigateToUrl(""https://pointposmqa.live1.dev.radixweb.net/pointposm#/dHJhY2tTdGF0dXM00"")",Chrome 118.0.0.0,,,2023-10-19 08:28:52,2023-10-19 08:29:01,8.318s,PASSED
+"setText(findTestObject(""Object Repository/Search_Category/Page_Point POSM/input_Login_email""), ""raeesa@pointgroup.biz"")",Chrome 118.0.0.0,,,2023-10-19 08:29:01,2023-10-19 08:29:01,0.293s,FAILED
+,,,,,,,
+Test Cases/Category_TC/Search_Category,Chrome 118.0.0.0,,,2023-10-19 08:29:01,2023-10-19 08:29:06,5.081s,FAILED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-19 08:29:01,2023-10-19 08:29:05,3.435s,PASSED
+"navigateToUrl(""https://pointposmqa.live1.dev.radixweb.net/pointposm#/dHJhY2tTdGF0dXM00"")",Chrome 118.0.0.0,,,2023-10-19 08:29:05,2023-10-19 08:29:06,1.364s,PASSED
+"setText(findTestObject(""Object Repository/Search_Category/Page_Point POSM/input_Login_email""), ""raeesa@pointgroup.biz"")",Chrome 118.0.0.0,,,2023-10-19 08:29:06,2023-10-19 08:29:06,0.260s,FAILED
+,,,,,,,
+Test Cases/Category_TC/Search_Category,Chrome 118.0.0.0,,,2023-10-19 08:29:06,2023-10-19 08:29:12,5.460s,FAILED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-19 08:29:06,2023-10-19 08:29:10,3.416s,PASSED
+"navigateToUrl(""https://pointposmqa.live1.dev.radixweb.net/pointposm#/dHJhY2tTdGF0dXM00"")",Chrome 118.0.0.0,,,2023-10-19 08:29:10,2023-10-19 08:29:11,1.697s,PASSED
+"setText(findTestObject(""Object Repository/Search_Category/Page_Point POSM/input_Login_email""), ""raeesa@pointgroup.biz"")",Chrome 118.0.0.0,,,2023-10-19 08:29:11,2023-10-19 08:29:12,0.310s,FAILED

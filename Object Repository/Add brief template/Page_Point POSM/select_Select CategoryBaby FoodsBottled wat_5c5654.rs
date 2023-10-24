@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Select CategoryBaby FoodsBottled wat_5c5654</name>
+   <tag></tag>
+   <elementGuidId>92445024-18ef-4379-8df9-284204be4ea0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-wrapper']/div[2]/div[2]/div[2]/div/div/div/div/form/div/div/div[9]/div/div/div[2]/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>f07c6313-c3bb-409a-9d00-14fef44066f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-pristine rx-valid ng-valid ng-valid-spec.category-detail-id</value>
+      <webElementGuid>4b5ef779-6be6-49ee-93a6-19292deabfb8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>spec.categoryDetailId</value>
+      <webElementGuid>f683b677-2df8-4353-90cf-c6647f647eee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-options</name>
+      <type>Main</type>
+      <value>categoryList.categoryDetailId as categoryList.categoryName  for categoryList  in categoryList</value>
+      <webElementGuid>9fe56312-d586-4396-aa97-3690967f42d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-change</name>
+      <type>Main</type>
+      <value>getCategoryBrands(spec.categoryDetailId,$index)</value>
+      <webElementGuid>571b511c-3a75-4a9d-bd83-be5f688bbcba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-disabled</name>
+      <type>Main</type>
+      <value>hideBrands</value>
+      <webElementGuid>278982b4-9b8e-4074-9cee-68c9ec94295a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>disabled</name>
+      <type>Main</type>
+      <value>disabled</value>
+      <webElementGuid>83ecb495-3877-426b-a460-ce835a570126</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select CategoryBaby FoodsBottled waterCerealsChocolatesCoffeeComplex Cooking AidsConfectioneryCPWCulinary, chilled and frozen foodDairyDeosDressingsDrinksFabric ConditionerFaceFood ServiceGSK DairyHair CareHand &amp; BodyHousehold CareIce CreamIce cream flavorsInfant NutritionLaundryMeal SolutionsNestle Health ScienceNestle ProfessionalOHCPainPet foodPetcarePowder &amp; Liquid BeveragePrepared Dishes &amp; Cooking AidsSkin CleanseSoupsTeaWellness</value>
+      <webElementGuid>c7f497d0-d8cb-439e-bf20-e2d0318cb250</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-wrapper&quot;)/div[@class=&quot;main ng-scope&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;wrapper wrapper-content animated fadeInRight&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;ibox float-e-margins&quot;]/div[@class=&quot;ibox-content&quot;]/form[@class=&quot;form-horizontal ng-invalid ng-invalid-spec.quantity ng-invalid-spec.unit-class-id ng-invalid-spec.product-type-name ng-dirty ng-valid-brief.project-name ng-valid-required ng-valid-spec.category-detail-id ng-valid-spec.brand-id ng-valid-spec.element-name&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;ng-scope&quot;]/div[1]/div[2]/select[@class=&quot;form-control ng-pristine rx-valid ng-valid ng-valid-spec.category-detail-id&quot;]</value>
+      <webElementGuid>5e690bdd-c53f-44bd-8c5b-aac353b2b4ff</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-wrapper']/div[2]/div[2]/div[2]/div/div/div/div/form/div/div/div[9]/div/div/div[2]/select</value>
+      <webElementGuid>be2faed8-edf1-4321-9951-107d7fdb3994</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Non Point'])[1]/following::select[1]</value>
+      <webElementGuid>3073f626-5fe3-45c9-86cb-44fa3fbdc0c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Price'])[1]/following::select[1]</value>
+      <webElementGuid>45c9580f-3d32-4481-b0f1-72b769af6049</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Special NotesEg. Artwork Links or Comments'])[1]/preceding::select[4]</value>
+      <webElementGuid>7693e861-39f2-4a47-9ed5-a29eb7ef2b07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::select[4]</value>
+      <webElementGuid>77a7e389-ad33-45eb-8dfd-8136ac8a6541</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>3af00c1c-e730-4774-931a-7e5c75069c24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = 'Select CategoryBaby FoodsBottled waterCerealsChocolatesCoffeeComplex Cooking AidsConfectioneryCPWCulinary, chilled and frozen foodDairyDeosDressingsDrinksFabric ConditionerFaceFood ServiceGSK DairyHair CareHand &amp; BodyHousehold CareIce CreamIce cream flavorsInfant NutritionLaundryMeal SolutionsNestle Health ScienceNestle ProfessionalOHCPainPet foodPetcarePowder &amp; Liquid BeveragePrepared Dishes &amp; Cooking AidsSkin CleanseSoupsTeaWellness' or . = 'Select CategoryBaby FoodsBottled waterCerealsChocolatesCoffeeComplex Cooking AidsConfectioneryCPWCulinary, chilled and frozen foodDairyDeosDressingsDrinksFabric ConditionerFaceFood ServiceGSK DairyHair CareHand &amp; BodyHousehold CareIce CreamIce cream flavorsInfant NutritionLaundryMeal SolutionsNestle Health ScienceNestle ProfessionalOHCPainPet foodPetcarePowder &amp; Liquid BeveragePrepared Dishes &amp; Cooking AidsSkin CleanseSoupsTeaWellness')]</value>
+      <webElementGuid>fde94011-8707-4d6a-97dd-beeb5f04f36e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

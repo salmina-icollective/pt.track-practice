@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>edit_product_type</name>
+   <tag></tag>
+   <elementGuidId>257b15dc-1e02-4e1c-8178-13463eb26891</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-wrapper']/div[2]/div/div[2]/div/div/div/div/form/div/div/div[10]/div/div/div[6]/div/div/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>659caf89-e84c-4bd3-aef4-d96e25f41ed7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-disabled</name>
+      <type>Main</type>
+      <value>isAllowedView == true</value>
+      <webElementGuid>4575623b-55f7-4f24-a2b2-23c7c92d65ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-pristine rx-valid ng-valid ng-valid-spec.product-type-name</value>
+      <webElementGuid>f42a6a52-88ec-421e-9743-1e680a988bc3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>spec.productTypeName</value>
+      <webElementGuid>24f0f38f-df37-48cc-ad06-b181a59c7f7b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-options</name>
+      <type>Main</type>
+      <value>productTypes.productTypeName as productTypes.productTypeName for productTypes in productTypesList</value>
+      <webElementGuid>d3e75868-148a-4d2d-95ec-44e01909cbb1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select Product Type3D Aisle WingAisle BridgeBasewrapBasket FeederBlitz DisplayBulk DisplayCategory BannersCeramic PotsCladdingConnected EndCounter Top UnitCubesCut Case SleeveDisconnected EndDisplay boxDrop BannerDump Bin (SINGLE)Eye CatcherFlag BannerFloor StandFlyersFree Standing Unit (SINGLE)Fridge BridgeFSU displayGlorifierGondola EndGravity FeederHeader BoardsHot SpotsIn The Run SolutionIsland UnitMaintenanceMason JarsMugPallet SleevePallet WrapPaper CupsParasite UnitParasolPoly-Al FSU CladdingPower WingPromo BoxPull Up BannerReplacement PartShelf DefenderShelf TrayStandeeTable Stand InsertTill WobblersUmbrellaUnit accessoryWall Bay</value>
+      <webElementGuid>ff508757-569b-469e-8531-004dcf4b827c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-wrapper&quot;)/div[@class=&quot;main ng-scope&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;wrapper wrapper-content animated fadeInRight&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;ibox float-e-margins&quot;]/div[@class=&quot;ibox-content&quot;]/form[@class=&quot;form-horizontal ng-valid-brief.project-name ng-valid-required ng-valid-spec.element-name ng-valid-spec.unit-class-id ng-valid-spec.brand-id ng-valid-spec.product-type-name ng-dirty ng-valid ng-valid-spec.quantity&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;ng-scope&quot;]/div[1]/div[6]/div[1]/div[@class=&quot;ng-scope&quot;]/select[@class=&quot;form-control ng-pristine rx-valid ng-valid ng-valid-spec.product-type-name&quot;]</value>
+      <webElementGuid>abc15b5a-aac7-4abe-96b8-6a24c0f4cd2d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-wrapper']/div[2]/div/div[2]/div/div/div/div/form/div/div/div[10]/div/div/div[6]/div/div/select</value>
+      <webElementGuid>369a3579-e16b-40da-8411-c983033e9cd6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Non Point'])[1]/following::select[4]</value>
+      <webElementGuid>d71ccaef-c406-4e71-a079-ae57d8fb1be0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Price'])[1]/following::select[4]</value>
+      <webElementGuid>9894429a-c0b2-45e0-8f69-f98d345fa736</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Special NotesEg. Artwork Links or Comments'])[1]/preceding::select[1]</value>
+      <webElementGuid>2a0eac39-3b8a-4e29-818f-181324aa2982</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::select[1]</value>
+      <webElementGuid>778cb1a2-1ec6-4e18-973e-10b0844e778e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/select</value>
+      <webElementGuid>23a05fb4-ee97-4ca1-a962-b4992388091d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = 'Select Product Type3D Aisle WingAisle BridgeBasewrapBasket FeederBlitz DisplayBulk DisplayCategory BannersCeramic PotsCladdingConnected EndCounter Top UnitCubesCut Case SleeveDisconnected EndDisplay boxDrop BannerDump Bin (SINGLE)Eye CatcherFlag BannerFloor StandFlyersFree Standing Unit (SINGLE)Fridge BridgeFSU displayGlorifierGondola EndGravity FeederHeader BoardsHot SpotsIn The Run SolutionIsland UnitMaintenanceMason JarsMugPallet SleevePallet WrapPaper CupsParasite UnitParasolPoly-Al FSU CladdingPower WingPromo BoxPull Up BannerReplacement PartShelf DefenderShelf TrayStandeeTable Stand InsertTill WobblersUmbrellaUnit accessoryWall Bay' or . = 'Select Product Type3D Aisle WingAisle BridgeBasewrapBasket FeederBlitz DisplayBulk DisplayCategory BannersCeramic PotsCladdingConnected EndCounter Top UnitCubesCut Case SleeveDisconnected EndDisplay boxDrop BannerDump Bin (SINGLE)Eye CatcherFlag BannerFloor StandFlyersFree Standing Unit (SINGLE)Fridge BridgeFSU displayGlorifierGondola EndGravity FeederHeader BoardsHot SpotsIn The Run SolutionIsland UnitMaintenanceMason JarsMugPallet SleevePallet WrapPaper CupsParasite UnitParasolPoly-Al FSU CladdingPower WingPromo BoxPull Up BannerReplacement PartShelf DefenderShelf TrayStandeeTable Stand InsertTill WobblersUmbrellaUnit accessoryWall Bay')]</value>
+      <webElementGuid>1793037c-ff8b-4fdf-9054-11f7973369d9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

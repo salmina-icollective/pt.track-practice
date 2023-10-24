@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Element_CPA</name>
+   <tag></tag>
+   <elementGuidId>8c81bea8-a3fa-4f34-b891-f9e43543b9b3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-wrapper']/div[2]/div[2]/div[2]/div/div/div/div/form/div/div/div[9]/div/div/div[5]/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>161c25c3-e90d-4942-9f02-ae3f504816cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-pristine ng-invalid ng-invalid-spec.unit-class-id rx-error</value>
+      <webElementGuid>b0c3f972-7547-476c-88e8-f874e056d28c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>spec.unitClassId</value>
+      <webElementGuid>950c43b3-052d-4190-97aa-d4ba7a35b797</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-options</name>
+      <type>Main</type>
+      <value>unitClass.unitClassId as unitClass.unitClassName for unitClass  in spec.unitClassList</value>
+      <webElementGuid>9d7468c0-2b37-47d5-97d0-b7e057f7fbfa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select Unit Class</value>
+      <webElementGuid>9c52103d-64fd-4fb4-8ea1-a0f465631f24</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-wrapper&quot;)/div[@class=&quot;main ng-scope&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;wrapper wrapper-content animated fadeInRight&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;ibox float-e-margins&quot;]/div[@class=&quot;ibox-content&quot;]/form[@class=&quot;form-horizontal ng-pristine ng-invalid ng-invalid-brief.project-name ng-invalid-required ng-invalid-spec.element-name ng-invalid-spec.category-detail-id ng-invalid-spec.brand-id ng-invalid-spec.quantity ng-invalid-spec.unit-class-id ng-invalid-spec.product-type-name&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;ng-scope&quot;]/div[1]/div[5]/select[@class=&quot;form-control ng-pristine ng-invalid ng-invalid-spec.unit-class-id rx-error&quot;]</value>
+      <webElementGuid>2430843e-4242-4911-81cc-726f0dce5e47</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-wrapper']/div[2]/div[2]/div[2]/div/div/div/div/form/div/div/div[9]/div/div/div[5]/select</value>
+      <webElementGuid>94731d24-90a1-464e-be00-1e1276dbec88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Non Point'])[1]/following::select[3]</value>
+      <webElementGuid>7e157470-a6c5-40a6-8a0f-481f754cdaec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Price'])[1]/following::select[3]</value>
+      <webElementGuid>3246e078-b0c9-4cbf-878e-f09a7fa7b70b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Special NotesEg. Artwork Links or Comments'])[1]/preceding::select[2]</value>
+      <webElementGuid>988fc66b-6b1f-4733-84d3-5812af3aaaf2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::select[2]</value>
+      <webElementGuid>708875dd-2bf3-4af5-8303-d937179e77ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/select</value>
+      <webElementGuid>27aba3b6-ccf9-4a27-ab1c-8971aedff83c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = 'Select Unit Class' or . = 'Select Unit Class')]</value>
+      <webElementGuid>a1150940-e180-4957-8dfe-6b16832a715c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

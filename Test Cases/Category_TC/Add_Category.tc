@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add_Category</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c82ff9a8-5c6a-40ce-9739-02c873e952bb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cdd7aa1c-3041-40e4-a2c6-d48ba5f6bcd1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cdd7aa1c-3041-40e4-a2c6-d48ba5f6bcd1</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

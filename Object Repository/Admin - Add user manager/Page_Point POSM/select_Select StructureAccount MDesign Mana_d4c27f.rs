@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Select StructureAccount MDesign Mana_d4c27f</name>
+   <tag></tag>
+   <elementGuidId>32297d44-1270-4731-9fb7-a8ff35c1184b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-wrapper']/div[2]/div/div[2]/div/div/div/div/form/div/div[2]/div[3]/div/div[2]/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>fb822563-695d-4a4f-8ce9-743d4208a4ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-pristine ng-invalid ng-invalid-company-structure.structure-id rx-error</value>
+      <webElementGuid>cb747f5c-6807-473b-98ed-b5ef93074b4c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>companyStructure.structureId</value>
+      <webElementGuid>a88e57b3-f512-4cc5-837b-19cb8e21258a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-options</name>
+      <type>Main</type>
+      <value>s.structureId as s.structureName for s in structure0</value>
+      <webElementGuid>f0605a4a-331b-480c-aae1-3f3da2cdcefd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select StructureAccount MDesign ManagerPoint QC ManagerWorkSchedule Supplier</value>
+      <webElementGuid>ca8ad1e3-7232-43af-90a3-6548d1dff565</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-wrapper&quot;)/div[@class=&quot;main ng-scope&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;wrapper wrapper-content animated fadeInRight&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;ibox float-e-margins&quot;]/div[@class=&quot;ibox-content&quot;]/form[@class=&quot;form-horizontal ng-invalid ng-invalid-user.country ng-invalid-user.security-role-id ng-invalid-company-structure.structure-id ng-dirty ng-valid-user.user-type-id ng-valid-user.first-name ng-valid-user.last-name ng-valid-user.time-zone ng-valid-email ng-valid-user.email-address ng-valid-company-structure.company-id&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-6&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-sm-3&quot;]/select[@class=&quot;form-control ng-pristine ng-invalid ng-invalid-company-structure.structure-id rx-error&quot;]</value>
+      <webElementGuid>9bd9ab6c-3c76-419c-92e6-5f69c12ffc72</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-wrapper']/div[2]/div/div[2]/div/div/div/div/form/div/div[2]/div[3]/div/div[2]/select</value>
+      <webElementGuid>b23e9f28-d506-4064-b096-d95029987a62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Company'])[1]/following::select[2]</value>
+      <webElementGuid>ea6e7d92-24c7-4f90-8816-caa8ffc151ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Country'])[1]/preceding::select[1]</value>
+      <webElementGuid>2b85a792-2033-4132-96f9-9e09abc28ead</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='State'])[1]/preceding::select[2]</value>
+      <webElementGuid>61ad2ce0-2014-48d0-8060-da7e3bca7849</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/select</value>
+      <webElementGuid>bb232b03-f0b2-44c9-a63b-16297bc00f46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = 'Select StructureAccount MDesign ManagerPoint QC ManagerWorkSchedule Supplier' or . = 'Select StructureAccount MDesign ManagerPoint QC ManagerWorkSchedule Supplier')]</value>
+      <webElementGuid>eb57a382-a5fe-437f-bd71-455bbb7f1d2d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

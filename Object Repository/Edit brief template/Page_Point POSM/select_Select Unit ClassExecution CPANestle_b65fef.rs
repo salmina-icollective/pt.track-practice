@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Select Unit ClassExecution CPANestle_b65fef</name>
+   <tag></tag>
+   <elementGuidId>050ac437-f801-4b8d-b22b-4a7b5e3d0d53</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-wrapper']/div[2]/div[2]/div[2]/div/div/div/div/form/div/div/div[9]/div/div/div[5]/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>7cdb56cb-b88a-48e1-b94f-b13acaa01361</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-pristine ng-invalid ng-invalid-spec.unit-class-id rx-error</value>
+      <webElementGuid>fb11c5b8-6d7e-42cd-8885-3b7d0bbf5af2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>spec.unitClassId</value>
+      <webElementGuid>52de42bb-fc5d-45e1-94a4-24ae27a9f841</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-options</name>
+      <type>Main</type>
+      <value>unitClass.unitClassId as unitClass.unitClassName for unitClass  in spec.unitClassList</value>
+      <webElementGuid>1c5a5b65-d266-428b-b418-3a66d8b20887</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select Unit ClassExecution CPANestle CPANestle ESAR Golf Shirts CPA</value>
+      <webElementGuid>fe9bcd5b-30a3-45e4-a151-a13ef5985103</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-wrapper&quot;)/div[@class=&quot;main ng-scope&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;wrapper wrapper-content animated fadeInRight&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;ibox float-e-margins&quot;]/div[@class=&quot;ibox-content&quot;]/form[@class=&quot;form-horizontal ng-invalid ng-invalid-spec.unit-class-id ng-invalid-spec.product-type-name ng-dirty ng-valid-brief.project-name ng-valid-required ng-valid-spec.category-detail-id ng-valid-spec.brand-id ng-valid-spec.element-name ng-valid-spec.quantity&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;ng-scope&quot;]/div[1]/div[5]/select[@class=&quot;form-control ng-pristine ng-invalid ng-invalid-spec.unit-class-id rx-error&quot;]</value>
+      <webElementGuid>93839886-09fa-4051-9f46-c1bca5428b1b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-wrapper']/div[2]/div[2]/div[2]/div/div/div/div/form/div/div/div[9]/div/div/div[5]/select</value>
+      <webElementGuid>125e3bee-f079-4c4d-a5ac-7fe8494e2ba4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Non Point'])[1]/following::select[3]</value>
+      <webElementGuid>b07d86fe-69eb-4a45-858b-9a61c2581cba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Price'])[1]/following::select[3]</value>
+      <webElementGuid>263d0459-1d9e-46b0-91b0-a0dc602e5a9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Special NotesEg. Artwork Links or Comments'])[1]/preceding::select[2]</value>
+      <webElementGuid>4535ae20-38b3-49e3-b1dc-614e8a3845b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::select[2]</value>
+      <webElementGuid>e2aff477-9001-45fe-9d52-6bb069801926</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/select</value>
+      <webElementGuid>505119df-de0f-4a34-bc07-d2d78fd261f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = 'Select Unit ClassExecution CPANestle CPANestle ESAR Golf Shirts CPA' or . = 'Select Unit ClassExecution CPANestle CPANestle ESAR Golf Shirts CPA')]</value>
+      <webElementGuid>8e2c315b-e5b6-4155-afa8-51d755812fc1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

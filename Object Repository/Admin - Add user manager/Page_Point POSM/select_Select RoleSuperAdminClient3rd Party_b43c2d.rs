@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Select RoleSuperAdminClient3rd Party_b43c2d</name>
+   <tag></tag>
+   <elementGuidId>e156d9b3-698c-45aa-ac12-e1e1a62b716a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-wrapper']/div[2]/div/div[2]/div/div/div/div/form/div[3]/div[2]/div[2]/div/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>3d2da48e-10e7-4299-930a-a8cd1710a33e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-pristine ng-invalid ng-invalid-user.security-role-id rx-error</value>
+      <webElementGuid>e65d4bdc-86df-47dc-8722-44246cd4b757</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>user.securityRoleId</value>
+      <webElementGuid>7389caa0-1565-48a1-9e0f-c18ff5664352</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-options</name>
+      <type>Main</type>
+      <value>securityRole.securityRoleId as securityRole.roleName for securityRole in securityRoles</value>
+      <webElementGuid>8c1a9e3c-dd18-4802-96fe-f4fff6ccb156</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select RoleSuperAdminClient3rd Party SupplierDesign Agency3rd Party Production SupplierPoint AdminPointExecution Supplier WebQA AdminProduction Supplier UAEUL ClientDistribution Supplier WebRegional sale managerBarrowsUFSDSVPremedia&amp;ZapopHirt &amp; CarterHewitt &amp; AssociatesClient - Dynamic QRGalleryView3rd Party Execution Work SchedulerNestle Client</value>
+      <webElementGuid>d96a6cf9-cf10-4e8c-ac99-700102bb4d5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-wrapper&quot;)/div[@class=&quot;main ng-scope&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;wrapper wrapper-content animated fadeInRight&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;ibox float-e-margins&quot;]/div[@class=&quot;ibox-content&quot;]/form[@class=&quot;form-horizontal ng-invalid ng-invalid-user.security-role-id ng-dirty ng-valid-user.user-type-id ng-valid-user.first-name ng-valid-user.last-name ng-valid-user.time-zone ng-valid-email ng-valid-user.email-address ng-valid-company-structure.company-id ng-valid-company-structure.structure-id ng-valid-user.country&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-6&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-sm-8&quot;]/select[@class=&quot;form-control ng-pristine ng-invalid ng-invalid-user.security-role-id rx-error&quot;]</value>
+      <webElementGuid>d2bd6061-8763-492b-b581-02c06b30bd78</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-wrapper']/div[2]/div/div[2]/div/div/div/div/form/div[3]/div[2]/div[2]/div/select</value>
+      <webElementGuid>7a1e7ed6-a546-4825-afcd-c645fa0f187a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Role'])[1]/following::select[1]</value>
+      <webElementGuid>955dcf74-87eb-4218-a164-5353e6fc4c39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobile/ Phone No.'])[1]/following::select[1]</value>
+      <webElementGuid>c1979c2c-5c6e-4fc9-ae78-99bbe1b29844</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile Photo'])[1]/preceding::select[1]</value>
+      <webElementGuid>48d1d23f-11fb-4366-8f18-6e2bdce8242f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Default User?'])[1]/preceding::select[1]</value>
+      <webElementGuid>c8760e98-6c29-4510-bb1f-b052dc17f1f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/select</value>
+      <webElementGuid>8618000b-de24-4631-9e25-76d394638709</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = 'Select RoleSuperAdminClient3rd Party SupplierDesign Agency3rd Party Production SupplierPoint AdminPointExecution Supplier WebQA AdminProduction Supplier UAEUL ClientDistribution Supplier WebRegional sale managerBarrowsUFSDSVPremedia&amp;ZapopHirt &amp; CarterHewitt &amp; AssociatesClient - Dynamic QRGalleryView3rd Party Execution Work SchedulerNestle Client' or . = 'Select RoleSuperAdminClient3rd Party SupplierDesign Agency3rd Party Production SupplierPoint AdminPointExecution Supplier WebQA AdminProduction Supplier UAEUL ClientDistribution Supplier WebRegional sale managerBarrowsUFSDSVPremedia&amp;ZapopHirt &amp; CarterHewitt &amp; AssociatesClient - Dynamic QRGalleryView3rd Party Execution Work SchedulerNestle Client')]</value>
+      <webElementGuid>90220ec9-e68d-487b-a146-dc08a467d2ed</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Brand_btn btn-primary fa fa-plus</name>
+   <tag></tag>
+   <elementGuidId>184dcd76-bf5c-4333-a400-c5355270d5f1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.btn.btn-primary.fa.fa-plus</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-wrapper']/div[2]/div/div[2]/div/div/div/div/form/div[3]/div/div/div/div[4]/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>294ea13b-abaa-4e8d-9c93-b511f65c7ea4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary fa fa-plus</value>
+      <webElementGuid>0010a91b-f7a8-4d06-ab97-4843a5d0b166</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>addNewDetails()</value>
+      <webElementGuid>fc4a9dcf-6de7-4a1c-82bc-add657586e77</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-wrapper&quot;)/div[@class=&quot;main ng-scope&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;wrapper wrapper-content animated fadeInRight&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;ibox float-e-margins&quot;]/div[@class=&quot;ibox-content&quot;]/form[@class=&quot;form-horizontal ng-dirty ng-valid-category.company-id ng-valid-category.-division ng-valid-det.brand-id1 ng-valid ng-valid-det.category-name&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-sm-10&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-sm-1&quot;]/i[@class=&quot;btn btn-primary fa fa-plus&quot;]</value>
+      <webElementGuid>d68ee449-a710-4c01-84c0-4c5433730ba9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-wrapper']/div[2]/div/div[2]/div/div/div/div/form/div[3]/div/div/div/div[4]/i</value>
+      <webElementGuid>9c91f030-4c2e-404b-a8f1-3a86dc4e8973</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/i</value>
+      <webElementGuid>92fe46e7-b231-474c-b381-bc0dac719901</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Project</name>
+   <tag></tag>
+   <elementGuidId>824221a4-6d1e-475c-8686-2355b27ff6c0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '${Project}' or . = '${Project}')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span > a.ng-binding</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='assetProjectGrid']/tbody/tr/td[3]/span/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>8d8f4c07-27cc-4167-a800-9f6a5ca811fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#/YXNzZXRQcm9qZWN0cw0000/ZGV0YWls/OTU3</value>
+      <webElementGuid>3c62aa2d-4b03-4dcd-9104-f63e433911a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-binding</value>
+      <webElementGuid>0227fb5f-e53d-4086-ac73-c6bc3c26dfc8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${Project}</value>
+      <webElementGuid>6a57207d-e26f-411f-b076-56b5a811bd6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;assetProjectGrid&quot;)/tbody[1]/tr[@class=&quot;undefined ng-scope&quot;]/td[3]/span[1]/a[@class=&quot;ng-binding&quot;]</value>
+      <webElementGuid>53e86aca-f171-4b26-bbcf-db6d1e47c882</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='assetProjectGrid']/tbody/tr/td[3]/span/a</value>
+      <webElementGuid>48064eca-2d65-4bf9-9867-1227c745d3ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'5017377, Ola Cabinets Test')]</value>
+      <webElementGuid>059cf9c5-5e1e-4b75-84d7-070f03e7e932</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unilever - SA'])[2]/following::a[1]</value>
+      <webElementGuid>4629a8b9-6969-42f0-a6d4-0f383e73a2c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Imported Date'])[1]/following::a[1]</value>
+      <webElementGuid>d7b72457-4425-40ad-b85b-10978e7f11fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ola'])[1]/preceding::a[1]</value>
+      <webElementGuid>f2bd3040-03fc-408a-8827-f0a0fa6b725f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unilever Saudi'])[2]/preceding::a[1]</value>
+      <webElementGuid>9585c145-e01f-4096-82a8-12ae817c703b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='5017377, Ola Cabinets Test']/parent::*</value>
+      <webElementGuid>e486e21e-8549-418e-a7a6-4add76ea2009</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '#/YXNzZXRQcm9qZWN0cw0000/ZGV0YWls/OTU3')]</value>
+      <webElementGuid>72408b1c-4405-47f8-b5ae-340f515f59c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/a</value>
+      <webElementGuid>1cd482bb-86f4-40ea-a6f8-10ad5a26ba4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#/YXNzZXRQcm9qZWN0cw0000/ZGV0YWls/OTU3' and (text() = '5017377, Ola Cabinets Test' or . = '5017377, Ola Cabinets Test')]</value>
+      <webElementGuid>6d9ff471-ecf2-4a95-8c25-fb267acf869b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
