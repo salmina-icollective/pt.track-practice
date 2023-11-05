@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login UI,Firefox 118.0,,,2023-10-25 18:48:59,2023-10-25 18:50:49,1m - 49.920s,ERROR
+,,,,,,,
+Test Cases/Login test/Login UI-1,Firefox 118.0,,,2023-10-25 18:49:00,2023-10-25 18:50:20,1m - 19.554s,FAILED
+"openBrowser("""")",Firefox 118.0,,,2023-10-25 18:49:01,2023-10-25 18:49:24,22.395s,PASSED
+"navigateToUrl(""https://pointposmqa.live1.dev.radixweb.net/pointposm#/ZGFzaGJvYXJk"")",Firefox 118.0,,,2023-10-25 18:49:24,2023-10-25 18:49:44,20.328s,PASSED
+"com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(""Login UI"")",Firefox 118.0,,,2023-10-25 18:49:44,2023-10-25 18:50:19,34.466s,FAILED
+closeBrowser(),Firefox 118.0,,,2023-10-25 18:50:19,2023-10-25 18:50:20,1.276s,PASSED
+,,,,,,,
+Test Cases/Login test/Login UI-1,Firefox 118.0,,,2023-10-25 18:50:20,2023-10-25 18:50:49,28.990s,ERROR
+"openBrowser("""")",Firefox 118.0,,,2023-10-25 18:50:20,2023-10-25 18:50:28,7.590s,PASSED
+"navigateToUrl(""https://pointposmqa.live1.dev.radixweb.net/pointposm#/ZGFzaGJvYXJk"")",Firefox 118.0,,,2023-10-25 18:50:28,2023-10-25 18:50:29,1.314s,PASSED
+"com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(""Login UI"")",Firefox 118.0,,,2023-10-25 18:50:29,2023-10-25 18:50:49,20.062s,ERROR

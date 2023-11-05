@@ -29,7 +29,7 @@ WebUI.click(findTestObject('Object Repository/D_Projects/Page_Point POSM/button_
 
 WebUI.click(findTestObject('Object Repository/D_Projects/Page_Point POSM/span_Projects'))
 
-String strProjID='11600126, Eno Q4 2016 Campaign'
+String strProjID='11820074, Sensodyne 2017 Q1 Campaign'
 
 WebUI.click(findTestObject('Object Repository/D_Projects/Page_Point POSM/ProjID',[('ProjID'):strProjID]))
 

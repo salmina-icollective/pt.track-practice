@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Data validation,Chrome 118.0.0.0,,,2023-10-26 08:46:04,2023-10-26 08:46:36,32.256s,PASSED
+,,,,,,,
+Test Cases/Login test/Login-validating test data,Chrome 118.0.0.0,,,2023-10-26 08:46:05,2023-10-26 08:46:36,31.611s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-26 08:46:06,2023-10-26 08:46:12,6.867s,PASSED
+"navigateToUrl(""https://pointposmqa.live1.dev.radixweb.net/pointposm#/cHJvamVjdHdpc2VBY3RpdmF0aW9uUHJvY2Vzcw0000"")",Chrome 118.0.0.0,,,2023-10-26 08:46:12,2023-10-26 08:46:33,20.806s,PASSED
+"setText(findTestObject(""Object Repository/Validating test data/Page_Point POSM/input_Login_email""), Username)",Chrome 118.0.0.0,,,2023-10-26 08:46:33,2023-10-26 08:46:34,0.992s,PASSED
+"setText(findTestObject(""Validating test data/Page_Point POSM/input_Login_password""), Password)",Chrome 118.0.0.0,,,2023-10-26 08:46:34,2023-10-26 08:46:35,0.821s,PASSED
+"click(findTestObject(""Object Repository/Validating test data/Page_Point POSM/button_Sign in""))",Chrome 118.0.0.0,,,2023-10-26 08:46:35,2023-10-26 08:46:36,0.550s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-10-26 08:46:36,2023-10-26 08:46:36,0.825s,PASSED

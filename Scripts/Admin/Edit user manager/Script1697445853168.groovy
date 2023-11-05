@@ -17,3 +17,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://pointposmqa.live1.dev.radixweb.net/pointposm#/dHJhY2tTdGF0dXM00')
+
+WebUI.setText(findTestObject('Object Repository/Input-profile-photo/Page_Point POSM/input_Login_email'), 'raeesa@pointgroup.biz')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Input-profile-photo/Page_Point POSM/input_Login_password'), 'aeHFOx8jV/A=')
+
+WebUI.click(findTestObject('Object Repository/Input-profile-photo/Page_Point POSM/button_Sign in'))
+
+WebUI.click(findTestObject('Object Repository/Input-profile-photo/Page_Point POSM/a_Admin'))
+
+WebUI.click(findTestObject('Object Repository/Input-profile-photo/Page_Point POSM/a_User Manager'))
+
+WebUI.click(findTestObject('Object Repository/Input-profile-photo/Page_Point POSM/a_Add User'))
+
+WebUI.uploadFile(findTestObject('Object Repository/Input-profile-photo/Page_Point POSM/input_Profile Photo_uploadImage'), 
+    'C:\\Users\\Salmina Lephalle\\OneDrive - Point\\Pictures\\img.jpg')
+

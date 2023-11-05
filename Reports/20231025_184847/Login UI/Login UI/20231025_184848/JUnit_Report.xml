@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login UI" time="90.486" tests="2" failures="0" errors="2">
+   <testsuite name="Login UI" tests="2" failures="0" errors="2" time="90.486" skipped="0" timestamp="2023-10-25 18:48:59" hostname="Salmina Lephalle - DESKTOP-I5U5259" id="Test Suites/Login UI/Login UI">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Salmina Lephalle\\git\\pt.track-practice\\Reports\\20231025_184847\\Login UI\\Login UI\\20231025_184848"/>
+         <property name="logFiles" value="C:\\Users\\Salmina Lephalle\\git\\pt.track-practice\\Reports\\20231025_184847\\Login UI\\Login UI\\20231025_184848\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Salmina Lephalle - DESKTOP-I5U5259"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 118.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.89"/>
+         <property name="sessionId" value="d093cff1118644b3779728e5da84d273"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login test/Login UI-1" time="44.07" classname="Test Cases/Login test/Login UI-1" status="ERROR">
+         <error type="ERROR" message="Test Cases/Login test/Login UI-1 FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: com.applitools.eyes.exceptions.TestFailedException: Failed to set the viewport size
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252528773.run(TempTestSuite1698252528773.groovy:36)
+Caused by: com.applitools.eyes.exceptions.TestFailedException: Failed to set the viewport size
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1560)
+	at com.applitools.eyes.EyesBase.ensureViewportSize(EyesBase.java:1214)
+	at com.applitools.eyes.EyesBase.openBaseAsync(EyesBase.java:852)
+	at com.applitools.eyes.EyesBase.openBase(EyesBase.java:813)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:281)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:243)
+	at com.applitools.eyes.selenium.Eyes.open(Eyes.java:143)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:45)
+	... 16 more
+Caused by: com.applitools.eyes.EyesException: Failed to set viewport size!
+	at com.applitools.eyes.selenium.EyesDriverUtils.setViewportSize(EyesDriverUtils.java:561)
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1554)
+	... 23 more
+"/>
+         <system-out><![CDATA[2023-10-25 18:49:00 - [TEST_CASE][ERROR] - Test Cases/Login test/Login UI-1: Test Cases/Login test/Login UI-1 FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: com.applitools.eyes.exceptions.TestFailedException: Failed to set the viewport size
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252528773.run(TempTestSuite1698252528773.groovy:36)
+Caused by: com.applitools.eyes.exceptions.TestFailedException: Failed to set the viewport size
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1560)
+	at com.applitools.eyes.EyesBase.ensureViewportSize(EyesBase.java:1214)
+	at com.applitools.eyes.EyesBase.openBaseAsync(EyesBase.java:852)
+	at com.applitools.eyes.EyesBase.openBase(EyesBase.java:813)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:281)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:243)
+	at com.applitools.eyes.selenium.Eyes.open(Eyes.java:143)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:45)
+	... 16 more
+Caused by: com.applitools.eyes.EyesException: Failed to set viewport size!
+	at com.applitools.eyes.selenium.EyesDriverUtils.setViewportSize(EyesDriverUtils.java:561)
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1554)
+	... 23 more
+
+
+2023-10-25 18:49:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-25 18:49:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-25 18:49:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-25 18:49:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-25 18:49:11 - [TEST_STEP][PASSED] - navigateToUrl("https://pointposmqa.live1.dev.radixweb.net/pointposm#/ZGFzaGJvYXJk"): Navigate to 'https://pointposmqa.live1.dev.radixweb.net/pointposm#/ZGFzaGJvYXJk' successfully
+
+2023-10-25 18:49:36 - [MESSAGE][PASSED] - Navigate to 'https://pointposmqa.live1.dev.radixweb.net/pointposm#/ZGFzaGJvYXJk' successfully
+
+2023-10-25 18:49:36 - [TEST_STEP][FAILED] - com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow("Login UI"): Test Cases/Login test/Login UI-1 FAILED.
+Reason:
+com.applitools.eyes.exceptions.TestFailedException: Failed to set the viewport size
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1560)
+	at com.applitools.eyes.EyesBase.ensureViewportSize(EyesBase.java:1214)
+	at com.applitools.eyes.EyesBase.openBaseAsync(EyesBase.java:852)
+	at com.applitools.eyes.EyesBase.openBase(EyesBase.java:813)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:281)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:243)
+	at com.applitools.eyes.selenium.Eyes.open(Eyes.java:143)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:45)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252528773.run(TempTestSuite1698252528773.groovy:36)
+Caused by: com.applitools.eyes.EyesException: Failed to set viewport size!
+	at com.applitools.eyes.selenium.EyesDriverUtils.setViewportSize(EyesDriverUtils.java:561)
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1554)
+	... 23 more
+
+
+2023-10-25 18:49:37 - [MESSAGE][INFO] - Use view port 1400x743
+
+2023-10-25 18:49:44 - [MESSAGE][FAILED] - com.applitools.eyes.exceptions.TestFailedException: Failed to set the viewport size
+
+2023-10-25 18:49:44 - [MESSAGE][FAILED] - Test Cases/Login test/Login UI-1 FAILED.
+Reason:
+com.applitools.eyes.exceptions.TestFailedException: Failed to set the viewport size
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1560)
+	at com.applitools.eyes.EyesBase.ensureViewportSize(EyesBase.java:1214)
+	at com.applitools.eyes.EyesBase.openBaseAsync(EyesBase.java:852)
+	at com.applitools.eyes.EyesBase.openBase(EyesBase.java:813)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:281)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:243)
+	at com.applitools.eyes.selenium.Eyes.open(Eyes.java:143)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:45)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252528773.run(TempTestSuite1698252528773.groovy:36)
+Caused by: com.applitools.eyes.EyesException: Failed to set viewport size!
+	at com.applitools.eyes.selenium.EyesDriverUtils.setViewportSize(EyesDriverUtils.java:561)
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1554)
+	... 23 more]]></system-out>
+         <system-err><![CDATA[2023-10-25 18:49:00 - [TEST_CASE][ERROR] - Test Cases/Login test/Login UI-1: Test Cases/Login test/Login UI-1 FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: com.applitools.eyes.exceptions.TestFailedException: Failed to set the viewport size
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252528773.run(TempTestSuite1698252528773.groovy:36)
+Caused by: com.applitools.eyes.exceptions.TestFailedException: Failed to set the viewport size
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1560)
+	at com.applitools.eyes.EyesBase.ensureViewportSize(EyesBase.java:1214)
+	at com.applitools.eyes.EyesBase.openBaseAsync(EyesBase.java:852)
+	at com.applitools.eyes.EyesBase.openBase(EyesBase.java:813)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:281)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:243)
+	at com.applitools.eyes.selenium.Eyes.open(Eyes.java:143)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:45)
+	... 16 more
+Caused by: com.applitools.eyes.EyesException: Failed to set viewport size!
+	at com.applitools.eyes.selenium.EyesDriverUtils.setViewportSize(EyesDriverUtils.java:561)
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1554)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login test/Login UI-1" time="45.273" classname="Test Cases/Login test/Login UI-1" status="ERROR">
+         <error type="ERROR" message="Test Cases/Login test/Login UI-1 FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: com.applitools.eyes.exceptions.TestFailedException: Failed to set the viewport size
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252528773.run(TempTestSuite1698252528773.groovy:36)
+Caused by: com.applitools.eyes.exceptions.TestFailedException: Failed to set the viewport size
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1560)
+	at com.applitools.eyes.EyesBase.ensureViewportSize(EyesBase.java:1214)
+	at com.applitools.eyes.EyesBase.openBaseAsync(EyesBase.java:852)
+	at com.applitools.eyes.EyesBase.openBase(EyesBase.java:813)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:281)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:243)
+	at com.applitools.eyes.selenium.Eyes.open(Eyes.java:143)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:45)
+	... 16 more
+Caused by: com.applitools.eyes.EyesException: Failed to set viewport size!
+	at com.applitools.eyes.selenium.EyesDriverUtils.setViewportSize(EyesDriverUtils.java:561)
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1554)
+	... 23 more
+"/>
+         <system-out><![CDATA[2023-10-25 18:49:44 - [TEST_CASE][ERROR] - Test Cases/Login test/Login UI-1: Test Cases/Login test/Login UI-1 FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: com.applitools.eyes.exceptions.TestFailedException: Failed to set the viewport size
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252528773.run(TempTestSuite1698252528773.groovy:36)
+Caused by: com.applitools.eyes.exceptions.TestFailedException: Failed to set the viewport size
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1560)
+	at com.applitools.eyes.EyesBase.ensureViewportSize(EyesBase.java:1214)
+	at com.applitools.eyes.EyesBase.openBaseAsync(EyesBase.java:852)
+	at com.applitools.eyes.EyesBase.openBase(EyesBase.java:813)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:281)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:243)
+	at com.applitools.eyes.selenium.Eyes.open(Eyes.java:143)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:45)
+	... 16 more
+Caused by: com.applitools.eyes.EyesException: Failed to set viewport size!
+	at com.applitools.eyes.selenium.EyesDriverUtils.setViewportSize(EyesDriverUtils.java:561)
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1554)
+	... 23 more
+
+
+2023-10-25 18:49:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-25 18:49:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-10-25 18:49:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-25 18:49:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-25 18:49:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-25 18:49:50 - [TEST_STEP][PASSED] - navigateToUrl("https://pointposmqa.live1.dev.radixweb.net/pointposm#/ZGFzaGJvYXJk"): Navigate to 'https://pointposmqa.live1.dev.radixweb.net/pointposm#/ZGFzaGJvYXJk' successfully
+
+2023-10-25 18:50:22 - [MESSAGE][PASSED] - Navigate to 'https://pointposmqa.live1.dev.radixweb.net/pointposm#/ZGFzaGJvYXJk' successfully
+
+2023-10-25 18:50:22 - [TEST_STEP][FAILED] - com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow("Login UI"): Test Cases/Login test/Login UI-1 FAILED.
+Reason:
+com.applitools.eyes.exceptions.TestFailedException: Failed to set the viewport size
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1560)
+	at com.applitools.eyes.EyesBase.ensureViewportSize(EyesBase.java:1214)
+	at com.applitools.eyes.EyesBase.openBaseAsync(EyesBase.java:852)
+	at com.applitools.eyes.EyesBase.openBase(EyesBase.java:813)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:281)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:243)
+	at com.applitools.eyes.selenium.Eyes.open(Eyes.java:143)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:45)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252528773.run(TempTestSuite1698252528773.groovy:36)
+Caused by: com.applitools.eyes.EyesException: Failed to set viewport size!
+	at com.applitools.eyes.selenium.EyesDriverUtils.setViewportSize(EyesDriverUtils.java:561)
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1554)
+	... 23 more
+
+
+2023-10-25 18:50:22 - [MESSAGE][INFO] - Use view port 1400x743
+
+2023-10-25 18:50:30 - [MESSAGE][FAILED] - com.applitools.eyes.exceptions.TestFailedException: Failed to set the viewport size
+
+2023-10-25 18:50:30 - [MESSAGE][FAILED] - Test Cases/Login test/Login UI-1 FAILED.
+Reason:
+com.applitools.eyes.exceptions.TestFailedException: Failed to set the viewport size
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1560)
+	at com.applitools.eyes.EyesBase.ensureViewportSize(EyesBase.java:1214)
+	at com.applitools.eyes.EyesBase.openBaseAsync(EyesBase.java:852)
+	at com.applitools.eyes.EyesBase.openBase(EyesBase.java:813)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:281)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:243)
+	at com.applitools.eyes.selenium.Eyes.open(Eyes.java:143)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:45)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252528773.run(TempTestSuite1698252528773.groovy:36)
+Caused by: com.applitools.eyes.EyesException: Failed to set viewport size!
+	at com.applitools.eyes.selenium.EyesDriverUtils.setViewportSize(EyesDriverUtils.java:561)
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1554)
+	... 23 more]]></system-out>
+         <system-err><![CDATA[2023-10-25 18:49:44 - [TEST_CASE][ERROR] - Test Cases/Login test/Login UI-1: Test Cases/Login test/Login UI-1 FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: com.applitools.eyes.exceptions.TestFailedException: Failed to set the viewport size
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252528773.run(TempTestSuite1698252528773.groovy:36)
+Caused by: com.applitools.eyes.exceptions.TestFailedException: Failed to set the viewport size
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1560)
+	at com.applitools.eyes.EyesBase.ensureViewportSize(EyesBase.java:1214)
+	at com.applitools.eyes.EyesBase.openBaseAsync(EyesBase.java:852)
+	at com.applitools.eyes.EyesBase.openBase(EyesBase.java:813)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:281)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:243)
+	at com.applitools.eyes.selenium.Eyes.open(Eyes.java:143)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:45)
+	... 16 more
+Caused by: com.applitools.eyes.EyesException: Failed to set viewport size!
+	at com.applitools.eyes.selenium.EyesDriverUtils.setViewportSize(EyesDriverUtils.java:561)
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1554)
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-10-25 18:48:59 - [TEST_SUITE][ERROR] - Login UI: Test Cases/Login test/Login UI-1 FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: com.applitools.eyes.exceptions.TestFailedException: Failed to set the viewport size
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252528773.run(TempTestSuite1698252528773.groovy:36)
+Caused by: com.applitools.eyes.exceptions.TestFailedException: Failed to set the viewport size
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1560)
+	at com.applitools.eyes.EyesBase.ensureViewportSize(EyesBase.java:1214)
+	at com.applitools.eyes.EyesBase.openBaseAsync(EyesBase.java:852)
+	at com.applitools.eyes.EyesBase.openBase(EyesBase.java:813)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:281)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:243)
+	at com.applitools.eyes.selenium.Eyes.open(Eyes.java:143)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:45)
+	... 16 more
+Caused by: com.applitools.eyes.EyesException: Failed to set viewport size!
+	at com.applitools.eyes.selenium.EyesDriverUtils.setViewportSize(EyesDriverUtils.java:561)
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1554)
+	... 23 more]]></system-out>
+      <system-err><![CDATA[2023-10-25 18:48:59 - [TEST_SUITE][ERROR] - Login UI: Test Cases/Login test/Login UI-1 FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: com.applitools.eyes.exceptions.TestFailedException: Failed to set the viewport size
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252528773.run(TempTestSuite1698252528773.groovy:36)
+Caused by: com.applitools.eyes.exceptions.TestFailedException: Failed to set the viewport size
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1560)
+	at com.applitools.eyes.EyesBase.ensureViewportSize(EyesBase.java:1214)
+	at com.applitools.eyes.EyesBase.openBaseAsync(EyesBase.java:852)
+	at com.applitools.eyes.EyesBase.openBase(EyesBase.java:813)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:281)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:243)
+	at com.applitools.eyes.selenium.Eyes.open(Eyes.java:143)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:45)
+	... 16 more
+Caused by: com.applitools.eyes.EyesException: Failed to set viewport size!
+	at com.applitools.eyes.selenium.EyesDriverUtils.setViewportSize(EyesDriverUtils.java:561)
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1554)
+	... 23 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Uploaded_img_name</name>
+   <tag></tag>
+   <elementGuidId>5009ba97-3e44-414f-8743-963485134484</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>label.col-sm-12.ng-binding</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-wrapper']/div[2]/div/div[2]/div/div/div/div/form/div[3]/div[2]/div[4]/div/div/div/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>c6c79b3a-8d4e-48ec-bdec-1c208dd75e1a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-sm-12 ng-binding</value>
+      <webElementGuid>c45dc6f6-75da-4e52-8568-ec067cad96ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Screen-Recording-20230328-235805.jpg</value>
+      <webElementGuid>6ea1a980-1c14-4aa6-bc05-2c93d760f51e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-wrapper&quot;)/div[@class=&quot;main ng-scope&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;wrapper wrapper-content animated fadeInRight&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;ibox float-e-margins&quot;]/div[@class=&quot;ibox-content&quot;]/form[@class=&quot;form-horizontal ng-pristine ng-invalid ng-invalid-user.user-type-id ng-invalid-user.first-name ng-invalid-user.last-name ng-invalid-user.time-zone ng-invalid-user.country ng-invalid-user.security-role-id ng-invalid-user.email-address ng-invalid-company-structure.company-id ng-invalid-company-structure.structure-id&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-6&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-sm-8&quot;]/div[@class=&quot;upload-img&quot;]/div[@class=&quot;row&quot;]/label[@class=&quot;col-sm-12 ng-binding&quot;]</value>
+      <webElementGuid>c5d5aeaa-a438-47a9-adbe-46314dab77a8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-wrapper']/div[2]/div/div[2]/div/div/div/div/form/div[3]/div[2]/div[4]/div/div/div/label</value>
+      <webElementGuid>50136234-cebc-4866-9bb3-a783cb8c479f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile Photo'])[1]/following::label[2]</value>
+      <webElementGuid>8b1d20b3-afcd-4b01-9404-0ecebc25b85e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Role'])[1]/following::label[3]</value>
+      <webElementGuid>3f1c0eb5-a167-4465-995d-c6cae0e10de9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Default User?'])[1]/preceding::label[1]</value>
+      <webElementGuid>ab292314-acf5-47b2-8174-4a68003e8bf0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Asset Tracker?'])[1]/preceding::label[2]</value>
+      <webElementGuid>8ad6c117-b17b-4c86-b62f-f4e1e35413fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Screen-Recording-20230328-235805.jpg']/parent::*</value>
+      <webElementGuid>cdba6d92-8c96-4cda-a0c0-a09c6e13d060</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/label</value>
+      <webElementGuid>06f32535-cad3-4651-a44a-e6a16f891c3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Screen-Recording-20230328-235805.jpg' or . = 'Screen-Recording-20230328-235805.jpg')]</value>
+      <webElementGuid>84c41ac0-3407-444b-932c-2738585ff996</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Cerelac</name>
+   <tag></tag>
+   <elementGuidId>4caee124-0671-4708-aa5f-1a5be732089f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'Cerelac' or . = 'Cerelac')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>91966abc-e2ee-4d85-b13d-2f1aecaa54e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>select2-result-label</value>
+      <webElementGuid>8d5f4be8-df03-40a1-b218-045a4a0cbc66</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cerelac</value>
+      <webElementGuid>2862bde5-8c02-40d3-ad64-b6fe76b795eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/li[@class=&quot;select2-results-dept-0 select2-result select2-result-selectable select2-highlighted&quot;]/div[@class=&quot;select2-result-label&quot;]</value>
+      <webElementGuid>7c094ffc-5bee-43b3-b9c1-403260c70922</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Cerelac' or . = 'Cerelac')]</value>
+      <webElementGuid>b9842071-3bae-4938-b460-f5c30257b007</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://pointposmqa.live1.dev.radixweb.net/pointposm#/cHJvamVjdHdpc2VBY3RpdmF0aW9uUHJvY2Vzcw0000')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Object Repository/Login verification/Page_Point POSM/input_Login_email'), 'raeesa@pointgroup.biz')
+WebUI.setText(findTestObject('Object Repository/Login verification/Page_Point POSM/input_Login_email'), GlobalVariable.Username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login verification/Page_Point POSM/input_Login_password'), 'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Login verification/Page_Point POSM/input_Login_password'), GlobalVariable.Password)
 
 WebUI.click(findTestObject('Object Repository/Login verification/Page_Point POSM/button_Sign in'))
 

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>BrandL</name>
+   <tag></tag>
+   <elementGuidId>c26e9f43-31e3-4423-88b7-5beac3d082ba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '${BrandL}' or . = '${BrandL}')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'Tola' or . = 'Tola')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6d5d7e65-a5a2-40b0-bf9e-4aba4b2ff0e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>select2-result-label</value>
+      <webElementGuid>1411501e-335b-4686-9d34-97278e794f75</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${BrandL}</value>
+      <webElementGuid>02ed22b6-c9c8-4dfb-a815-15a7c5eb4e06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/li[@class=&quot;select2-results-dept-0 select2-result select2-result-selectable select2-highlighted&quot;]/div[@class=&quot;select2-result-label&quot;]</value>
+      <webElementGuid>71d82b19-7d17-4f7c-8543-59c27f5b171a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Tola' or . = 'Tola')]</value>
+      <webElementGuid>58f8a61c-bb1b-4508-b5c6-6074991e48e2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

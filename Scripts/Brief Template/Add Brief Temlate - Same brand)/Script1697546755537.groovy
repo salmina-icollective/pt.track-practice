@@ -42,14 +42,17 @@ WebUI.setText(findTestObject('Edit brief template/Page_Point POSM/input_End date
 
 WebUI.click(findTestObject('Edit brief template/Page_Point POSM/input_Same Brand_ng-pristine ng-valid'))
 
-WebUI.click(findTestObject('Brief_Templates_Objects/Page_Point POSM/Category1'))
+//WebUI.click(findTestObject('Brief_Templates_Objects/Page_Point POSM/Category1'))
+WebUI.click(findTestObject('Object Repository/Multiple dropdown_selector/Page_Point POSM/ul_Category_select2-choices'))
 
-WebUI.selectOptionByValue(findTestObject('Brief_Templates_Objects/Page_Point POSM/Category1'), Category1, false)
+String strCatL = 'Coffee'
+
+WebUI.click(findTestObject('Search Project by Name/Page_Point POSM/Page_Point POSM/a_CatL', [('CategoryL') : strCatL]))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Brief_Templates_Objects/Page_Point POSM/Brand1'))
-
 WebUI.selectOptionByValue(findTestObject('Dropdown re/Page_Point POSM/select_Select Brand'), Brand, false)
-
 WebUI.setText(findTestObject('Object Repository/Edit brief template/Page_Point POSM/input_Non Point_form-control ng-pristine ng_a5d557'), 
     Spec_details)
 
@@ -63,6 +66,8 @@ WebUI.selectOptionByIndex(findTestObject('Brief_Templates_Objects/Page_Point POS
 WebUI.setText(findTestObject('Brief_Templates_Objects/Page_Point POSM/Unit_Price'), Unit_Price)
 
 WebUI.setText(findTestObject('Brief_Templates_Objects/Page_Point POSM/Total_Price'), Total_Price)
+
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('Brief_Templates_Objects/Page_Point POSM/Special_notes'), Special_Notes)
 

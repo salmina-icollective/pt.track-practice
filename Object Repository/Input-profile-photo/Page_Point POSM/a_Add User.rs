@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Add User</name>
+   <tag></tag>
+   <elementGuidId>066b6d3f-ba30-43d4-a764-1f77d037371f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-wrapper']/div[2]/div/div[2]/div/div/div/div/div/div[4]/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>fb749d5b-08ae-4793-b29f-e45e190ed6ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>redirectToAddUser()</value>
+      <webElementGuid>c949c4e0-10ba-48b4-852b-0f07f6ed4e3e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary</value>
+      <webElementGuid>6de23133-d1ce-4690-a776-af3f65755fe7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add User</value>
+      <webElementGuid>4229a0ee-b20d-4d9a-a8eb-2c91f1bac3a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-wrapper&quot;)/div[@class=&quot;main ng-scope&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;wrapper wrapper-content animated fadeInRight&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;ibox&quot;]/div[@class=&quot;ibox-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6 col-lg-6&quot;]/div[@class=&quot;text-right&quot;]/a[@class=&quot;btn btn-primary&quot;]</value>
+      <webElementGuid>35996541-0532-4871-bd58-f0da93529c6b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-wrapper']/div[2]/div/div[2]/div/div/div/div/div/div[4]/div/a</value>
+      <webElementGuid>43ba0efe-5a4e-4158-a7e3-61a3c92c2bbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Add User')]</value>
+      <webElementGuid>b259054a-85c2-4669-97c3-648e91152354</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Manager'])[3]/following::a[1]</value>
+      <webElementGuid>f5bb0b46-7111-4370-8cd7-f143d51795a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Manager'])[2]/following::a[2]</value>
+      <webElementGuid>8a20f080-4d9a-4b51-9b5a-a01612473bbe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sync User(s)'])[1]/preceding::a[1]</value>
+      <webElementGuid>58eafb82-0120-4b25-91ba-6f0e7b79dc46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Import'])[1]/preceding::a[2]</value>
+      <webElementGuid>be200190-429b-42e8-b165-079f44816db7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Add User']/parent::*</value>
+      <webElementGuid>d56aac98-f69a-4757-9b8a-f483d3d259a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/a</value>
+      <webElementGuid>6b9e1bf3-fc8c-4f5a-9a68-f5cba4afe34e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Add User' or . = 'Add User')]</value>
+      <webElementGuid>c8fbe71c-0c6a-41b4-85fc-bf2499aac0bf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

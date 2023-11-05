@@ -71,8 +71,14 @@
       <value></value>
       <variableId>5e97499c-00d5-468d-8425-5b3075f40703</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>750e0c80-f265-446d-87f0-91c60800c1a2</variableId>
+   </variableLinks>
    <variable>
-      <defaultValue>'SWK'</defaultValue>
+      <defaultValue>'SWK-NewP'</defaultValue>
       <description></description>
       <id>b039f369-e24e-464c-8dd9-20e9ca04c222</id>
       <masked>false</masked>
@@ -121,14 +127,14 @@
       <name>Element_Quantity</name>
    </variable>
    <variable>
-      <defaultValue>'1'</defaultValue>
+      <defaultValue>0</defaultValue>
       <description></description>
       <id>ddbe6c8b-a3b6-44cc-be32-b8b80b036ec5</id>
       <masked>false</masked>
       <name>Element_CPA</name>
    </variable>
    <variable>
-      <defaultValue>'1'</defaultValue>
+      <defaultValue>0</defaultValue>
       <description></description>
       <id>1c6247db-708d-422f-a066-32a712c910fe</id>
       <masked>false</masked>
@@ -147,5 +153,12 @@
       <id>5e97499c-00d5-468d-8425-5b3075f40703</id>
       <masked>false</masked>
       <name>Total_Price</name>
+   </variable>
+   <variable>
+      <defaultValue>'Youghurt'</defaultValue>
+      <description></description>
+      <id>750e0c80-f265-446d-87f0-91c60800c1a2</id>
+      <masked>false</masked>
+      <name>Special_Notes</name>
    </variable>
 </TestCaseEntity>

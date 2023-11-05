@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login UI,Chrome 118.0.0.0,,,2023-10-25 18:48:59,2023-10-25 18:50:30,1m - 30.486s,ERROR
+,,,,,,,
+Test Cases/Login test/Login UI-1,Chrome 118.0.0.0,,,2023-10-25 18:49:00,2023-10-25 18:49:44,44.070s,ERROR
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-25 18:49:01,2023-10-25 18:49:11,9.938s,PASSED
+"navigateToUrl(""https://pointposmqa.live1.dev.radixweb.net/pointposm#/ZGFzaGJvYXJk"")",Chrome 118.0.0.0,,,2023-10-25 18:49:11,2023-10-25 18:49:36,24.878s,PASSED
+"com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(""Login UI"")",Chrome 118.0.0.0,,,2023-10-25 18:49:36,2023-10-25 18:49:44,8.255s,FAILED
+,,,,,,,
+Test Cases/Login test/Login UI-1,Chrome 118.0.0.0,,,2023-10-25 18:49:44,2023-10-25 18:50:30,45.273s,ERROR
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-25 18:49:44,2023-10-25 18:49:50,5.291s,PASSED
+"navigateToUrl(""https://pointposmqa.live1.dev.radixweb.net/pointposm#/ZGFzaGJvYXJk"")",Chrome 118.0.0.0,,,2023-10-25 18:49:50,2023-10-25 18:50:22,32.181s,PASSED
+"com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(""Login UI"")",Chrome 118.0.0.0,,,2023-10-25 18:50:22,2023-10-25 18:50:30,7.751s,FAILED

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_User Manager</name>
+   <tag></tag>
+   <elementGuidId>5b3b47d2-c986-4e31-bd28-7b41c7b974b7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='side-menu']/li[14]/ul/li[4]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>517ea46b-ebf4-4200-8228-35b818413d80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>redirectToModule(subItem.url, true)</value>
+      <webElementGuid>d3b42cd8-d35f-4b1f-a387-4f9fdd083077</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-binding</value>
+      <webElementGuid>2a051b13-3e0a-459e-81f8-18d2e4fae4ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>User Manager</value>
+      <webElementGuid>3d034a4c-2916-4058-b6b3-cd91c006c6a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;side-menu&quot;)/li[@class=&quot;ng-scope active&quot;]/ul[@class=&quot;nav nav-second-level collapse in&quot;]/li[@class=&quot;ng-scope&quot;]/a[@class=&quot;ng-binding&quot;]</value>
+      <webElementGuid>00dcf712-eadf-4316-a8a5-29bb52340e6a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='side-menu']/li[14]/ul/li[4]/a</value>
+      <webElementGuid>34a23f4b-4b9a-4a42-9d47-9bab93ea7ba1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'User Manager')]</value>
+      <webElementGuid>ae1c98b0-2caf-420a-97ea-0c8354c07ce3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Security Role'])[1]/following::a[1]</value>
+      <webElementGuid>3340ea62-8657-49f5-828e-be5d9405b33b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Structure Manager'])[1]/following::a[2]</value>
+      <webElementGuid>b87df325-1aa2-451c-90fd-2520f7b0da27</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Brand Manager'])[1]/preceding::a[1]</value>
+      <webElementGuid>4afa248f-dd7c-4259-9e42-ee786e987d81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unit Classes'])[1]/preceding::a[2]</value>
+      <webElementGuid>e5932a76-a3f0-439f-b4f3-31cb60e5a808</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='User Manager']/parent::*</value>
+      <webElementGuid>6ee8a655-8799-41d9-8483-e0006afede0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[14]/ul/li[4]/a</value>
+      <webElementGuid>62992e3c-01d8-4ed0-8f0d-310f3c6e4bef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'User Manager' or . = 'User Manager')]</value>
+      <webElementGuid>9103e657-2f14-43b9-9c1f-e6bf8e504386</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

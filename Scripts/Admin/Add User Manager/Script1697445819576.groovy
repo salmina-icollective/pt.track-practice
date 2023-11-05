@@ -34,54 +34,64 @@ WebUI.click(findTestObject('Object Repository/Admin - Add user manager/Page_Poin
 
 WebUI.click(findTestObject('Object Repository/Admin - Add user manager/Page_Point POSM/a_Add User'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Admin - Add user manager/Page_Point POSM/select_Select User TypeWebMobile'), 
-    '0', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Admin - Add user manager/Page_Point POSM/select_Select User TypeWebMobile'), 
+    User_Type, true)
 
 WebUI.setText(findTestObject('Object Repository/Admin - Add user manager/Page_Point POSM/input_First Name_form-control ng-pristine n_04448b'), 
-    'Sal')
+    First_Name)
 
 WebUI.setText(findTestObject('Object Repository/Admin - Add user manager/Page_Point POSM/input_Last Name_form-control ng-pristine ng_38b227'), 
-    'Lee')
+    Last_Name)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Admin - Add user manager/Page_Point POSM/select_Select TimeZone(GMT-1200) Internatio_f829c1'), 
-    '0', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Admin - Add user manager/Page_Point POSM/select_Select TimeZone(GMT-1200) Internatio_f829c1'), 
+    TimeZone1, false)
 
 WebUI.setText(findTestObject('Object Repository/Admin - Add user manager/Page_Point POSM/input_Email (Username)_form-control ng-scop_609227'), 
-    'sal@gmail.com')
+    Email_Username)
 
-WebUI.click(findTestObject('Object Repository/Admin - Add user manager/Page_Point POSM/input_F_06O'))
+//WebUI.check(findTestObject('Admin - Add user manager/Page_Point POSM/input_F_06O'))
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Admin - Add user manager/Page_Point POSM/select_Select CompanyA.M Design AgencyAddvi_c53b82'), 
+    Company, true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Admin - Add user manager/Page_Point POSM/select_Select CompanyA.M Design AgencyAddvi_c53b82'), 
-    '0', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Admin - Add user manager/Page_Point POSM/select_Select StructureAccount MDesign Mana_d4c27f'), 
+    C_Department, true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Admin - Add user manager/Page_Point POSM/select_Select StructureAccount MDesign Mana_d4c27f'), 
-    '0', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Admin - Add user manager/Page_Point POSM/select_Select CountryAfghanistanAlbaniaAlge_8ea0a4'), 
-    '0', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Admin - Add user manager/Page_Point POSM/select_Select CountryAfghanistanAlbaniaAlge_8ea0a4'), 
-    '50', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Admin - Add user manager/Page_Point POSM/select_Select CountryAfghanistanAlbaniaAlge_8ea0a4'), 
+    Country, true)
 
 WebUI.setText(findTestObject('Object Repository/Admin - Add user manager/Page_Point POSM/input_State_form-control ng-pristine ng-valid'), 
-    'State')
+    State)
 
 WebUI.setText(findTestObject('Object Repository/Admin - Add user manager/Page_Point POSM/input_City_form-control ng-pristine ng-valid'), 
-    'Johannesburg')
+    City)
 
 WebUI.setText(findTestObject('Object Repository/Admin - Add user manager/Page_Point POSM/input_Street_form-control ng-pristine ng-valid'), 
-    '01 ')
+    Street)
 
 WebUI.setText(findTestObject('Object Repository/Admin - Add user manager/Page_Point POSM/input_Postal Code_form-control ng-pristine _95092a'), 
-    '19868')
+    Postal_Code)
 
 WebUI.setText(findTestObject('Object Repository/Admin - Add user manager/Page_Point POSM/input_Mobile Phone No_form-control ng-scope_b75639'), 
-    '0626690979')
+    Mobile_N)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Admin - Add user manager/Page_Point POSM/select_Select RoleSuperAdminClient3rd Party_b43c2d'), 
-    '0', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Admin - Add user manager/Page_Point POSM/select_Select RoleSuperAdminClient3rd Party_b43c2d'), 
+    Role, true)
+
+WebUI.uploadFile(findTestObject('User-manager checkboxes/Input-profile-photo/input_Profile Photo_uploadImage'), Profile_Photo)
+
+OutputFile = WebUI.getText(findTestObject('User-manager checkboxes/Upload_image/Uploaded_img_name'))
+
+System.out.print(OutputFile + '***')
 
 WebUI.click(findTestObject('Object Repository/Admin - Add user manager/Page_Point POSM/input_Default User_module'))
 
+WebUI.check(findTestObject('User-manager checkboxes/Page_Point POSM/checkbox_Asset Tracker_module'))
+
+WebUI.setText(findTestObject('Admin - Add user manager/User_id/input_User Id'), User_id)
+
+WebUI.check(findTestObject('User-manager checkboxes/Page_Point POSM/Checkbox_Distribution Mail_ng-pristine ng-valid'))
+
 WebUI.click(findTestObject('Object Repository/Admin - Add user manager/Page_Point POSM/button_Save'))
+
+WebUI.closeBrowser()
 

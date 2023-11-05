@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ul_Brand_select2-choices</name>
+   <tag></tag>
+   <elementGuidId>71e30d2a-e89c-4322-975c-299b728416a4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='s2id_autogen3']/ul</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#s2id_autogen3 > ul.select2-choices</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ul</value>
+      <webElementGuid>76dc924d-b9ad-40a8-b322-083f4f50eca5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>select2-choices</value>
+      <webElementGuid>e0980338-5afc-42ef-9440-f9d806052f7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;s2id_autogen3&quot;)/ul[@class=&quot;select2-choices&quot;]</value>
+      <webElementGuid>3e38335d-6b54-488f-8201-3555be1085f0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='s2id_autogen3']/ul</value>
+      <webElementGuid>389bd51c-6d5f-45cb-8ff9-c12d3bbff153</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Brand'])[1]/following::ul[1]</value>
+      <webElementGuid>4916983c-3539-468e-8c1f-b6f5b39716d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Baby Foods'])[1]/following::ul[1]</value>
+      <webElementGuid>14b92034-1000-4a5a-9c3f-868f4759c880</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Element Details :'])[1]/preceding::ul[1]</value>
+      <webElementGuid>7e42ff1f-efc2-4751-a8f2-a459588e640d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Spec Details'])[1]/preceding::ul[1]</value>
+      <webElementGuid>18f2111c-1672-438b-ad4c-696ac5d6cc50</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/ul</value>
+      <webElementGuid>d2b84e17-56a4-4f1d-bfcd-69dd3caef569</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cereals'])[1]/following::ul[1]</value>
+      <webElementGuid>da483e57-e205-4fce-ab95-213c2781415a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Element Details :'])[1]/preceding::ul[2]</value>
+      <webElementGuid>9e7c3d65-d2db-463a-8b55-1096e0d93930</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Spec Details'])[1]/preceding::ul[2]</value>
+      <webElementGuid>b5481f44-8f90-4eae-b951-e37fff9ba782</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

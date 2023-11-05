@@ -1,0 +1,1445 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-10-25T18:48:59</date>
+  <millis>1698252539554</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Login UI/Login UI</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">false</property>
+  <property name="retryCount">0</property>
+  <property name="name">Login UI</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Login UI/Login UI</property>
+</record>
+<record>
+  <date>2023-10-25T18:48:59</date>
+  <millis>1698252539601</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Salmina Lephalle - DESKTOP-I5U5259</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">Salmina Lephalle - DESKTOP-I5U5259</property>
+</record>
+<record>
+  <date>2023-10-25T18:48:59</date>
+  <millis>1698252539602</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2023-10-25T18:48:59</date>
+  <millis>1698252539603</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.0.89</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">192.168.0.89</property>
+</record>
+<record>
+  <date>2023-10-25T18:48:59</date>
+  <millis>1698252539604</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 8.6.8.208</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">8.6.8.208</property>
+</record>
+<record>
+  <date>2023-10-25T18:49:00</date>
+  <millis>1698252540633</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Login test/Login UI-1</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/Login test/Login UI-1</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Login test/Login UI-1</property>
+  <property name="source">C:\Users\Salmina Lephalle\git\pt.track-practice\Test Cases\Login test\Login UI-1.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2023-10-25T18:49:01</date>
+  <millis>1698252541611</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">20</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2023-10-25T18:49:03</date>
+  <millis>1698252543927</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:49:04</date>
+  <millis>1698252544146</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:49:11</date>
+  <millis>1698252551451</millis>
+  <sequence>13</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = b034b2a46d7d1a24598c0560cd9b8151</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="sessionId">b034b2a46d7d1a24598c0560cd9b8151</property>
+</record>
+<record>
+  <date>2023-10-25T18:49:11</date>
+  <millis>1698252551491</millis>
+  <sequence>14</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 118.0.0.0</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="browser">Chrome 118.0.0.0</property>
+</record>
+<record>
+  <date>2023-10-25T18:49:11</date>
+  <millis>1698252551492</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2023-10-25T18:49:11</date>
+  <millis>1698252551493</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2023-10-25T18:49:11</date>
+  <millis>1698252551494</millis>
+  <sequence>17</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&amp;quot;&amp;quot;, isApplyToDesiredCapabilities=true }</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }</property>
+</record>
+<record>
+  <date>2023-10-25T18:49:11</date>
+  <millis>1698252551548</millis>
+  <sequence>18</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-10-25T18:49:11</date>
+  <millis>1698252551549</millis>
+  <sequence>19</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:49:11</date>
+  <millis>1698252551550</millis>
+  <sequence>20</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(&amp;quot;https://pointposmqa.live1.dev.radixweb.net/pointposm#/ZGFzaGJvYXJk&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">22</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2023-10-25T18:49:36</date>
+  <millis>1698252576425</millis>
+  <sequence>23</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://pointposmqa.live1.dev.radixweb.net/pointposm#/ZGFzaGJvYXJk&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-10-25T18:49:36</date>
+  <millis>1698252576428</millis>
+  <sequence>24</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(&amp;quot;https://pointposmqa.live1.dev.radixweb.net/pointposm#/ZGFzaGJvYXJk&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:49:36</date>
+  <millis>1698252576428</millis>
+  <sequence>25</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(&amp;quot;Login UI&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">24</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2023-10-25T18:49:37</date>
+  <millis>1698252577516</millis>
+  <sequence>26</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Use view port 1400x743</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:49:44</date>
+  <millis>1698252584674</millis>
+  <sequence>28</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>com.applitools.eyes.exceptions.TestFailedException: Failed to set the viewport size</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">com.applitools.eyes.EyesException</property>
+  <property name="failed.exception.stacktrace">com.applitools.eyes.EyesException: Failed to set viewport size!
+	at com.applitools.eyes.selenium.EyesDriverUtils.setViewportSize(EyesDriverUtils.java:561)
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1554)
+	at com.applitools.eyes.EyesBase.ensureViewportSize(EyesBase.java:1214)
+	at com.applitools.eyes.EyesBase.openBaseAsync(EyesBase.java:852)
+	at com.applitools.eyes.EyesBase.openBase(EyesBase.java:813)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:281)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:243)
+	at com.applitools.eyes.selenium.Eyes.open(Eyes.java:143)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:45)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252528773.run(TempTestSuite1698252528773.groovy:36)
+</property>
+  <property name="failed.exception.message">Failed to set viewport size!</property>
+</record>
+<record>
+  <date>2023-10-25T18:49:44</date>
+  <millis>1698252584679</millis>
+  <sequence>31</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Login test/Login UI-1 FAILED.
+Reason:
+com.applitools.eyes.exceptions.TestFailedException: Failed to set the viewport size
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1560)
+	at com.applitools.eyes.EyesBase.ensureViewportSize(EyesBase.java:1214)
+	at com.applitools.eyes.EyesBase.openBaseAsync(EyesBase.java:852)
+	at com.applitools.eyes.EyesBase.openBase(EyesBase.java:813)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:281)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:243)
+	at com.applitools.eyes.selenium.Eyes.open(Eyes.java:143)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:45)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252528773.run(TempTestSuite1698252528773.groovy:36)
+Caused by: com.applitools.eyes.EyesException: Failed to set viewport size!
+	at com.applitools.eyes.selenium.EyesDriverUtils.setViewportSize(EyesDriverUtils.java:561)
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1554)
+	... 23 more
+</message>
+  <exception>
+    <message>com.applitools.eyes.exceptions.TestFailedException: Failed to set the viewport size</message>
+    <frame>
+      <class>com.applitools.eyes.selenium.SeleniumEyes</class>
+      <method>setViewportSize</method>
+      <line>1560</line>
+    </frame>
+    <frame>
+      <class>com.applitools.eyes.EyesBase</class>
+      <method>ensureViewportSize</method>
+      <line>1214</line>
+    </frame>
+    <frame>
+      <class>com.applitools.eyes.EyesBase</class>
+      <method>openBaseAsync</method>
+      <line>852</line>
+    </frame>
+    <frame>
+      <class>com.applitools.eyes.EyesBase</class>
+      <method>openBase</method>
+      <line>813</line>
+    </frame>
+    <frame>
+      <class>com.applitools.eyes.selenium.SeleniumEyes</class>
+      <method>open</method>
+      <line>281</line>
+    </frame>
+    <frame>
+      <class>com.applitools.eyes.selenium.SeleniumEyes</class>
+      <method>open</method>
+      <line>243</line>
+    </frame>
+    <frame>
+      <class>com.applitools.eyes.selenium.Eyes</class>
+      <method>open</method>
+      <line>143</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.keyword.applitools.BasicKeywords</class>
+      <method>checkWindow</method>
+      <line>45</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.keyword.applitools.BasicKeywords</class>
+      <method>invokeMethod</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass</class>
+      <method>invokeStaticMethod</method>
+      <line>55</line>
+    </frame>
+    <frame>
+      <class>Login UI-1</class>
+      <method>run</method>
+      <line>24</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>448</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>418</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>148</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>187</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1698252528773</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">com.applitools.eyes.EyesException: Failed to set viewport size!
+	at com.applitools.eyes.selenium.EyesDriverUtils.setViewportSize(EyesDriverUtils.java:561)
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1554)
+	at com.applitools.eyes.EyesBase.ensureViewportSize(EyesBase.java:1214)
+	at com.applitools.eyes.EyesBase.openBaseAsync(EyesBase.java:852)
+	at com.applitools.eyes.EyesBase.openBase(EyesBase.java:813)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:281)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:243)
+	at com.applitools.eyes.selenium.Eyes.open(Eyes.java:143)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:45)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252528773.run(TempTestSuite1698252528773.groovy:36)
+</property>
+  <property name="failed.exception.class">com.applitools.eyes.EyesException</property>
+  <property name="failed.exception.message">Failed to set viewport size!</property>
+</record>
+<record>
+  <date>2023-10-25T18:49:44</date>
+  <millis>1698252584683</millis>
+  <sequence>33</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(&amp;quot;Login UI&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:49:44</date>
+  <millis>1698252584687</millis>
+  <sequence>37</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Login test/Login UI-1 FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: com.applitools.eyes.exceptions.TestFailedException: Failed to set the viewport size
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252528773.run(TempTestSuite1698252528773.groovy:36)
+Caused by: com.applitools.eyes.exceptions.TestFailedException: Failed to set the viewport size
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1560)
+	at com.applitools.eyes.EyesBase.ensureViewportSize(EyesBase.java:1214)
+	at com.applitools.eyes.EyesBase.openBaseAsync(EyesBase.java:852)
+	at com.applitools.eyes.EyesBase.openBase(EyesBase.java:813)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:281)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:243)
+	at com.applitools.eyes.selenium.Eyes.open(Eyes.java:143)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:45)
+	... 16 more
+Caused by: com.applitools.eyes.EyesException: Failed to set viewport size!
+	at com.applitools.eyes.selenium.EyesDriverUtils.setViewportSize(EyesDriverUtils.java:561)
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1554)
+	... 23 more
+</message>
+  <exception>
+    <message>org.codehaus.groovy.runtime.InvokerInvocationException: com.applitools.eyes.exceptions.TestFailedException: Failed to set the viewport size</message>
+    <frame>
+      <class>com.kms.katalon.keyword.applitools.BasicKeywords</class>
+      <method>invokeMethod</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass</class>
+      <method>invokeStaticMethod</method>
+      <line>55</line>
+    </frame>
+    <frame>
+      <class>Login UI-1</class>
+      <method>run</method>
+      <line>24</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>448</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>418</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>148</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>187</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1698252528773</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">com.applitools.eyes.EyesException: Failed to set viewport size!
+	at com.applitools.eyes.selenium.EyesDriverUtils.setViewportSize(EyesDriverUtils.java:561)
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1554)
+	at com.applitools.eyes.EyesBase.ensureViewportSize(EyesBase.java:1214)
+	at com.applitools.eyes.EyesBase.openBaseAsync(EyesBase.java:852)
+	at com.applitools.eyes.EyesBase.openBase(EyesBase.java:813)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:281)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:243)
+	at com.applitools.eyes.selenium.Eyes.open(Eyes.java:143)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:45)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252528773.run(TempTestSuite1698252528773.groovy:36)
+</property>
+  <property name="failed.exception.class">com.applitools.eyes.EyesException</property>
+  <property name="failed.exception.message">Failed to set viewport size!</property>
+</record>
+<record>
+  <date>2023-10-25T18:49:44</date>
+  <millis>1698252584703</millis>
+  <sequence>39</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Login test/Login UI-1</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">true</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: true,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2023-10-25T18:49:44</date>
+  <millis>1698252584767</millis>
+  <sequence>40</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Login test/Login UI-1</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/Login test/Login UI-1</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Login test/Login UI-1</property>
+  <property name="source">C:\Users\Salmina Lephalle\git\pt.track-practice\Test Cases\Login test\Login UI-1.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2023-10-25T18:49:44</date>
+  <millis>1698252584799</millis>
+  <sequence>42</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">20</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2023-10-25T18:49:44</date>
+  <millis>1698252584848</millis>
+  <sequence>44</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>A browser is already opened. Closing browser and opening a new one</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:49:45</date>
+  <millis>1698252585784</millis>
+  <sequence>45</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:49:45</date>
+  <millis>1698252585786</millis>
+  <sequence>47</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:49:49</date>
+  <millis>1698252589949</millis>
+  <sequence>49</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = d093cff1118644b3779728e5da84d273</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="sessionId">d093cff1118644b3779728e5da84d273</property>
+</record>
+<record>
+  <date>2023-10-25T18:49:49</date>
+  <millis>1698252589996</millis>
+  <sequence>50</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 118.0.0.0</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="browser">Chrome 118.0.0.0</property>
+</record>
+<record>
+  <date>2023-10-25T18:49:49</date>
+  <millis>1698252589997</millis>
+  <sequence>51</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2023-10-25T18:49:49</date>
+  <millis>1698252589997</millis>
+  <sequence>52</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2023-10-25T18:49:49</date>
+  <millis>1698252589998</millis>
+  <sequence>53</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&amp;quot;&amp;quot;, isApplyToDesiredCapabilities=true }</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }</property>
+</record>
+<record>
+  <date>2023-10-25T18:49:50</date>
+  <millis>1698252590089</millis>
+  <sequence>54</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-10-25T18:49:50</date>
+  <millis>1698252590090</millis>
+  <sequence>55</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:49:50</date>
+  <millis>1698252590090</millis>
+  <sequence>56</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(&amp;quot;https://pointposmqa.live1.dev.radixweb.net/pointposm#/ZGFzaGJvYXJk&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">22</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2023-10-25T18:50:22</date>
+  <millis>1698252622270</millis>
+  <sequence>59</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://pointposmqa.live1.dev.radixweb.net/pointposm#/ZGFzaGJvYXJk&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-10-25T18:50:22</date>
+  <millis>1698252622271</millis>
+  <sequence>60</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(&amp;quot;https://pointposmqa.live1.dev.radixweb.net/pointposm#/ZGFzaGJvYXJk&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:50:22</date>
+  <millis>1698252622271</millis>
+  <sequence>61</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(&amp;quot;Login UI&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">24</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2023-10-25T18:50:22</date>
+  <millis>1698252622288</millis>
+  <sequence>62</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Use view port 1400x743</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:50:30</date>
+  <millis>1698252630016</millis>
+  <sequence>64</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>com.applitools.eyes.exceptions.TestFailedException: Failed to set the viewport size</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">com.applitools.eyes.EyesException</property>
+  <property name="failed.exception.stacktrace">com.applitools.eyes.EyesException: Failed to set viewport size!
+	at com.applitools.eyes.selenium.EyesDriverUtils.setViewportSize(EyesDriverUtils.java:561)
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1554)
+	at com.applitools.eyes.EyesBase.ensureViewportSize(EyesBase.java:1214)
+	at com.applitools.eyes.EyesBase.openBaseAsync(EyesBase.java:852)
+	at com.applitools.eyes.EyesBase.openBase(EyesBase.java:813)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:281)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:243)
+	at com.applitools.eyes.selenium.Eyes.open(Eyes.java:143)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:45)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252528773.run(TempTestSuite1698252528773.groovy:36)
+</property>
+  <property name="failed.exception.message">Failed to set viewport size!</property>
+</record>
+<record>
+  <date>2023-10-25T18:50:30</date>
+  <millis>1698252630020</millis>
+  <sequence>67</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Login test/Login UI-1 FAILED.
+Reason:
+com.applitools.eyes.exceptions.TestFailedException: Failed to set the viewport size
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1560)
+	at com.applitools.eyes.EyesBase.ensureViewportSize(EyesBase.java:1214)
+	at com.applitools.eyes.EyesBase.openBaseAsync(EyesBase.java:852)
+	at com.applitools.eyes.EyesBase.openBase(EyesBase.java:813)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:281)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:243)
+	at com.applitools.eyes.selenium.Eyes.open(Eyes.java:143)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:45)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252528773.run(TempTestSuite1698252528773.groovy:36)
+Caused by: com.applitools.eyes.EyesException: Failed to set viewport size!
+	at com.applitools.eyes.selenium.EyesDriverUtils.setViewportSize(EyesDriverUtils.java:561)
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1554)
+	... 23 more
+</message>
+  <exception>
+    <message>com.applitools.eyes.exceptions.TestFailedException: Failed to set the viewport size</message>
+    <frame>
+      <class>com.applitools.eyes.selenium.SeleniumEyes</class>
+      <method>setViewportSize</method>
+      <line>1560</line>
+    </frame>
+    <frame>
+      <class>com.applitools.eyes.EyesBase</class>
+      <method>ensureViewportSize</method>
+      <line>1214</line>
+    </frame>
+    <frame>
+      <class>com.applitools.eyes.EyesBase</class>
+      <method>openBaseAsync</method>
+      <line>852</line>
+    </frame>
+    <frame>
+      <class>com.applitools.eyes.EyesBase</class>
+      <method>openBase</method>
+      <line>813</line>
+    </frame>
+    <frame>
+      <class>com.applitools.eyes.selenium.SeleniumEyes</class>
+      <method>open</method>
+      <line>281</line>
+    </frame>
+    <frame>
+      <class>com.applitools.eyes.selenium.SeleniumEyes</class>
+      <method>open</method>
+      <line>243</line>
+    </frame>
+    <frame>
+      <class>com.applitools.eyes.selenium.Eyes</class>
+      <method>open</method>
+      <line>143</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.keyword.applitools.BasicKeywords</class>
+      <method>checkWindow</method>
+      <line>45</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.keyword.applitools.BasicKeywords</class>
+      <method>invokeMethod</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass</class>
+      <method>invokeStaticMethod</method>
+      <line>55</line>
+    </frame>
+    <frame>
+      <class>Login UI-1</class>
+      <method>run</method>
+      <line>24</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>448</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>418</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>148</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>187</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1698252528773</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">com.applitools.eyes.EyesException: Failed to set viewport size!
+	at com.applitools.eyes.selenium.EyesDriverUtils.setViewportSize(EyesDriverUtils.java:561)
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1554)
+	at com.applitools.eyes.EyesBase.ensureViewportSize(EyesBase.java:1214)
+	at com.applitools.eyes.EyesBase.openBaseAsync(EyesBase.java:852)
+	at com.applitools.eyes.EyesBase.openBase(EyesBase.java:813)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:281)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:243)
+	at com.applitools.eyes.selenium.Eyes.open(Eyes.java:143)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:45)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252528773.run(TempTestSuite1698252528773.groovy:36)
+</property>
+  <property name="failed.exception.class">com.applitools.eyes.EyesException</property>
+  <property name="failed.exception.message">Failed to set viewport size!</property>
+</record>
+<record>
+  <date>2023-10-25T18:50:30</date>
+  <millis>1698252630022</millis>
+  <sequence>69</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(&amp;quot;Login UI&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:50:30</date>
+  <millis>1698252630037</millis>
+  <sequence>73</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Login test/Login UI-1 FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: com.applitools.eyes.exceptions.TestFailedException: Failed to set the viewport size
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252528773.run(TempTestSuite1698252528773.groovy:36)
+Caused by: com.applitools.eyes.exceptions.TestFailedException: Failed to set the viewport size
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1560)
+	at com.applitools.eyes.EyesBase.ensureViewportSize(EyesBase.java:1214)
+	at com.applitools.eyes.EyesBase.openBaseAsync(EyesBase.java:852)
+	at com.applitools.eyes.EyesBase.openBase(EyesBase.java:813)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:281)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:243)
+	at com.applitools.eyes.selenium.Eyes.open(Eyes.java:143)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:45)
+	... 16 more
+Caused by: com.applitools.eyes.EyesException: Failed to set viewport size!
+	at com.applitools.eyes.selenium.EyesDriverUtils.setViewportSize(EyesDriverUtils.java:561)
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1554)
+	... 23 more
+</message>
+  <exception>
+    <message>org.codehaus.groovy.runtime.InvokerInvocationException: com.applitools.eyes.exceptions.TestFailedException: Failed to set the viewport size</message>
+    <frame>
+      <class>com.kms.katalon.keyword.applitools.BasicKeywords</class>
+      <method>invokeMethod</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass</class>
+      <method>invokeStaticMethod</method>
+      <line>55</line>
+    </frame>
+    <frame>
+      <class>Login UI-1</class>
+      <method>run</method>
+      <line>24</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>448</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>418</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>148</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>187</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1698252528773</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">com.applitools.eyes.EyesException: Failed to set viewport size!
+	at com.applitools.eyes.selenium.EyesDriverUtils.setViewportSize(EyesDriverUtils.java:561)
+	at com.applitools.eyes.selenium.SeleniumEyes.setViewportSize(SeleniumEyes.java:1554)
+	at com.applitools.eyes.EyesBase.ensureViewportSize(EyesBase.java:1214)
+	at com.applitools.eyes.EyesBase.openBaseAsync(EyesBase.java:852)
+	at com.applitools.eyes.EyesBase.openBase(EyesBase.java:813)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:281)
+	at com.applitools.eyes.selenium.SeleniumEyes.open(SeleniumEyes.java:243)
+	at com.applitools.eyes.selenium.Eyes.open(Eyes.java:143)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:45)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252528773.run(TempTestSuite1698252528773.groovy:36)
+</property>
+  <property name="failed.exception.class">com.applitools.eyes.EyesException</property>
+  <property name="failed.exception.message">Failed to set viewport size!</property>
+</record>
+<record>
+  <date>2023-10-25T18:50:30</date>
+  <millis>1698252630040</millis>
+  <sequence>75</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Login test/Login UI-1</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">true</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: true,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2023-10-25T18:50:30</date>
+  <millis>1698252630041</millis>
+  <sequence>76</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:50:30</date>
+  <millis>1698252630794</millis>
+  <sequence>176</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating HTML report folder at: C:\Users\Salmina Lephalle\git\pt.track-practice\Reports\20231025_184847\Login UI\Login UI\20231025_184848...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:50:30</date>
+  <millis>1698252630911</millis>
+  <sequence>177</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HTML report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:50:30</date>
+  <millis>1698252630912</millis>
+  <sequence>178</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating CSV report folder at: C:\Users\Salmina Lephalle\git\pt.track-practice\Reports\20231025_184847\Login UI\Login UI\20231025_184848...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:50:30</date>
+  <millis>1698252630996</millis>
+  <sequence>179</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CSV report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:50:31</date>
+  <millis>1698252631044</millis>
+  <sequence>181</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:50:32</date>
+  <millis>1698252632096</millis>
+  <sequence>182</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Login UI/Login UI</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>

@@ -6,16 +6,16 @@
    <elementGuidId>74ce2cf3-ee86-4160-ae00-4f93f30bc519</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = '${ProjID}' or . = '${ProjID}')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span > a.ng-binding</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//table[@id='projectGrid']/tbody/tr/td[3]/span/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '${ProjID}' or . = '${ProjID}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>51794be3-80e2-4c00-b40a-4b1a5ae51fd6</webElementGuid>
+      <webElementGuid>da6ca4a1-f805-4af5-94c6-39868994c20f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#/cHJvamVjdHM00/NDkw</value>
-      <webElementGuid>27e044af-166b-40c8-ad0d-5c2f15e839ed</webElementGuid>
+      <webElementGuid>fd497b6a-1620-414b-80a6-4021f1b40342</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,15 +42,15 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-binding</value>
-      <webElementGuid>bea2aa20-0c88-4ed5-9850-7468afed6f6e</webElementGuid>
+      <webElementGuid>4384ad29-c7cc-4316-b95b-ac7e2db38691</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>${ProjID}</value>
-      <webElementGuid>161db1a8-791f-4732-b55a-eedf454127a3</webElementGuid>
+      <webElementGuid>baa926f6-71b2-42a7-b0b7-aa768e21a911</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;projectGrid&quot;)/tbody[1]/tr[@class=&quot;undefined ng-scope&quot;]/td[3]/span[1]/a[@class=&quot;ng-binding&quot;]</value>
-      <webElementGuid>50abe4fd-3365-4948-9a9a-c0d70a42fdbc</webElementGuid>
+      <webElementGuid>3b6343e4-d1bb-4dd8-8bcc-f3dd74db1188</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='projectGrid']/tbody/tr/td[3]/span/a</value>
-      <webElementGuid>ba5b4fbd-2f46-4f6d-80ed-02944c17e41b</webElementGuid>
+      <webElementGuid>1ac8a3e7-80c2-41bc-8980-b5f2405f626b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'11820074, Sensodyne 2017 Q1 Campaign')]</value>
-      <webElementGuid>117bc1a8-72ef-4fae-b1b4-8bd49b247498</webElementGuid>
+      <webElementGuid>d58d97bb-150d-4e7f-99c9-14746b00cba9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='|'])[1]/following::a[1]</value>
-      <webElementGuid>a83ecf59-294c-4d70-9735-9a88080880d0</webElementGuid>
+      <webElementGuid>ead2ffdb-804a-404c-be9e-a12dd62714d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirmed Specs'])[1]/following::a[1]</value>
-      <webElementGuid>800e8718-a205-4bd0-8cdf-0e7f0e78478b</webElementGuid>
+      <webElementGuid>b4618569-a231-4cde-b1e4-9bc942c9d706</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[1]/preceding::a[1]</value>
-      <webElementGuid>a89e738f-a6d7-4aaf-a430-02fbcd98d287</webElementGuid>
+      <webElementGuid>5c6b89e0-af85-45bb-a205-54a5d99a9603</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[2]/preceding::a[1]</value>
-      <webElementGuid>39bcccc6-0477-4389-957d-dbe67b66fcea</webElementGuid>
+      <webElementGuid>6dd5aad8-a0a0-417d-8368-2fa39650ab9a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='11820074, Sensodyne 2017 Q1 Campaign']/parent::*</value>
-      <webElementGuid>56a48758-315b-481a-ae12-f35c22794063</webElementGuid>
+      <webElementGuid>608cacf7-1cc3-4bc7-a7d0-1862de8981fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#/cHJvamVjdHM00/NDkw')]</value>
-      <webElementGuid>32095286-fd60-4245-8c57-3dd07484ad22</webElementGuid>
+      <webElementGuid>a95bdd94-b2f6-4053-92e1-ac161d1b9e43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/a</value>
-      <webElementGuid>6524d3f5-58c1-4448-a34e-a1d7bbf7b3ef</webElementGuid>
+      <webElementGuid>aa1e70e0-cf5f-4336-897b-99a7c5ff56b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#/cHJvamVjdHM00/NDkw' and (text() = '11820074, Sensodyne 2017 Q1 Campaign' or . = '11820074, Sensodyne 2017 Q1 Campaign')]</value>
-      <webElementGuid>3d24717e-c26f-4ab9-bb4f-d277ff07e67e</webElementGuid>
+      <webElementGuid>fd356966-45f8-45cd-9d5c-033b4d83eb60</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

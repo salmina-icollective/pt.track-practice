@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="User_manager" time="512.533" tests="4" failures="2" errors="0">
+   <testsuite name="User_manager" tests="4" failures="2" errors="0" time="512.533" skipped="0" timestamp="2023-11-03 12:20:58" hostname="Salmina Lephalle - DESKTOP-I5U5259" id="Test Suites/Add_User_Manger/User_manager">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Salmina Lephalle\\git\\pt.track-practice\\Reports\\20231103_122045\\Add_User_Manger\\User_manager\\20231103_122045"/>
+         <property name="logFiles" value="C:\\Users\\Salmina Lephalle\\git\\pt.track-practice\\Reports\\20231103_122045\\Add_User_Manger\\User_manager\\20231103_122045\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Salmina Lephalle\\git\\pt.track-practice\\Reports\\20231103_122045\\Add_User_Manger\\User_manager\\20231103_122045\\1699007106148.png, C:\\Users\\Salmina Lephalle\\git\\pt.track-practice\\Reports\\20231103_122045\\Add_User_Manger\\User_manager\\20231103_122045\\1699007370495.png"/>
+         <property name="hostName" value="Salmina Lephalle - DESKTOP-I5U5259"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 118.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.89"/>
+         <property name="sessionId" value="103584b6f48b61549390060356674248"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Admin/Add user manager_Data" time="130.602" classname="Test Cases/Admin/Add user manager_Data" status="PASSED">
+         <system-out><![CDATA[2023-11-03 12:20:59 - [TEST_CASE][PASSED] - Test Cases/Admin/Add user manager_Data: Test Cases/Admin/Add user manager_Data
+
+2023-11-03 12:21:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-03 12:21:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-03 12:21:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-03 12:21:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-03 12:21:09 - [TEST_STEP][PASSED] - navigateToUrl("https://pointposmqa.live1.dev.radixweb.net/pointposm#/dXNlcg0000/UG9zdA0000"): Navigate to 'https://pointposmqa.live1.dev.radixweb.net/pointposm#/dXNlcg0000/UG9zdA0000' successfully
+
+2023-11-03 12:21:10 - [MESSAGE][PASSED] - Navigate to 'https://pointposmqa.live1.dev.radixweb.net/pointposm#/dXNlcg0000/UG9zdA0000' successfully
+
+2023-11-03 12:21:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_Login_email"), "Raeesa@pointgroup.biz"): Text 'Raeesa@pointgroup.biz' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Login_email'
+
+2023-11-03 12:21:32 - [MESSAGE][PASSED] - Text 'Raeesa@pointgroup.biz' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Login_email'
+
+2023-11-03 12:21:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_Login_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Login_password'
+
+2023-11-03 12:21:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Login_password'
+
+2023-11-03 12:21:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/button_Sign in")): Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/button_Sign in' is clicked on
+
+2023-11-03 12:21:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/button_Sign in' is clicked on
+
+2023-11-03 12:21:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/span_Admin")): Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/span_Admin' is clicked on
+
+2023-11-03 12:21:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/span_Admin' is clicked on
+
+2023-11-03 12:21:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/a_User Manager")): Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/a_User Manager' is clicked on
+
+2023-11-03 12:21:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/a_User Manager' is clicked on
+
+2023-11-03 12:21:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/a_Add User")): Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/a_Add User' is clicked on
+
+2023-11-03 12:22:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/a_Add User' is clicked on
+
+2023-11-03 12:22:28 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/select_Select User TypeWebMobile"), User_Type, true): All options with label 'Web' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select User TypeWebMobile'  using regular expression
+
+2023-11-03 12:22:40 - [MESSAGE][PASSED] - All options with label 'Web' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select User TypeWebMobile'  using regular expression
+
+2023-11-03 12:22:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_First Name_form-control ng-pristine n_04448b"), First_Name): Text 'Kgomotso' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_First Name_form-control ng-pristine n_04448b'
+
+2023-11-03 12:22:41 - [MESSAGE][PASSED] - Text 'Kgomotso' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_First Name_form-control ng-pristine n_04448b'
+
+2023-11-03 12:22:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_Last Name_form-control ng-pristine ng_38b227"), Last_Name): Text 'Moatshe' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Last Name_form-control ng-pristine ng_38b227'
+
+2023-11-03 12:22:42 - [MESSAGE][PASSED] - Text 'Moatshe' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Last Name_form-control ng-pristine ng_38b227'
+
+2023-11-03 12:22:42 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/select_Select TimeZone(GMT-1200) Internatio_f829c1"), TimeZone1, false): All options with label '(GMT-09:00) Alaska' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select TimeZone(GMT-1200) Internatio_f829c1' 
+
+2023-11-03 12:22:43 - [MESSAGE][PASSED] - All options with label '(GMT-09:00) Alaska' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select TimeZone(GMT-1200) Internatio_f829c1' 
+
+2023-11-03 12:22:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_Email (Username)_form-control ng-scop_609227"), Email_Username): Text 'Kgomotso@gmail.com' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Email (Username)_form-control ng-scop_609227'
+
+2023-11-03 12:22:44 - [MESSAGE][PASSED] - Text 'Kgomotso@gmail.com' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Email (Username)_form-control ng-scop_609227'
+
+2023-11-03 12:22:44 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/select_Select CompanyA.M Design AgencyAddvi_c53b82"), Company, true): All options with label 'A.M Design Agency' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select CompanyA.M Design AgencyAddvi_c53b82'  using regular expression
+
+2023-11-03 12:22:47 - [MESSAGE][PASSED] - All options with label 'A.M Design Agency' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select CompanyA.M Design AgencyAddvi_c53b82'  using regular expression
+
+2023-11-03 12:22:47 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/select_Select StructureAccount MDesign Mana_d4c27f"), C_Department, true): All options with label 'Account M' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select StructureAccount MDesign Mana_d4c27f'  using regular expression
+
+2023-11-03 12:22:48 - [MESSAGE][PASSED] - All options with label 'Account M' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select StructureAccount MDesign Mana_d4c27f'  using regular expression
+
+2023-11-03 12:22:48 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/select_Select CountryAfghanistanAlbaniaAlge_8ea0a4"), Country, true): All options with label 'Chile' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select CountryAfghanistanAlbaniaAlge_8ea0a4'  using regular expression
+
+2023-11-03 12:22:52 - [MESSAGE][PASSED] - All options with label 'Chile' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select CountryAfghanistanAlbaniaAlge_8ea0a4'  using regular expression
+
+2023-11-03 12:22:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_State_form-control ng-pristine ng-valid"), State): Text 'Europe' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_State_form-control ng-pristine ng-valid'
+
+2023-11-03 12:22:52 - [MESSAGE][PASSED] - Text 'Europe' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_State_form-control ng-pristine ng-valid'
+
+2023-11-03 12:22:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_City_form-control ng-pristine ng-valid"), City): Text 'Brussels' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_City_form-control ng-pristine ng-valid'
+
+2023-11-03 12:22:53 - [MESSAGE][PASSED] - Text 'Brussels' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_City_form-control ng-pristine ng-valid'
+
+2023-11-03 12:22:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_Street_form-control ng-pristine ng-valid"), Street): Text 'Indoo' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Street_form-control ng-pristine ng-valid'
+
+2023-11-03 12:22:54 - [MESSAGE][PASSED] - Text 'Indoo' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Street_form-control ng-pristine ng-valid'
+
+2023-11-03 12:22:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_Postal Code_form-control ng-pristine _95092a"), Postal_Code): Text '4099' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Postal Code_form-control ng-pristine _95092a'
+
+2023-11-03 12:22:55 - [MESSAGE][PASSED] - Text '4099' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Postal Code_form-control ng-pristine _95092a'
+
+2023-11-03 12:22:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_Mobile Phone No_form-control ng-scope_b75639"), Mobile_N): Text '677170642' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Mobile Phone No_form-control ng-scope_b75639'
+
+2023-11-03 12:22:56 - [MESSAGE][PASSED] - Text '677170642' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Mobile Phone No_form-control ng-scope_b75639'
+
+2023-11-03 12:22:56 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/select_Select RoleSuperAdminClient3rd Party_b43c2d"), Role, true): All options with label 'UFS' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select RoleSuperAdminClient3rd Party_b43c2d'  using regular expression
+
+2023-11-03 12:22:58 - [MESSAGE][PASSED] - All options with label 'UFS' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select RoleSuperAdminClient3rd Party_b43c2d'  using regular expression
+
+2023-11-03 12:22:58 - [TEST_STEP][PASSED] - uploadFile(findTestObject("User-manager checkboxes/Input-profile-photo/input_Profile Photo_uploadImage"), Profile_Photo): File 'C:\Users\Salmina Lephalle\OneDrive - Point\Pictures\img.jpg' sent to object: 'Object Repository/User-manager checkboxes/Input-profile-photo/input_Profile Photo_uploadImage'
+
+2023-11-03 12:22:59 - [MESSAGE][PASSED] - File 'C:\Users\Salmina Lephalle\OneDrive - Point\Pictures\img.jpg' sent to object: 'Object Repository/User-manager checkboxes/Input-profile-photo/input_Profile Photo_uploadImage'
+
+2023-11-03 12:22:59 - [TEST_STEP][PASSED] - OutputFile = getText(findTestObject("User-manager checkboxes/Upload_image/Uploaded_img_name")): Text of object 'Object Repository/User-manager checkboxes/Upload_image/Uploaded_img_name' is: 'img.jpg'
+
+2023-11-03 12:23:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/User-manager checkboxes/Upload_image/Uploaded_img_name' is: 'img.jpg'
+
+2023-11-03 12:23:04 - [TEST_STEP][PASSED] - out.print(OutputFile + "***"): null
+
+2023-11-03 12:23:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_Default User_module")): Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Default User_module' is clicked on
+
+2023-11-03 12:23:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Default User_module' is clicked on
+
+2023-11-03 12:23:05 - [TEST_STEP][PASSED] - check(findTestObject("User-manager checkboxes/Page_Point POSM/checkbox_Asset Tracker_module")): Object 'Object Repository/User-manager checkboxes/Page_Point POSM/checkbox_Asset Tracker_module' is checked
+
+2023-11-03 12:23:05 - [MESSAGE][PASSED] - Object 'Object Repository/User-manager checkboxes/Page_Point POSM/checkbox_Asset Tracker_module' is checked
+
+2023-11-03 12:23:05 - [TEST_STEP][PASSED] - setText(findTestObject("Admin - Add user manager/User_id/input_User Id"), User_Id): Text '112' is set on object 'Object Repository/Admin - Add user manager/User_id/input_User Id'
+
+2023-11-03 12:23:06 - [MESSAGE][PASSED] - Text '112' is set on object 'Object Repository/Admin - Add user manager/User_id/input_User Id'
+
+2023-11-03 12:23:06 - [TEST_STEP][PASSED] - check(findTestObject("User-manager checkboxes/Page_Point POSM/Checkbox_Distribution Mail_ng-pristine ng-valid")): Object 'Object Repository/User-manager checkboxes/Page_Point POSM/Checkbox_Distribution Mail_ng-pristine ng-valid' is checked
+
+2023-11-03 12:23:07 - [MESSAGE][PASSED] - Object 'Object Repository/User-manager checkboxes/Page_Point POSM/Checkbox_Distribution Mail_ng-pristine ng-valid' is checked
+
+2023-11-03 12:23:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/button_Save")): Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/button_Save' is clicked on
+
+2023-11-03 12:23:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/button_Save' is clicked on
+
+2023-11-03 12:23:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-03 12:23:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Add user manager_Data" time="115.792" classname="Test Cases/Admin/Add user manager_Data" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Admin/Add user manager_Data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:\Users\Salmina Lephalle\OneDrive - Point\Pictures\img1.jpg' to object 'Object Repository/User-manager checkboxes/Input-profile-photo/input_Profile Photo_uploadImage'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$5.call(Unknown Source)
+	at Add user manager_Data.run(Add user manager_Data:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699006845074.run(TempTestSuite1699006845074.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\Salmina Lephalle\OneDrive - Point\Pictures\img1.jpg
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I5U5259', ip: '192.168.0.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\SALMIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64997}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09cef3bdac134da39ea666ef50546671
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-11-03 12:23:10 - [TEST_CASE][FAILED] - Test Cases/Admin/Add user manager_Data: Test Cases/Admin/Add user manager_Data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:\Users\Salmina Lephalle\OneDrive - Point\Pictures\img1.jpg' to object 'Object Repository/User-manager checkboxes/Input-profile-photo/input_Profile Photo_uploadImage'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$5.call(Unknown Source)
+	at Add user manager_Data.run(Add user manager_Data:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699006845074.run(TempTestSuite1699006845074.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\Salmina Lephalle\OneDrive - Point\Pictures\img1.jpg
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I5U5259', ip: '192.168.0.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\SALMIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64997}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09cef3bdac134da39ea666ef50546671
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-11-03 12:23:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-03 12:23:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-03 12:23:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-03 12:23:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-03 12:23:14 - [TEST_STEP][PASSED] - navigateToUrl("https://pointposmqa.live1.dev.radixweb.net/pointposm#/dXNlcg0000/UG9zdA0000"): Navigate to 'https://pointposmqa.live1.dev.radixweb.net/pointposm#/dXNlcg0000/UG9zdA0000' successfully
+
+2023-11-03 12:23:16 - [MESSAGE][PASSED] - Navigate to 'https://pointposmqa.live1.dev.radixweb.net/pointposm#/dXNlcg0000/UG9zdA0000' successfully
+
+2023-11-03 12:23:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_Login_email"), "Raeesa@pointgroup.biz"): Text 'Raeesa@pointgroup.biz' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Login_email'
+
+2023-11-03 12:23:32 - [MESSAGE][PASSED] - Text 'Raeesa@pointgroup.biz' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Login_email'
+
+2023-11-03 12:23:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_Login_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Login_password'
+
+2023-11-03 12:23:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Login_password'
+
+2023-11-03 12:23:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/button_Sign in")): Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/button_Sign in' is clicked on
+
+2023-11-03 12:23:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/button_Sign in' is clicked on
+
+2023-11-03 12:23:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/span_Admin")): Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/span_Admin' is clicked on
+
+2023-11-03 12:23:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/span_Admin' is clicked on
+
+2023-11-03 12:23:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/a_User Manager")): Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/a_User Manager' is clicked on
+
+2023-11-03 12:23:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/a_User Manager' is clicked on
+
+2023-11-03 12:23:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/a_Add User")): Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/a_Add User' is clicked on
+
+2023-11-03 12:24:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/a_Add User' is clicked on
+
+2023-11-03 12:24:18 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/select_Select User TypeWebMobile"), User_Type, true): All options with label 'Mobile' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select User TypeWebMobile'  using regular expression
+
+2023-11-03 12:24:48 - [MESSAGE][PASSED] - All options with label 'Mobile' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select User TypeWebMobile'  using regular expression
+
+2023-11-03 12:24:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_First Name_form-control ng-pristine n_04448b"), First_Name): Text 'Tebatso' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_First Name_form-control ng-pristine n_04448b'
+
+2023-11-03 12:24:49 - [MESSAGE][PASSED] - Text 'Tebatso' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_First Name_form-control ng-pristine n_04448b'
+
+2023-11-03 12:24:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_Last Name_form-control ng-pristine ng_38b227"), Last_Name): Text 'Phukubje' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Last Name_form-control ng-pristine ng_38b227'
+
+2023-11-03 12:24:50 - [MESSAGE][PASSED] - Text 'Phukubje' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Last Name_form-control ng-pristine ng_38b227'
+
+2023-11-03 12:24:50 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/select_Select TimeZone(GMT-1200) Internatio_f829c1"), TimeZone1, false): All options with label '(GMT-07:00) Chihuahua, La Paz, Mazatlan' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select TimeZone(GMT-1200) Internatio_f829c1' 
+
+2023-11-03 12:24:50 - [MESSAGE][PASSED] - All options with label '(GMT-07:00) Chihuahua, La Paz, Mazatlan' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select TimeZone(GMT-1200) Internatio_f829c1' 
+
+2023-11-03 12:24:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_Email (Username)_form-control ng-scop_609227"), Email_Username): Text 'Tebatso@gmail.com' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Email (Username)_form-control ng-scop_609227'
+
+2023-11-03 12:24:51 - [MESSAGE][PASSED] - Text 'Tebatso@gmail.com' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Email (Username)_form-control ng-scop_609227'
+
+2023-11-03 12:24:51 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/select_Select CompanyA.M Design AgencyAddvi_c53b82"), Company, true): All options with label 'Cactus' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select CompanyA.M Design AgencyAddvi_c53b82'  using regular expression
+
+2023-11-03 12:24:54 - [MESSAGE][PASSED] - All options with label 'Cactus' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select CompanyA.M Design AgencyAddvi_c53b82'  using regular expression
+
+2023-11-03 12:24:54 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/select_Select StructureAccount MDesign Mana_d4c27f"), C_Department, true): All options with label 'Execution Mobile User' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select StructureAccount MDesign Mana_d4c27f'  using regular expression
+
+2023-11-03 12:24:55 - [MESSAGE][PASSED] - All options with label 'Execution Mobile User' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select StructureAccount MDesign Mana_d4c27f'  using regular expression
+
+2023-11-03 12:24:55 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/select_Select CountryAfghanistanAlbaniaAlge_8ea0a4"), Country, true): All options with label 'Chad' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select CountryAfghanistanAlbaniaAlge_8ea0a4'  using regular expression
+
+2023-11-03 12:24:59 - [MESSAGE][PASSED] - All options with label 'Chad' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select CountryAfghanistanAlbaniaAlge_8ea0a4'  using regular expression
+
+2023-11-03 12:24:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_State_form-control ng-pristine ng-valid"), State): Text 'India' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_State_form-control ng-pristine ng-valid'
+
+2023-11-03 12:25:00 - [MESSAGE][PASSED] - Text 'India' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_State_form-control ng-pristine ng-valid'
+
+2023-11-03 12:25:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_City_form-control ng-pristine ng-valid"), City): Text 'Iraq' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_City_form-control ng-pristine ng-valid'
+
+2023-11-03 12:25:01 - [MESSAGE][PASSED] - Text 'Iraq' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_City_form-control ng-pristine ng-valid'
+
+2023-11-03 12:25:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_Street_form-control ng-pristine ng-valid"), Street): Text 'Muhha' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Street_form-control ng-pristine ng-valid'
+
+2023-11-03 12:25:02 - [MESSAGE][PASSED] - Text 'Muhha' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Street_form-control ng-pristine ng-valid'
+
+2023-11-03 12:25:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_Postal Code_form-control ng-pristine _95092a"), Postal_Code): Text '1355' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Postal Code_form-control ng-pristine _95092a'
+
+2023-11-03 12:25:03 - [MESSAGE][PASSED] - Text '1355' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Postal Code_form-control ng-pristine _95092a'
+
+2023-11-03 12:25:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_Mobile Phone No_form-control ng-scope_b75639"), Mobile_N): Text '677170643' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Mobile Phone No_form-control ng-scope_b75639'
+
+2023-11-03 12:25:04 - [MESSAGE][PASSED] - Text '677170643' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Mobile Phone No_form-control ng-scope_b75639'
+
+2023-11-03 12:25:04 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/select_Select RoleSuperAdminClient3rd Party_b43c2d"), Role, true): All options with label 'DSV' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select RoleSuperAdminClient3rd Party_b43c2d'  using regular expression
+
+2023-11-03 12:25:05 - [MESSAGE][PASSED] - All options with label 'DSV' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select RoleSuperAdminClient3rd Party_b43c2d'  using regular expression
+
+2023-11-03 12:25:05 - [TEST_STEP][FAILED] - uploadFile(findTestObject("User-manager checkboxes/Input-profile-photo/input_Profile Photo_uploadImage"), Profile_Photo): Unable to upload file 'C:\Users\Salmina Lephalle\OneDrive - Point\Pictures\img1.jpg' to object 'Object Repository/User-manager checkboxes/Input-profile-photo/input_Profile Photo_uploadImage' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:\Users\Salmina Lephalle\OneDrive - Point\Pictures\img1.jpg' to object 'Object Repository/User-manager checkboxes/Input-profile-photo/input_Profile Photo_uploadImage'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$5.call(Unknown Source)
+	at Add user manager_Data.run(Add user manager_Data:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699006845074.run(TempTestSuite1699006845074.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\Salmina Lephalle\OneDrive - Point\Pictures\img1.jpg
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I5U5259', ip: '192.168.0.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\SALMIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64997}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09cef3bdac134da39ea666ef50546671
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$5.call(Unknown Source)
+	at Script1699004665820.run(Script1699004665820.groovy:80)
+	... 13 more
+)
+
+2023-11-03 12:25:06 - [MESSAGE][FAILED] - Unable to upload file 'C:\Users\Salmina Lephalle\OneDrive - Point\Pictures\img1.jpg' to object 'Object Repository/User-manager checkboxes/Input-profile-photo/input_Profile Photo_uploadImage' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:\Users\Salmina Lephalle\OneDrive - Point\Pictures\img1.jpg' to object 'Object Repository/User-manager checkboxes/Input-profile-photo/input_Profile Photo_uploadImage'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$5.call(Unknown Source)
+	at Add user manager_Data.run(Add user manager_Data:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699006845074.run(TempTestSuite1699006845074.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\Salmina Lephalle\OneDrive - Point\Pictures\img1.jpg
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I5U5259', ip: '192.168.0.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\SALMIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64997}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09cef3bdac134da39ea666ef50546671
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$5.call(Unknown Source)
+	at Script1699004665820.run(Script1699004665820.groovy:80)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Salmina Lephalle\\git\\pt.track-practice\\Reports\\20231103_122045\\Add_User_Manger\\User_manager\\20231103_122045\\1699007106148.png]]]]></system-out>
+         <system-err><![CDATA[2023-11-03 12:23:10 - [TEST_CASE][FAILED] - Test Cases/Admin/Add user manager_Data: Test Cases/Admin/Add user manager_Data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:\Users\Salmina Lephalle\OneDrive - Point\Pictures\img1.jpg' to object 'Object Repository/User-manager checkboxes/Input-profile-photo/input_Profile Photo_uploadImage'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$5.call(Unknown Source)
+	at Add user manager_Data.run(Add user manager_Data:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699006845074.run(TempTestSuite1699006845074.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\Salmina Lephalle\OneDrive - Point\Pictures\img1.jpg
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I5U5259', ip: '192.168.0.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\SALMIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64997}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09cef3bdac134da39ea666ef50546671
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Add user manager_Data" time="160.283" classname="Test Cases/Admin/Add user manager_Data" status="PASSED">
+         <system-out><![CDATA[2023-11-03 12:25:06 - [TEST_CASE][PASSED] - Test Cases/Admin/Add user manager_Data: Test Cases/Admin/Add user manager_Data
+
+2023-11-03 12:25:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-03 12:25:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-11-03 12:25:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-03 12:25:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-03 12:25:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-03 12:25:35 - [TEST_STEP][PASSED] - navigateToUrl("https://pointposmqa.live1.dev.radixweb.net/pointposm#/dXNlcg0000/UG9zdA0000"): Navigate to 'https://pointposmqa.live1.dev.radixweb.net/pointposm#/dXNlcg0000/UG9zdA0000' successfully
+
+2023-11-03 12:25:58 - [MESSAGE][PASSED] - Navigate to 'https://pointposmqa.live1.dev.radixweb.net/pointposm#/dXNlcg0000/UG9zdA0000' successfully
+
+2023-11-03 12:25:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_Login_email"), "Raeesa@pointgroup.biz"): Text 'Raeesa@pointgroup.biz' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Login_email'
+
+2023-11-03 12:25:59 - [MESSAGE][PASSED] - Text 'Raeesa@pointgroup.biz' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Login_email'
+
+2023-11-03 12:25:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_Login_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Login_password'
+
+2023-11-03 12:26:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Login_password'
+
+2023-11-03 12:26:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/button_Sign in")): Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/button_Sign in' is clicked on
+
+2023-11-03 12:26:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/button_Sign in' is clicked on
+
+2023-11-03 12:26:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/span_Admin")): Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/span_Admin' is clicked on
+
+2023-11-03 12:26:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/span_Admin' is clicked on
+
+2023-11-03 12:26:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/a_User Manager")): Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/a_User Manager' is clicked on
+
+2023-11-03 12:26:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/a_User Manager' is clicked on
+
+2023-11-03 12:26:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/a_Add User")): Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/a_Add User' is clicked on
+
+2023-11-03 12:27:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/a_Add User' is clicked on
+
+2023-11-03 12:27:02 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/select_Select User TypeWebMobile"), User_Type, true): All options with label 'Web' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select User TypeWebMobile'  using regular expression
+
+2023-11-03 12:27:22 - [MESSAGE][PASSED] - All options with label 'Web' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select User TypeWebMobile'  using regular expression
+
+2023-11-03 12:27:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_First Name_form-control ng-pristine n_04448b"), First_Name): Text 'Sherly' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_First Name_form-control ng-pristine n_04448b'
+
+2023-11-03 12:27:23 - [MESSAGE][PASSED] - Text 'Sherly' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_First Name_form-control ng-pristine n_04448b'
+
+2023-11-03 12:27:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_Last Name_form-control ng-pristine ng_38b227"), Last_Name): Text 'Bright' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Last Name_form-control ng-pristine ng_38b227'
+
+2023-11-03 12:27:24 - [MESSAGE][PASSED] - Text 'Bright' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Last Name_form-control ng-pristine ng_38b227'
+
+2023-11-03 12:27:24 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/select_Select TimeZone(GMT-1200) Internatio_f829c1"), TimeZone1, false): All options with label '(GMT-06:00) Central America' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select TimeZone(GMT-1200) Internatio_f829c1' 
+
+2023-11-03 12:27:25 - [MESSAGE][PASSED] - All options with label '(GMT-06:00) Central America' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select TimeZone(GMT-1200) Internatio_f829c1' 
+
+2023-11-03 12:27:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_Email (Username)_form-control ng-scop_609227"), Email_Username): Text 'Sherly@gmail.com' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Email (Username)_form-control ng-scop_609227'
+
+2023-11-03 12:27:26 - [MESSAGE][PASSED] - Text 'Sherly@gmail.com' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Email (Username)_form-control ng-scop_609227'
+
+2023-11-03 12:27:26 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/select_Select CompanyA.M Design AgencyAddvi_c53b82"), Company, true): All options with label 'Brainfood' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select CompanyA.M Design AgencyAddvi_c53b82'  using regular expression
+
+2023-11-03 12:27:29 - [MESSAGE][PASSED] - All options with label 'Brainfood' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select CompanyA.M Design AgencyAddvi_c53b82'  using regular expression
+
+2023-11-03 12:27:29 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/select_Select StructureAccount MDesign Mana_d4c27f"), C_Department, true): All options with label 'Brainfood Designer SA' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select StructureAccount MDesign Mana_d4c27f'  using regular expression
+
+2023-11-03 12:27:30 - [MESSAGE][PASSED] - All options with label 'Brainfood Designer SA' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select StructureAccount MDesign Mana_d4c27f'  using regular expression
+
+2023-11-03 12:27:30 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/select_Select CountryAfghanistanAlbaniaAlge_8ea0a4"), Country, true): All options with label 'Albania' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select CountryAfghanistanAlbaniaAlge_8ea0a4'  using regular expression
+
+2023-11-03 12:27:33 - [MESSAGE][PASSED] - All options with label 'Albania' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select CountryAfghanistanAlbaniaAlge_8ea0a4'  using regular expression
+
+2023-11-03 12:27:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_State_form-control ng-pristine ng-valid"), State): Text 'Ndodo' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_State_form-control ng-pristine ng-valid'
+
+2023-11-03 12:27:33 - [MESSAGE][PASSED] - Text 'Ndodo' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_State_form-control ng-pristine ng-valid'
+
+2023-11-03 12:27:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_City_form-control ng-pristine ng-valid"), City): Text 'Ndo' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_City_form-control ng-pristine ng-valid'
+
+2023-11-03 12:27:34 - [MESSAGE][PASSED] - Text 'Ndo' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_City_form-control ng-pristine ng-valid'
+
+2023-11-03 12:27:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_Street_form-control ng-pristine ng-valid"), Street): Text 'Dun de' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Street_form-control ng-pristine ng-valid'
+
+2023-11-03 12:27:35 - [MESSAGE][PASSED] - Text 'Dun de' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Street_form-control ng-pristine ng-valid'
+
+2023-11-03 12:27:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_Postal Code_form-control ng-pristine _95092a"), Postal_Code): Text '1867' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Postal Code_form-control ng-pristine _95092a'
+
+2023-11-03 12:27:36 - [MESSAGE][PASSED] - Text '1867' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Postal Code_form-control ng-pristine _95092a'
+
+2023-11-03 12:27:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_Mobile Phone No_form-control ng-scope_b75639"), Mobile_N): Text '89992993' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Mobile Phone No_form-control ng-scope_b75639'
+
+2023-11-03 12:27:37 - [MESSAGE][PASSED] - Text '89992993' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Mobile Phone No_form-control ng-scope_b75639'
+
+2023-11-03 12:27:37 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/select_Select RoleSuperAdminClient3rd Party_b43c2d"), Role, true): All options with label 'Client' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select RoleSuperAdminClient3rd Party_b43c2d'  using regular expression
+
+2023-11-03 12:27:39 - [MESSAGE][PASSED] - All options with label 'Client' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select RoleSuperAdminClient3rd Party_b43c2d'  using regular expression
+
+2023-11-03 12:27:39 - [TEST_STEP][PASSED] - uploadFile(findTestObject("User-manager checkboxes/Input-profile-photo/input_Profile Photo_uploadImage"), Profile_Photo): File 'C:\Users\Salmina Lephalle\OneDrive - Point\Pictures\img2.jpg' sent to object: 'Object Repository/User-manager checkboxes/Input-profile-photo/input_Profile Photo_uploadImage'
+
+2023-11-03 12:27:39 - [MESSAGE][PASSED] - File 'C:\Users\Salmina Lephalle\OneDrive - Point\Pictures\img2.jpg' sent to object: 'Object Repository/User-manager checkboxes/Input-profile-photo/input_Profile Photo_uploadImage'
+
+2023-11-03 12:27:39 - [TEST_STEP][PASSED] - OutputFile = getText(findTestObject("User-manager checkboxes/Upload_image/Uploaded_img_name")): Text of object 'Object Repository/User-manager checkboxes/Upload_image/Uploaded_img_name' is: 'img2.jpg'
+
+2023-11-03 12:27:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/User-manager checkboxes/Upload_image/Uploaded_img_name' is: 'img2.jpg'
+
+2023-11-03 12:27:43 - [TEST_STEP][PASSED] - out.print(OutputFile + "***"): null
+
+2023-11-03 12:27:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_Default User_module")): Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Default User_module' is clicked on
+
+2023-11-03 12:27:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Default User_module' is clicked on
+
+2023-11-03 12:27:43 - [TEST_STEP][PASSED] - check(findTestObject("User-manager checkboxes/Page_Point POSM/checkbox_Asset Tracker_module")): Object 'Object Repository/User-manager checkboxes/Page_Point POSM/checkbox_Asset Tracker_module' is checked
+
+2023-11-03 12:27:43 - [MESSAGE][PASSED] - Object 'Object Repository/User-manager checkboxes/Page_Point POSM/checkbox_Asset Tracker_module' is checked
+
+2023-11-03 12:27:43 - [TEST_STEP][PASSED] - setText(findTestObject("Admin - Add user manager/User_id/input_User Id"), User_Id): Text '156' is set on object 'Object Repository/Admin - Add user manager/User_id/input_User Id'
+
+2023-11-03 12:27:44 - [MESSAGE][PASSED] - Text '156' is set on object 'Object Repository/Admin - Add user manager/User_id/input_User Id'
+
+2023-11-03 12:27:44 - [TEST_STEP][PASSED] - check(findTestObject("User-manager checkboxes/Page_Point POSM/Checkbox_Distribution Mail_ng-pristine ng-valid")): Object 'Object Repository/User-manager checkboxes/Page_Point POSM/Checkbox_Distribution Mail_ng-pristine ng-valid' is checked
+
+2023-11-03 12:27:45 - [MESSAGE][PASSED] - Object 'Object Repository/User-manager checkboxes/Page_Point POSM/Checkbox_Distribution Mail_ng-pristine ng-valid' is checked
+
+2023-11-03 12:27:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/button_Save")): Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/button_Save' is clicked on
+
+2023-11-03 12:27:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/button_Save' is clicked on
+
+2023-11-03 12:27:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-03 12:27:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Add user manager_Data" time="103.397" classname="Test Cases/Admin/Add user manager_Data" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Admin/Add user manager_Data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:\Users\Salmina Lephalle\OneDrive - Point\Pictures\img3.jpg' to object 'Object Repository/User-manager checkboxes/Input-profile-photo/input_Profile Photo_uploadImage'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$5.call(Unknown Source)
+	at Add user manager_Data.run(Add user manager_Data:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699006845074.run(TempTestSuite1699006845074.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\Salmina Lephalle\OneDrive - Point\Pictures\img3.jpg
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I5U5259', ip: '192.168.0.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\SALMIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49282}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 103584b6f48b61549390060356674248
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-11-03 12:27:47 - [TEST_CASE][FAILED] - Test Cases/Admin/Add user manager_Data: Test Cases/Admin/Add user manager_Data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:\Users\Salmina Lephalle\OneDrive - Point\Pictures\img3.jpg' to object 'Object Repository/User-manager checkboxes/Input-profile-photo/input_Profile Photo_uploadImage'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$5.call(Unknown Source)
+	at Add user manager_Data.run(Add user manager_Data:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699006845074.run(TempTestSuite1699006845074.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\Salmina Lephalle\OneDrive - Point\Pictures\img3.jpg
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I5U5259', ip: '192.168.0.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\SALMIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49282}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 103584b6f48b61549390060356674248
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-11-03 12:27:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-03 12:27:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-03 12:27:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-03 12:27:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-03 12:27:50 - [TEST_STEP][PASSED] - navigateToUrl("https://pointposmqa.live1.dev.radixweb.net/pointposm#/dXNlcg0000/UG9zdA0000"): Navigate to 'https://pointposmqa.live1.dev.radixweb.net/pointposm#/dXNlcg0000/UG9zdA0000' successfully
+
+2023-11-03 12:28:09 - [MESSAGE][PASSED] - Navigate to 'https://pointposmqa.live1.dev.radixweb.net/pointposm#/dXNlcg0000/UG9zdA0000' successfully
+
+2023-11-03 12:28:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_Login_email"), "Raeesa@pointgroup.biz"): Text 'Raeesa@pointgroup.biz' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Login_email'
+
+2023-11-03 12:28:10 - [MESSAGE][PASSED] - Text 'Raeesa@pointgroup.biz' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Login_email'
+
+2023-11-03 12:28:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_Login_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Login_password'
+
+2023-11-03 12:28:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Login_password'
+
+2023-11-03 12:28:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/button_Sign in")): Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/button_Sign in' is clicked on
+
+2023-11-03 12:28:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/button_Sign in' is clicked on
+
+2023-11-03 12:28:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/span_Admin")): Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/span_Admin' is clicked on
+
+2023-11-03 12:28:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/span_Admin' is clicked on
+
+2023-11-03 12:28:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/a_User Manager")): Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/a_User Manager' is clicked on
+
+2023-11-03 12:28:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/a_User Manager' is clicked on
+
+2023-11-03 12:28:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/a_Add User")): Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/a_Add User' is clicked on
+
+2023-11-03 12:28:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin - Add user manager/Page_Point POSM/a_Add User' is clicked on
+
+2023-11-03 12:28:59 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/select_Select User TypeWebMobile"), User_Type, true): All options with label 'Web' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select User TypeWebMobile'  using regular expression
+
+2023-11-03 12:29:12 - [MESSAGE][PASSED] - All options with label 'Web' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select User TypeWebMobile'  using regular expression
+
+2023-11-03 12:29:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_First Name_form-control ng-pristine n_04448b"), First_Name): Text 'Bruno' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_First Name_form-control ng-pristine n_04448b'
+
+2023-11-03 12:29:14 - [MESSAGE][PASSED] - Text 'Bruno' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_First Name_form-control ng-pristine n_04448b'
+
+2023-11-03 12:29:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_Last Name_form-control ng-pristine ng_38b227"), Last_Name): Text 'Moon' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Last Name_form-control ng-pristine ng_38b227'
+
+2023-11-03 12:29:15 - [MESSAGE][PASSED] - Text 'Moon' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Last Name_form-control ng-pristine ng_38b227'
+
+2023-11-03 12:29:15 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/select_Select TimeZone(GMT-1200) Internatio_f829c1"), TimeZone1, false): All options with label '(GMT-06:00) Central America' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select TimeZone(GMT-1200) Internatio_f829c1' 
+
+2023-11-03 12:29:15 - [MESSAGE][PASSED] - All options with label '(GMT-06:00) Central America' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select TimeZone(GMT-1200) Internatio_f829c1' 
+
+2023-11-03 12:29:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_Email (Username)_form-control ng-scop_609227"), Email_Username): Text 'Bruno@gmail.com' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Email (Username)_form-control ng-scop_609227'
+
+2023-11-03 12:29:16 - [MESSAGE][PASSED] - Text 'Bruno@gmail.com' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Email (Username)_form-control ng-scop_609227'
+
+2023-11-03 12:29:16 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/select_Select CompanyA.M Design AgencyAddvi_c53b82"), Company, true): All options with label 'Brainfood' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select CompanyA.M Design AgencyAddvi_c53b82'  using regular expression
+
+2023-11-03 12:29:19 - [MESSAGE][PASSED] - All options with label 'Brainfood' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select CompanyA.M Design AgencyAddvi_c53b82'  using regular expression
+
+2023-11-03 12:29:19 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/select_Select StructureAccount MDesign Mana_d4c27f"), C_Department, true): All options with label 'Brainfood Designer SA' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select StructureAccount MDesign Mana_d4c27f'  using regular expression
+
+2023-11-03 12:29:20 - [MESSAGE][PASSED] - All options with label 'Brainfood Designer SA' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select StructureAccount MDesign Mana_d4c27f'  using regular expression
+
+2023-11-03 12:29:20 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/select_Select CountryAfghanistanAlbaniaAlge_8ea0a4"), Country, true): All options with label 'Brazil' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select CountryAfghanistanAlbaniaAlge_8ea0a4'  using regular expression
+
+2023-11-03 12:29:24 - [MESSAGE][PASSED] - All options with label 'Brazil' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select CountryAfghanistanAlbaniaAlge_8ea0a4'  using regular expression
+
+2023-11-03 12:29:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_State_form-control ng-pristine ng-valid"), State): Text 'Acres' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_State_form-control ng-pristine ng-valid'
+
+2023-11-03 12:29:24 - [MESSAGE][PASSED] - Text 'Acres' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_State_form-control ng-pristine ng-valid'
+
+2023-11-03 12:29:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_City_form-control ng-pristine ng-valid"), City): Text 'Sao paulo' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_City_form-control ng-pristine ng-valid'
+
+2023-11-03 12:29:25 - [MESSAGE][PASSED] - Text 'Sao paulo' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_City_form-control ng-pristine ng-valid'
+
+2023-11-03 12:29:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_Street_form-control ng-pristine ng-valid"), Street): Text 'Rio de' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Street_form-control ng-pristine ng-valid'
+
+2023-11-03 12:29:26 - [MESSAGE][PASSED] - Text 'Rio de' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Street_form-control ng-pristine ng-valid'
+
+2023-11-03 12:29:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_Postal Code_form-control ng-pristine _95092a"), Postal_Code): Text '1859' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Postal Code_form-control ng-pristine _95092a'
+
+2023-11-03 12:29:27 - [MESSAGE][PASSED] - Text '1859' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Postal Code_form-control ng-pristine _95092a'
+
+2023-11-03 12:29:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/input_Mobile Phone No_form-control ng-scope_b75639"), Mobile_N): Text '974298' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Mobile Phone No_form-control ng-scope_b75639'
+
+2023-11-03 12:29:28 - [MESSAGE][PASSED] - Text '974298' is set on object 'Object Repository/Admin - Add user manager/Page_Point POSM/input_Mobile Phone No_form-control ng-scope_b75639'
+
+2023-11-03 12:29:28 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Admin - Add user manager/Page_Point POSM/select_Select RoleSuperAdminClient3rd Party_b43c2d"), Role, true): All options with label 'GalleryView' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select RoleSuperAdminClient3rd Party_b43c2d'  using regular expression
+
+2023-11-03 12:29:30 - [MESSAGE][PASSED] - All options with label 'GalleryView' are selected in object 'Object Repository/Admin - Add user manager/Page_Point POSM/select_Select RoleSuperAdminClient3rd Party_b43c2d'  using regular expression
+
+2023-11-03 12:29:30 - [TEST_STEP][FAILED] - uploadFile(findTestObject("User-manager checkboxes/Input-profile-photo/input_Profile Photo_uploadImage"), Profile_Photo): Unable to upload file 'C:\Users\Salmina Lephalle\OneDrive - Point\Pictures\img3.jpg' to object 'Object Repository/User-manager checkboxes/Input-profile-photo/input_Profile Photo_uploadImage' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:\Users\Salmina Lephalle\OneDrive - Point\Pictures\img3.jpg' to object 'Object Repository/User-manager checkboxes/Input-profile-photo/input_Profile Photo_uploadImage'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$5.call(Unknown Source)
+	at Add user manager_Data.run(Add user manager_Data:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699006845074.run(TempTestSuite1699006845074.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\Salmina Lephalle\OneDrive - Point\Pictures\img3.jpg
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I5U5259', ip: '192.168.0.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\SALMIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49282}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 103584b6f48b61549390060356674248
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$5.call(Unknown Source)
+	at Script1699004665820.run(Script1699004665820.groovy:80)
+	... 13 more
+)
+
+2023-11-03 12:29:30 - [MESSAGE][FAILED] - Unable to upload file 'C:\Users\Salmina Lephalle\OneDrive - Point\Pictures\img3.jpg' to object 'Object Repository/User-manager checkboxes/Input-profile-photo/input_Profile Photo_uploadImage' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:\Users\Salmina Lephalle\OneDrive - Point\Pictures\img3.jpg' to object 'Object Repository/User-manager checkboxes/Input-profile-photo/input_Profile Photo_uploadImage'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$5.call(Unknown Source)
+	at Add user manager_Data.run(Add user manager_Data:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699006845074.run(TempTestSuite1699006845074.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\Salmina Lephalle\OneDrive - Point\Pictures\img3.jpg
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I5U5259', ip: '192.168.0.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\SALMIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49282}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 103584b6f48b61549390060356674248
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$5.call(Unknown Source)
+	at Script1699004665820.run(Script1699004665820.groovy:80)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Salmina Lephalle\\git\\pt.track-practice\\Reports\\20231103_122045\\Add_User_Manger\\User_manager\\20231103_122045\\1699007370495.png]]]]></system-out>
+         <system-err><![CDATA[2023-11-03 12:27:47 - [TEST_CASE][FAILED] - Test Cases/Admin/Add user manager_Data: Test Cases/Admin/Add user manager_Data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:\Users\Salmina Lephalle\OneDrive - Point\Pictures\img3.jpg' to object 'Object Repository/User-manager checkboxes/Input-profile-photo/input_Profile Photo_uploadImage'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$5.call(Unknown Source)
+	at Add user manager_Data.run(Add user manager_Data:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699006845074.run(TempTestSuite1699006845074.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\Salmina Lephalle\OneDrive - Point\Pictures\img3.jpg
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I5U5259', ip: '192.168.0.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\SALMIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49282}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 103584b6f48b61549390060356674248
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-03 12:20:58 - [TEST_SUITE][FAILED] - User_manager: Test Cases/Admin/Add user manager_Data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:\Users\Salmina Lephalle\OneDrive - Point\Pictures\img1.jpg' to object 'Object Repository/User-manager checkboxes/Input-profile-photo/input_Profile Photo_uploadImage'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$5.call(Unknown Source)
+	at Add user manager_Data.run(Add user manager_Data:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699006845074.run(TempTestSuite1699006845074.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\Salmina Lephalle\OneDrive - Point\Pictures\img1.jpg
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I5U5259', ip: '192.168.0.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\SALMIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64997}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09cef3bdac134da39ea666ef50546671
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-11-03 12:20:58 - [TEST_SUITE][FAILED] - User_manager: Test Cases/Admin/Add user manager_Data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:\Users\Salmina Lephalle\OneDrive - Point\Pictures\img1.jpg' to object 'Object Repository/User-manager checkboxes/Input-profile-photo/input_Profile Photo_uploadImage'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$5.call(Unknown Source)
+	at Add user manager_Data.run(Add user manager_Data:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699006845074.run(TempTestSuite1699006845074.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\Salmina Lephalle\OneDrive - Point\Pictures\img1.jpg
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I5U5259', ip: '192.168.0.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\SALMIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64997}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09cef3bdac134da39ea666ef50546671
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

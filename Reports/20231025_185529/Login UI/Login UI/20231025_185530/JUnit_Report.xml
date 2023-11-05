@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login UI" time="88.829" tests="2" failures="0" errors="1">
+   <testsuite name="Login UI" tests="2" failures="0" errors="1" time="88.829" skipped="0" timestamp="2023-10-25 18:55:36" hostname="Salmina Lephalle - DESKTOP-I5U5259" id="Test Suites/Login UI/Login UI">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Salmina Lephalle\\git\\pt.track-practice\\Reports\\20231025_185529\\Login UI\\Login UI\\20231025_185530"/>
+         <property name="logFiles" value="C:\\Users\\Salmina Lephalle\\git\\pt.track-practice\\Reports\\20231025_185529\\Login UI\\Login UI\\20231025_185530\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Salmina Lephalle - DESKTOP-I5U5259"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Firefox 118.0"/>
+         <property name="hostAddress" value="192.168.0.89"/>
+         <property name="sessionId" value="77aa1832-e64e-44b2-93fc-60d18cf1c5e9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login test/Login UI-1" time="62.437" classname="Test Cases/Login test/Login UI-1" status="PASSED">
+         <system-out><![CDATA[2023-10-25 18:55:37 - [TEST_CASE][PASSED] - Test Cases/Login test/Login UI-1: Test Cases/Login test/Login UI-1
+
+2023-10-25 18:55:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-25 18:55:38 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-10-25 18:55:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-25 18:55:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-25 18:55:46 - [TEST_STEP][PASSED] - navigateToUrl("https://pointposmqa.live1.dev.radixweb.net/pointposm#/ZGFzaGJvYXJk"): Navigate to 'https://pointposmqa.live1.dev.radixweb.net/pointposm#/ZGFzaGJvYXJk' successfully
+
+2023-10-25 18:56:10 - [MESSAGE][PASSED] - Navigate to 'https://pointposmqa.live1.dev.radixweb.net/pointposm#/ZGFzaGJvYXJk' successfully
+
+2023-10-25 18:56:10 - [TEST_STEP][PASSED] - com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow("Login UI"): com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow is PASSED
+
+2023-10-25 18:56:10 - [MESSAGE][INFO] - Use view port 1400x743
+
+2023-10-25 18:56:37 - [MESSAGE][INFO] - Test Passed. See URL: https://eyes.applitools.com/app/batches/00000251704047820334/00000251704047820233?accountId=V4b5IYNK3UGz0Nae7IDbWQ__
+
+
+2023-10-25 18:56:37 - [MESSAGE][PASSED] - com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow is PASSED
+
+2023-10-25 18:56:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-25 18:56:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login test/Login UI-1" time="25.947" classname="Test Cases/Login test/Login UI-1" status="ERROR">
+         <error type="ERROR" message="Test Cases/Login test/Login UI-1 FAILED.
+Reason:
+org.openqa.selenium.StaleElementReferenceException: The element with the reference 5e2e8028-7e42-464d-904b-85ac36f89a36 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I5U5259', ip: '192.168.0.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19952, moz:profile: C:\Users\SALMIN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 77aa1832-e64e-44b2-93fc-60d18cf1c5e9
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at com.applitools.eyes.selenium.wrappers.EyesSeleniumDriver.executeScript(EyesSeleniumDriver.java:341)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getCurrentPosition(SeleniumScrollPositionProvider.java:29)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getCurrentPosition(SeleniumScrollPositionProvider.java:37)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getState(SeleniumScrollPositionProvider.java:72)
+	at com.applitools.eyes.selenium.capture.FullPageCaptureAlgorithm.getStitchedRegion(FullPageCaptureAlgorithm.java:87)
+	at com.applitools.eyes.selenium.SeleniumEyes.getFrameOrElementScreenshot(SeleniumEyes.java:1647)
+	at com.applitools.eyes.selenium.SeleniumEyes.getScreenshot(SeleniumEyes.java:1586)
+	at com.applitools.eyes.EyesBase.getAppOutputWithScreenshot(EyesBase.java:1231)
+	at com.applitools.eyes.EyesBase.access$400(EyesBase.java:39)
+	at com.applitools.eyes.EyesBase$3$1.getAppOutput(EyesBase.java:918)
+	at com.applitools.eyes.MatchWindowTask.tryTakeScreenshot(MatchWindowTask.java:578)
+	at com.applitools.eyes.MatchWindowTask.retryTakingScreenshot(MatchWindowTask.java:570)
+	at com.applitools.eyes.MatchWindowTask.takeScreenshot(MatchWindowTask.java:530)
+	at com.applitools.eyes.MatchWindowTask.matchWindow(MatchWindowTask.java:439)
+	at com.applitools.eyes.EyesBase.matchWindow(EyesBase.java:773)
+	at com.applitools.eyes.EyesBase.checkWindowBase(EyesBase.java:725)
+	at com.applitools.eyes.selenium.SeleniumEyes.checkFullWindow(SeleniumEyes.java:954)
+	at com.applitools.eyes.selenium.SeleniumEyes.check(SeleniumEyes.java:747)
+	at com.applitools.eyes.selenium.SeleniumEyes.check(SeleniumEyes.java:600)
+	at com.applitools.eyes.selenium.Eyes.check(Eyes.java:468)
+	at com.applitools.eyes.selenium.Eyes.checkWindow(Eyes.java:1330)
+	at com.applitools.eyes.selenium.Eyes.checkWindow(Eyes.java:1321)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.doCheckWindow(BasicKeywords.groovy:54)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:46)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252930683.run(TempTestSuite1698252930683.groovy:36)
+"/>
+         <system-out><![CDATA[2023-10-25 18:56:39 - [TEST_CASE][ERROR] - Test Cases/Login test/Login UI-1: Test Cases/Login test/Login UI-1 FAILED.
+Reason:
+org.openqa.selenium.StaleElementReferenceException: The element with the reference 5e2e8028-7e42-464d-904b-85ac36f89a36 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I5U5259', ip: '192.168.0.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19952, moz:profile: C:\Users\SALMIN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 77aa1832-e64e-44b2-93fc-60d18cf1c5e9
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at com.applitools.eyes.selenium.wrappers.EyesSeleniumDriver.executeScript(EyesSeleniumDriver.java:341)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getCurrentPosition(SeleniumScrollPositionProvider.java:29)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getCurrentPosition(SeleniumScrollPositionProvider.java:37)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getState(SeleniumScrollPositionProvider.java:72)
+	at com.applitools.eyes.selenium.capture.FullPageCaptureAlgorithm.getStitchedRegion(FullPageCaptureAlgorithm.java:87)
+	at com.applitools.eyes.selenium.SeleniumEyes.getFrameOrElementScreenshot(SeleniumEyes.java:1647)
+	at com.applitools.eyes.selenium.SeleniumEyes.getScreenshot(SeleniumEyes.java:1586)
+	at com.applitools.eyes.EyesBase.getAppOutputWithScreenshot(EyesBase.java:1231)
+	at com.applitools.eyes.EyesBase.access$400(EyesBase.java:39)
+	at com.applitools.eyes.EyesBase$3$1.getAppOutput(EyesBase.java:918)
+	at com.applitools.eyes.MatchWindowTask.tryTakeScreenshot(MatchWindowTask.java:578)
+	at com.applitools.eyes.MatchWindowTask.retryTakingScreenshot(MatchWindowTask.java:570)
+	at com.applitools.eyes.MatchWindowTask.takeScreenshot(MatchWindowTask.java:530)
+	at com.applitools.eyes.MatchWindowTask.matchWindow(MatchWindowTask.java:439)
+	at com.applitools.eyes.EyesBase.matchWindow(EyesBase.java:773)
+	at com.applitools.eyes.EyesBase.checkWindowBase(EyesBase.java:725)
+	at com.applitools.eyes.selenium.SeleniumEyes.checkFullWindow(SeleniumEyes.java:954)
+	at com.applitools.eyes.selenium.SeleniumEyes.check(SeleniumEyes.java:747)
+	at com.applitools.eyes.selenium.SeleniumEyes.check(SeleniumEyes.java:600)
+	at com.applitools.eyes.selenium.Eyes.check(Eyes.java:468)
+	at com.applitools.eyes.selenium.Eyes.checkWindow(Eyes.java:1330)
+	at com.applitools.eyes.selenium.Eyes.checkWindow(Eyes.java:1321)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.doCheckWindow(BasicKeywords.groovy:54)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:46)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252930683.run(TempTestSuite1698252930683.groovy:36)
+
+
+2023-10-25 18:56:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-25 18:56:39 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-10-25 18:56:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-25 18:56:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-25 18:56:46 - [TEST_STEP][PASSED] - navigateToUrl("https://pointposmqa.live1.dev.radixweb.net/pointposm#/ZGFzaGJvYXJk"): Navigate to 'https://pointposmqa.live1.dev.radixweb.net/pointposm#/ZGFzaGJvYXJk' successfully
+
+2023-10-25 18:56:47 - [MESSAGE][PASSED] - Navigate to 'https://pointposmqa.live1.dev.radixweb.net/pointposm#/ZGFzaGJvYXJk' successfully
+
+2023-10-25 18:56:47 - [TEST_STEP][ERROR] - com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow("Login UI"): Test Cases/Login test/Login UI-1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.openqa.selenium.StaleElementReferenceException: The element with the reference 5e2e8028-7e42-464d-904b-85ac36f89a36 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I5U5259', ip: '192.168.0.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19952, moz:profile: C:\Users\SALMIN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 77aa1832-e64e-44b2-93fc-60d18cf1c5e9
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252930683.run(TempTestSuite1698252930683.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: The element with the reference 5e2e8028-7e42-464d-904b-85ac36f89a36 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I5U5259', ip: '192.168.0.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19952, moz:profile: C:\Users\SALMIN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 77aa1832-e64e-44b2-93fc-60d18cf1c5e9
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at com.applitools.eyes.selenium.wrappers.EyesSeleniumDriver.executeScript(EyesSeleniumDriver.java:341)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getCurrentPosition(SeleniumScrollPositionProvider.java:29)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getCurrentPosition(SeleniumScrollPositionProvider.java:37)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getState(SeleniumScrollPositionProvider.java:72)
+	at com.applitools.eyes.selenium.capture.FullPageCaptureAlgorithm.getStitchedRegion(FullPageCaptureAlgorithm.java:87)
+	at com.applitools.eyes.selenium.SeleniumEyes.getFrameOrElementScreenshot(SeleniumEyes.java:1647)
+	at com.applitools.eyes.selenium.SeleniumEyes.getScreenshot(SeleniumEyes.java:1586)
+	at com.applitools.eyes.EyesBase.getAppOutputWithScreenshot(EyesBase.java:1231)
+	at com.applitools.eyes.EyesBase.access$400(EyesBase.java:39)
+	at com.applitools.eyes.EyesBase$3$1.getAppOutput(EyesBase.java:918)
+	at com.applitools.eyes.MatchWindowTask.tryTakeScreenshot(MatchWindowTask.java:578)
+	at com.applitools.eyes.MatchWindowTask.retryTakingScreenshot(MatchWindowTask.java:570)
+	at com.applitools.eyes.MatchWindowTask.takeScreenshot(MatchWindowTask.java:530)
+	at com.applitools.eyes.MatchWindowTask.matchWindow(MatchWindowTask.java:439)
+	at com.applitools.eyes.EyesBase.matchWindow(EyesBase.java:773)
+	at com.applitools.eyes.EyesBase.checkWindowBase(EyesBase.java:725)
+	at com.applitools.eyes.selenium.SeleniumEyes.checkFullWindow(SeleniumEyes.java:954)
+	at com.applitools.eyes.selenium.SeleniumEyes.check(SeleniumEyes.java:747)
+	at com.applitools.eyes.selenium.SeleniumEyes.check(SeleniumEyes.java:600)
+	at com.applitools.eyes.selenium.Eyes.check(Eyes.java:468)
+	at com.applitools.eyes.selenium.Eyes.checkWindow(Eyes.java:1330)
+	at com.applitools.eyes.selenium.Eyes.checkWindow(Eyes.java:1321)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.doCheckWindow(BasicKeywords.groovy:54)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:46)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 14 more
+
+
+2023-10-25 18:56:47 - [MESSAGE][INFO] - Use view port 1400x743
+
+2023-10-25 18:57:05 - [MESSAGE][ERROR] - The element with the reference 5e2e8028-7e42-464d-904b-85ac36f89a36 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I5U5259', ip: '192.168.0.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19952, moz:profile: C:\Users\SALMIN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 77aa1832-e64e-44b2-93fc-60d18cf1c5e9
+
+2023-10-25 18:57:05 - [MESSAGE][ERROR] - Test Cases/Login test/Login UI-1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.openqa.selenium.StaleElementReferenceException: The element with the reference 5e2e8028-7e42-464d-904b-85ac36f89a36 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I5U5259', ip: '192.168.0.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19952, moz:profile: C:\Users\SALMIN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 77aa1832-e64e-44b2-93fc-60d18cf1c5e9
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252930683.run(TempTestSuite1698252930683.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: The element with the reference 5e2e8028-7e42-464d-904b-85ac36f89a36 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I5U5259', ip: '192.168.0.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19952, moz:profile: C:\Users\SALMIN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 77aa1832-e64e-44b2-93fc-60d18cf1c5e9
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at com.applitools.eyes.selenium.wrappers.EyesSeleniumDriver.executeScript(EyesSeleniumDriver.java:341)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getCurrentPosition(SeleniumScrollPositionProvider.java:29)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getCurrentPosition(SeleniumScrollPositionProvider.java:37)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getState(SeleniumScrollPositionProvider.java:72)
+	at com.applitools.eyes.selenium.capture.FullPageCaptureAlgorithm.getStitchedRegion(FullPageCaptureAlgorithm.java:87)
+	at com.applitools.eyes.selenium.SeleniumEyes.getFrameOrElementScreenshot(SeleniumEyes.java:1647)
+	at com.applitools.eyes.selenium.SeleniumEyes.getScreenshot(SeleniumEyes.java:1586)
+	at com.applitools.eyes.EyesBase.getAppOutputWithScreenshot(EyesBase.java:1231)
+	at com.applitools.eyes.EyesBase.access$400(EyesBase.java:39)
+	at com.applitools.eyes.EyesBase$3$1.getAppOutput(EyesBase.java:918)
+	at com.applitools.eyes.MatchWindowTask.tryTakeScreenshot(MatchWindowTask.java:578)
+	at com.applitools.eyes.MatchWindowTask.retryTakingScreenshot(MatchWindowTask.java:570)
+	at com.applitools.eyes.MatchWindowTask.takeScreenshot(MatchWindowTask.java:530)
+	at com.applitools.eyes.MatchWindowTask.matchWindow(MatchWindowTask.java:439)
+	at com.applitools.eyes.EyesBase.matchWindow(EyesBase.java:773)
+	at com.applitools.eyes.EyesBase.checkWindowBase(EyesBase.java:725)
+	at com.applitools.eyes.selenium.SeleniumEyes.checkFullWindow(SeleniumEyes.java:954)
+	at com.applitools.eyes.selenium.SeleniumEyes.check(SeleniumEyes.java:747)
+	at com.applitools.eyes.selenium.SeleniumEyes.check(SeleniumEyes.java:600)
+	at com.applitools.eyes.selenium.Eyes.check(Eyes.java:468)
+	at com.applitools.eyes.selenium.Eyes.checkWindow(Eyes.java:1330)
+	at com.applitools.eyes.selenium.Eyes.checkWindow(Eyes.java:1321)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.doCheckWindow(BasicKeywords.groovy:54)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:46)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 14 more]]></system-out>
+         <system-err><![CDATA[2023-10-25 18:56:39 - [TEST_CASE][ERROR] - Test Cases/Login test/Login UI-1: Test Cases/Login test/Login UI-1 FAILED.
+Reason:
+org.openqa.selenium.StaleElementReferenceException: The element with the reference 5e2e8028-7e42-464d-904b-85ac36f89a36 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I5U5259', ip: '192.168.0.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19952, moz:profile: C:\Users\SALMIN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 77aa1832-e64e-44b2-93fc-60d18cf1c5e9
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at com.applitools.eyes.selenium.wrappers.EyesSeleniumDriver.executeScript(EyesSeleniumDriver.java:341)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getCurrentPosition(SeleniumScrollPositionProvider.java:29)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getCurrentPosition(SeleniumScrollPositionProvider.java:37)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getState(SeleniumScrollPositionProvider.java:72)
+	at com.applitools.eyes.selenium.capture.FullPageCaptureAlgorithm.getStitchedRegion(FullPageCaptureAlgorithm.java:87)
+	at com.applitools.eyes.selenium.SeleniumEyes.getFrameOrElementScreenshot(SeleniumEyes.java:1647)
+	at com.applitools.eyes.selenium.SeleniumEyes.getScreenshot(SeleniumEyes.java:1586)
+	at com.applitools.eyes.EyesBase.getAppOutputWithScreenshot(EyesBase.java:1231)
+	at com.applitools.eyes.EyesBase.access$400(EyesBase.java:39)
+	at com.applitools.eyes.EyesBase$3$1.getAppOutput(EyesBase.java:918)
+	at com.applitools.eyes.MatchWindowTask.tryTakeScreenshot(MatchWindowTask.java:578)
+	at com.applitools.eyes.MatchWindowTask.retryTakingScreenshot(MatchWindowTask.java:570)
+	at com.applitools.eyes.MatchWindowTask.takeScreenshot(MatchWindowTask.java:530)
+	at com.applitools.eyes.MatchWindowTask.matchWindow(MatchWindowTask.java:439)
+	at com.applitools.eyes.EyesBase.matchWindow(EyesBase.java:773)
+	at com.applitools.eyes.EyesBase.checkWindowBase(EyesBase.java:725)
+	at com.applitools.eyes.selenium.SeleniumEyes.checkFullWindow(SeleniumEyes.java:954)
+	at com.applitools.eyes.selenium.SeleniumEyes.check(SeleniumEyes.java:747)
+	at com.applitools.eyes.selenium.SeleniumEyes.check(SeleniumEyes.java:600)
+	at com.applitools.eyes.selenium.Eyes.check(Eyes.java:468)
+	at com.applitools.eyes.selenium.Eyes.checkWindow(Eyes.java:1330)
+	at com.applitools.eyes.selenium.Eyes.checkWindow(Eyes.java:1321)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.doCheckWindow(BasicKeywords.groovy:54)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:46)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252930683.run(TempTestSuite1698252930683.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-10-25 18:55:36 - [TEST_SUITE][ERROR] - Login UI: Test Cases/Login test/Login UI-1 FAILED.
+Reason:
+org.openqa.selenium.StaleElementReferenceException: The element with the reference 5e2e8028-7e42-464d-904b-85ac36f89a36 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I5U5259', ip: '192.168.0.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19952, moz:profile: C:\Users\SALMIN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 77aa1832-e64e-44b2-93fc-60d18cf1c5e9
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at com.applitools.eyes.selenium.wrappers.EyesSeleniumDriver.executeScript(EyesSeleniumDriver.java:341)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getCurrentPosition(SeleniumScrollPositionProvider.java:29)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getCurrentPosition(SeleniumScrollPositionProvider.java:37)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getState(SeleniumScrollPositionProvider.java:72)
+	at com.applitools.eyes.selenium.capture.FullPageCaptureAlgorithm.getStitchedRegion(FullPageCaptureAlgorithm.java:87)
+	at com.applitools.eyes.selenium.SeleniumEyes.getFrameOrElementScreenshot(SeleniumEyes.java:1647)
+	at com.applitools.eyes.selenium.SeleniumEyes.getScreenshot(SeleniumEyes.java:1586)
+	at com.applitools.eyes.EyesBase.getAppOutputWithScreenshot(EyesBase.java:1231)
+	at com.applitools.eyes.EyesBase.access$400(EyesBase.java:39)
+	at com.applitools.eyes.EyesBase$3$1.getAppOutput(EyesBase.java:918)
+	at com.applitools.eyes.MatchWindowTask.tryTakeScreenshot(MatchWindowTask.java:578)
+	at com.applitools.eyes.MatchWindowTask.retryTakingScreenshot(MatchWindowTask.java:570)
+	at com.applitools.eyes.MatchWindowTask.takeScreenshot(MatchWindowTask.java:530)
+	at com.applitools.eyes.MatchWindowTask.matchWindow(MatchWindowTask.java:439)
+	at com.applitools.eyes.EyesBase.matchWindow(EyesBase.java:773)
+	at com.applitools.eyes.EyesBase.checkWindowBase(EyesBase.java:725)
+	at com.applitools.eyes.selenium.SeleniumEyes.checkFullWindow(SeleniumEyes.java:954)
+	at com.applitools.eyes.selenium.SeleniumEyes.check(SeleniumEyes.java:747)
+	at com.applitools.eyes.selenium.SeleniumEyes.check(SeleniumEyes.java:600)
+	at com.applitools.eyes.selenium.Eyes.check(Eyes.java:468)
+	at com.applitools.eyes.selenium.Eyes.checkWindow(Eyes.java:1330)
+	at com.applitools.eyes.selenium.Eyes.checkWindow(Eyes.java:1321)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.doCheckWindow(BasicKeywords.groovy:54)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:46)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252930683.run(TempTestSuite1698252930683.groovy:36)]]></system-out>
+      <system-err><![CDATA[2023-10-25 18:55:36 - [TEST_SUITE][ERROR] - Login UI: Test Cases/Login test/Login UI-1 FAILED.
+Reason:
+org.openqa.selenium.StaleElementReferenceException: The element with the reference 5e2e8028-7e42-464d-904b-85ac36f89a36 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I5U5259', ip: '192.168.0.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19952, moz:profile: C:\Users\SALMIN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 77aa1832-e64e-44b2-93fc-60d18cf1c5e9
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at com.applitools.eyes.selenium.wrappers.EyesSeleniumDriver.executeScript(EyesSeleniumDriver.java:341)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getCurrentPosition(SeleniumScrollPositionProvider.java:29)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getCurrentPosition(SeleniumScrollPositionProvider.java:37)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getState(SeleniumScrollPositionProvider.java:72)
+	at com.applitools.eyes.selenium.capture.FullPageCaptureAlgorithm.getStitchedRegion(FullPageCaptureAlgorithm.java:87)
+	at com.applitools.eyes.selenium.SeleniumEyes.getFrameOrElementScreenshot(SeleniumEyes.java:1647)
+	at com.applitools.eyes.selenium.SeleniumEyes.getScreenshot(SeleniumEyes.java:1586)
+	at com.applitools.eyes.EyesBase.getAppOutputWithScreenshot(EyesBase.java:1231)
+	at com.applitools.eyes.EyesBase.access$400(EyesBase.java:39)
+	at com.applitools.eyes.EyesBase$3$1.getAppOutput(EyesBase.java:918)
+	at com.applitools.eyes.MatchWindowTask.tryTakeScreenshot(MatchWindowTask.java:578)
+	at com.applitools.eyes.MatchWindowTask.retryTakingScreenshot(MatchWindowTask.java:570)
+	at com.applitools.eyes.MatchWindowTask.takeScreenshot(MatchWindowTask.java:530)
+	at com.applitools.eyes.MatchWindowTask.matchWindow(MatchWindowTask.java:439)
+	at com.applitools.eyes.EyesBase.matchWindow(EyesBase.java:773)
+	at com.applitools.eyes.EyesBase.checkWindowBase(EyesBase.java:725)
+	at com.applitools.eyes.selenium.SeleniumEyes.checkFullWindow(SeleniumEyes.java:954)
+	at com.applitools.eyes.selenium.SeleniumEyes.check(SeleniumEyes.java:747)
+	at com.applitools.eyes.selenium.SeleniumEyes.check(SeleniumEyes.java:600)
+	at com.applitools.eyes.selenium.Eyes.check(Eyes.java:468)
+	at com.applitools.eyes.selenium.Eyes.checkWindow(Eyes.java:1330)
+	at com.applitools.eyes.selenium.Eyes.checkWindow(Eyes.java:1321)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.doCheckWindow(BasicKeywords.groovy:54)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:46)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252930683.run(TempTestSuite1698252930683.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

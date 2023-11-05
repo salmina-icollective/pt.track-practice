@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User_manager,,,,2023-11-05 18:57:04,2023-11-05 18:59:02,1m - 58.236s,FAILED
+,,,,,,,
+Test Cases/Admin/Add user manager_Data,,,,2023-11-05 18:57:05,2023-11-05 18:58:01,55.455s,FAILED
+"openBrowser("""")",,,,2023-11-05 18:57:07,2023-11-05 18:57:25,18.050s,PASSED
+"navigateToUrl(""https://pointposmqa.live1.dev.radixweb.net/pointposm#/dXNlcg0000/UG9zdA0000"")",,,,2023-11-05 18:57:25,2023-11-05 18:58:00,34.760s,PASSED
+"setText(findTestObject(""Object Repository/Admin - Add user manager/Page_Point POSM/input_Login_email""), ""Raeesa@pointgroup.biz"")",,,,2023-11-05 18:58:00,2023-11-05 18:58:01,0.755s,FAILED
+,,,,,,,
+Test Cases/Admin/Add user manager_Data,,,,2023-11-05 18:58:01,2023-11-05 18:58:28,26.588s,FAILED
+"openBrowser("""")",,,,2023-11-05 18:58:01,2023-11-05 18:58:05,3.742s,PASSED
+"navigateToUrl(""https://pointposmqa.live1.dev.radixweb.net/pointposm#/dXNlcg0000/UG9zdA0000"")",,,,2023-11-05 18:58:05,2023-11-05 18:58:27,21.466s,PASSED
+"setText(findTestObject(""Object Repository/Admin - Add user manager/Page_Point POSM/input_Login_email""), ""Raeesa@pointgroup.biz"")",,,,2023-11-05 18:58:27,2023-11-05 18:58:28,1.274s,FAILED
+,,,,,,,
+Test Cases/Admin/Add user manager_Data,,,,2023-11-05 18:58:28,2023-11-05 18:58:51,22.938s,FAILED
+"openBrowser("""")",,,,2023-11-05 18:58:28,2023-11-05 18:58:32,4.110s,PASSED
+"navigateToUrl(""https://pointposmqa.live1.dev.radixweb.net/pointposm#/dXNlcg0000/UG9zdA0000"")",,,,2023-11-05 18:58:32,2023-11-05 18:58:51,18.091s,PASSED
+"setText(findTestObject(""Object Repository/Admin - Add user manager/Page_Point POSM/input_Login_email""), ""Raeesa@pointgroup.biz"")",,,,2023-11-05 18:58:51,2023-11-05 18:58:51,0.638s,FAILED
+,,,,,,,
+Test Cases/Admin/Add user manager_Data,,,,2023-11-05 18:58:52,2023-11-05 18:59:02,10.930s,FAILED
+"openBrowser("""")",,,,2023-11-05 18:58:52,2023-11-05 18:58:55,3.628s,PASSED
+"navigateToUrl(""https://pointposmqa.live1.dev.radixweb.net/pointposm#/dXNlcg0000/UG9zdA0000"")",,,,2023-11-05 18:58:55,2023-11-05 18:59:02,6.938s,PASSED
+"setText(findTestObject(""Object Repository/Admin - Add user manager/Page_Point POSM/input_Login_email""), ""Raeesa@pointgroup.biz"")",,,,2023-11-05 18:59:02,2023-11-05 18:59:02,0.255s,FAILED

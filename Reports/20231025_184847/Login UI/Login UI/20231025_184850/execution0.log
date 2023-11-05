@@ -1,0 +1,1716 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-10-25T18:48:59</date>
+  <millis>1698252539554</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Login UI/Login UI</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">false</property>
+  <property name="retryCount">0</property>
+  <property name="name">Login UI</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Login UI/Login UI</property>
+</record>
+<record>
+  <date>2023-10-25T18:48:59</date>
+  <millis>1698252539600</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Salmina Lephalle - DESKTOP-I5U5259</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">Salmina Lephalle - DESKTOP-I5U5259</property>
+</record>
+<record>
+  <date>2023-10-25T18:48:59</date>
+  <millis>1698252539602</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2023-10-25T18:48:59</date>
+  <millis>1698252539603</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.0.89</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">192.168.0.89</property>
+</record>
+<record>
+  <date>2023-10-25T18:48:59</date>
+  <millis>1698252539604</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 8.6.8.208</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">8.6.8.208</property>
+</record>
+<record>
+  <date>2023-10-25T18:49:00</date>
+  <millis>1698252540917</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Login test/Login UI-1</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/Login test/Login UI-1</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Login test/Login UI-1</property>
+  <property name="source">C:\Users\Salmina Lephalle\git\pt.track-practice\Test Cases\Login test\Login UI-1.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2023-10-25T18:49:01</date>
+  <millis>1698252541996</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">20</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2023-10-25T18:49:04</date>
+  <millis>1698252544092</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Firefox&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:49:04</date>
+  <millis>1698252544518</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:49:24</date>
+  <millis>1698252564303</millis>
+  <sequence>13</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 9ec1affd-ecfb-468b-97ec-dd299ea50855</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="sessionId">9ec1affd-ecfb-468b-97ec-dd299ea50855</property>
+</record>
+<record>
+  <date>2023-10-25T18:49:24</date>
+  <millis>1698252564347</millis>
+  <sequence>14</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Firefox 118.0</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="browser">Firefox 118.0</property>
+</record>
+<record>
+  <date>2023-10-25T18:49:24</date>
+  <millis>1698252564348</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2023-10-25T18:49:24</date>
+  <millis>1698252564349</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2023-10-25T18:49:24</date>
+  <millis>1698252564351</millis>
+  <sequence>17</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&amp;quot;&amp;quot;, isApplyToDesiredCapabilities=true }</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }</property>
+</record>
+<record>
+  <date>2023-10-25T18:49:24</date>
+  <millis>1698252564390</millis>
+  <sequence>18</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-10-25T18:49:24</date>
+  <millis>1698252564391</millis>
+  <sequence>19</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:49:24</date>
+  <millis>1698252564391</millis>
+  <sequence>20</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(&amp;quot;https://pointposmqa.live1.dev.radixweb.net/pointposm#/ZGFzaGJvYXJk&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">22</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2023-10-25T18:49:44</date>
+  <millis>1698252584718</millis>
+  <sequence>23</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://pointposmqa.live1.dev.radixweb.net/pointposm#/ZGFzaGJvYXJk&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-10-25T18:49:44</date>
+  <millis>1698252584719</millis>
+  <sequence>24</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(&amp;quot;https://pointposmqa.live1.dev.radixweb.net/pointposm#/ZGFzaGJvYXJk&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:49:44</date>
+  <millis>1698252584720</millis>
+  <sequence>25</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(&amp;quot;Login UI&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">24</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2023-10-25T18:49:45</date>
+  <millis>1698252585818</millis>
+  <sequence>26</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Use view port 1400x743</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:50:19</date>
+  <millis>1698252619159</millis>
+  <sequence>27</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Failed. See URL: https://eyes.applitools.com/app/batches/00000251704048201765/00000251704048201618?accountId=V4b5IYNK3UGz0Nae7IDbWQ__
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:50:19</date>
+  <millis>1698252619172</millis>
+  <sequence>29</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Failed. See URL: https://eyes.applitools.com/app/batches/00000251704048201765/00000251704048201618?accountId=V4b5IYNK3UGz0Nae7IDbWQ__
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.testops.TestOpsLogHelper.handleFailedLogEntry(TestOpsLogHelper.java:120)
+com.kms.katalon.core.logging.KeywordLogger.logFailed(KeywordLogger.java:300)
+com.kms.katalon.core.logging.KeywordLogger.logFailed(KeywordLogger.java:278)
+com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+com.kms.katalon.keyword.applitools.Utils.handleResult(Utils.groovy:114)
+com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:49)
+com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+Login UI-1.run(Login UI-1:24)
+</property>
+</record>
+<record>
+  <date>2023-10-25T18:50:19</date>
+  <millis>1698252619181</millis>
+  <sequence>30</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>com.kms.katalon.core.exception.StepFailedException: Test Failed. See URL: https://eyes.applitools.com/app/batches/00000251704048201765/00000251704048201618?accountId=V4b5IYNK3UGz0Nae7IDbWQ__
+</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Test Failed. See URL: https://eyes.applitools.com/app/batches/00000251704048201765/00000251704048201618?accountId=V4b5IYNK3UGz0Nae7IDbWQ__
+</message>
+    <frame>
+      <class>com.kms.katalon.core.util.KeywordUtil</class>
+      <method>markFailed</method>
+      <line>19</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.keyword.applitools.Utils</class>
+      <method>handleResult</method>
+      <line>114</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.keyword.applitools.BasicKeywords</class>
+      <method>checkWindow</method>
+      <line>49</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.keyword.applitools.BasicKeywords</class>
+      <method>invokeMethod</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass</class>
+      <method>invokeStaticMethod</method>
+      <line>55</line>
+    </frame>
+    <frame>
+      <class>Login UI-1</class>
+      <method>run</method>
+      <line>24</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>448</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>418</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>148</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>187</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1698252530637</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.exception.StepFailedException: Test Failed. See URL: https://eyes.applitools.com/app/batches/00000251704048201765/00000251704048201618?accountId=V4b5IYNK3UGz0Nae7IDbWQ__
+
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.keyword.applitools.Utils.handleResult(Utils.groovy:114)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:49)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252530637.run(TempTestSuite1698252530637.groovy:36)
+</property>
+  <property name="failed.exception.class">com.kms.katalon.core.exception.StepFailedException</property>
+  <property name="failed.exception.message">Test Failed. See URL: https://eyes.applitools.com/app/batches/00000251704048201765/00000251704048201618?accountId=V4b5IYNK3UGz0Nae7IDbWQ__
+</property>
+</record>
+<record>
+  <date>2023-10-25T18:50:19</date>
+  <millis>1698252619186</millis>
+  <sequence>32</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(&amp;quot;Login UI&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:50:19</date>
+  <millis>1698252619188</millis>
+  <sequence>33</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">26</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2023-10-25T18:50:20</date>
+  <millis>1698252620463</millis>
+  <sequence>35</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-10-25T18:50:20</date>
+  <millis>1698252620464</millis>
+  <sequence>37</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:50:20</date>
+  <millis>1698252620465</millis>
+  <sequence>39</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Login test/Login UI-1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Test Failed. See URL: https://eyes.applitools.com/app/batches/00000251704048201765/00000251704048201618?accountId=V4b5IYNK3UGz0Nae7IDbWQ__
+
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.keyword.applitools.Utils.handleResult(Utils.groovy:114)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:49)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252530637.run(TempTestSuite1698252530637.groovy:36)
+</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Test Failed. See URL: https://eyes.applitools.com/app/batches/00000251704048201765/00000251704048201618?accountId=V4b5IYNK3UGz0Nae7IDbWQ__
+</message>
+    <frame>
+      <class>com.kms.katalon.core.util.KeywordUtil</class>
+      <method>markFailed</method>
+      <line>19</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.keyword.applitools.Utils</class>
+      <method>handleResult</method>
+      <line>114</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.keyword.applitools.BasicKeywords</class>
+      <method>checkWindow</method>
+      <line>49</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.keyword.applitools.BasicKeywords</class>
+      <method>invokeMethod</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass</class>
+      <method>invokeStaticMethod</method>
+      <line>55</line>
+    </frame>
+    <frame>
+      <class>Login UI-1</class>
+      <method>run</method>
+      <line>24</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>448</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>418</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>148</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>187</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1698252530637</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.exception.StepFailedException: Test Failed. See URL: https://eyes.applitools.com/app/batches/00000251704048201765/00000251704048201618?accountId=V4b5IYNK3UGz0Nae7IDbWQ__
+
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.keyword.applitools.Utils.handleResult(Utils.groovy:114)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:49)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252530637.run(TempTestSuite1698252530637.groovy:36)
+</property>
+  <property name="failed.exception.class">com.kms.katalon.core.exception.StepFailedException</property>
+  <property name="failed.exception.message">Test Failed. See URL: https://eyes.applitools.com/app/batches/00000251704048201765/00000251704048201618?accountId=V4b5IYNK3UGz0Nae7IDbWQ__
+</property>
+</record>
+<record>
+  <date>2023-10-25T18:50:20</date>
+  <millis>1698252620471</millis>
+  <sequence>41</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Login test/Login UI-1</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">true</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: true,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2023-10-25T18:50:20</date>
+  <millis>1698252620484</millis>
+  <sequence>42</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Login test/Login UI-1</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/Login test/Login UI-1</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Login test/Login UI-1</property>
+  <property name="source">C:\Users\Salmina Lephalle\git\pt.track-practice\Test Cases\Login test\Login UI-1.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2023-10-25T18:50:20</date>
+  <millis>1698252620496</millis>
+  <sequence>44</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">20</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2023-10-25T18:50:20</date>
+  <millis>1698252620504</millis>
+  <sequence>46</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Firefox&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:50:20</date>
+  <millis>1698252620515</millis>
+  <sequence>48</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:50:28</date>
+  <millis>1698252628023</millis>
+  <sequence>50</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 241a363a-622a-4d46-bf06-2ab6ec6634b8</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="sessionId">241a363a-622a-4d46-bf06-2ab6ec6634b8</property>
+</record>
+<record>
+  <date>2023-10-25T18:50:28</date>
+  <millis>1698252628051</millis>
+  <sequence>51</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Firefox 118.0</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="browser">Firefox 118.0</property>
+</record>
+<record>
+  <date>2023-10-25T18:50:28</date>
+  <millis>1698252628051</millis>
+  <sequence>52</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2023-10-25T18:50:28</date>
+  <millis>1698252628052</millis>
+  <sequence>53</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2023-10-25T18:50:28</date>
+  <millis>1698252628053</millis>
+  <sequence>54</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&amp;quot;&amp;quot;, isApplyToDesiredCapabilities=true }</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }</property>
+</record>
+<record>
+  <date>2023-10-25T18:50:28</date>
+  <millis>1698252628086</millis>
+  <sequence>55</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-10-25T18:50:28</date>
+  <millis>1698252628086</millis>
+  <sequence>56</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:50:28</date>
+  <millis>1698252628087</millis>
+  <sequence>57</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(&amp;quot;https://pointposmqa.live1.dev.radixweb.net/pointposm#/ZGFzaGJvYXJk&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">22</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2023-10-25T18:50:29</date>
+  <millis>1698252629401</millis>
+  <sequence>60</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://pointposmqa.live1.dev.radixweb.net/pointposm#/ZGFzaGJvYXJk&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-10-25T18:50:29</date>
+  <millis>1698252629401</millis>
+  <sequence>61</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(&amp;quot;https://pointposmqa.live1.dev.radixweb.net/pointposm#/ZGFzaGJvYXJk&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:50:29</date>
+  <millis>1698252629402</millis>
+  <sequence>62</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(&amp;quot;Login UI&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">24</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2023-10-25T18:50:29</date>
+  <millis>1698252629419</millis>
+  <sequence>63</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Use view port 1400x743</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:50:49</date>
+  <millis>1698252649453</millis>
+  <sequence>65</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>The element with the reference 03107fad-1fae-4041-84b1-133a46d7f23a is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-I5U5259&amp;apos;, ip: &amp;apos;192.168.0.89&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_362&amp;apos;
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19604, moz:profile: C:\Users\SALMIN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 241a363a-622a-4d46-bf06-2ab6ec6634b8</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.openqa.selenium.StaleElementReferenceException</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.StaleElementReferenceException: The element with the reference 03107fad-1fae-4041-84b1-133a46d7f23a is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-I5U5259&apos;, ip: &apos;192.168.0.89&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_362&apos;
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19604, moz:profile: C:\Users\SALMIN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 241a363a-622a-4d46-bf06-2ab6ec6634b8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at com.applitools.eyes.selenium.wrappers.EyesSeleniumDriver.executeScript(EyesSeleniumDriver.java:341)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getCurrentPosition(SeleniumScrollPositionProvider.java:29)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getCurrentPosition(SeleniumScrollPositionProvider.java:37)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getState(SeleniumScrollPositionProvider.java:72)
+	at com.applitools.eyes.selenium.capture.FullPageCaptureAlgorithm.getStitchedRegion(FullPageCaptureAlgorithm.java:87)
+	at com.applitools.eyes.selenium.SeleniumEyes.getFrameOrElementScreenshot(SeleniumEyes.java:1647)
+	at com.applitools.eyes.selenium.SeleniumEyes.getScreenshot(SeleniumEyes.java:1586)
+	at com.applitools.eyes.EyesBase.getAppOutputWithScreenshot(EyesBase.java:1231)
+	at com.applitools.eyes.EyesBase.access$400(EyesBase.java:39)
+	at com.applitools.eyes.EyesBase$3$1.getAppOutput(EyesBase.java:918)
+	at com.applitools.eyes.MatchWindowTask.tryTakeScreenshot(MatchWindowTask.java:578)
+	at com.applitools.eyes.MatchWindowTask.retryTakingScreenshot(MatchWindowTask.java:570)
+	at com.applitools.eyes.MatchWindowTask.takeScreenshot(MatchWindowTask.java:530)
+	at com.applitools.eyes.MatchWindowTask.matchWindow(MatchWindowTask.java:439)
+	at com.applitools.eyes.EyesBase.matchWindow(EyesBase.java:773)
+	at com.applitools.eyes.EyesBase.checkWindowBase(EyesBase.java:725)
+	at com.applitools.eyes.selenium.SeleniumEyes.checkFullWindow(SeleniumEyes.java:954)
+	at com.applitools.eyes.selenium.SeleniumEyes.check(SeleniumEyes.java:747)
+	at com.applitools.eyes.selenium.SeleniumEyes.check(SeleniumEyes.java:600)
+	at com.applitools.eyes.selenium.Eyes.check(Eyes.java:468)
+	at com.applitools.eyes.selenium.Eyes.checkWindow(Eyes.java:1330)
+	at com.applitools.eyes.selenium.Eyes.checkWindow(Eyes.java:1321)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.doCheckWindow(BasicKeywords.groovy:54)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:46)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252530637.run(TempTestSuite1698252530637.groovy:36)
+</property>
+  <property name="failed.exception.message">The element with the reference 03107fad-1fae-4041-84b1-133a46d7f23a is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-I5U5259&apos;, ip: &apos;192.168.0.89&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_362&apos;
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19604, moz:profile: C:\Users\SALMIN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 241a363a-622a-4d46-bf06-2ab6ec6634b8</property>
+</record>
+<record>
+  <date>2023-10-25T18:50:49</date>
+  <millis>1698252649456</millis>
+  <sequence>68</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Login test/Login UI-1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.openqa.selenium.StaleElementReferenceException: The element with the reference 03107fad-1fae-4041-84b1-133a46d7f23a is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-I5U5259&amp;apos;, ip: &amp;apos;192.168.0.89&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_362&amp;apos;
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19604, moz:profile: C:\Users\SALMIN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 241a363a-622a-4d46-bf06-2ab6ec6634b8
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252530637.run(TempTestSuite1698252530637.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: The element with the reference 03107fad-1fae-4041-84b1-133a46d7f23a is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-I5U5259&amp;apos;, ip: &amp;apos;192.168.0.89&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_362&amp;apos;
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19604, moz:profile: C:\Users\SALMIN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 241a363a-622a-4d46-bf06-2ab6ec6634b8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at com.applitools.eyes.selenium.wrappers.EyesSeleniumDriver.executeScript(EyesSeleniumDriver.java:341)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getCurrentPosition(SeleniumScrollPositionProvider.java:29)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getCurrentPosition(SeleniumScrollPositionProvider.java:37)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getState(SeleniumScrollPositionProvider.java:72)
+	at com.applitools.eyes.selenium.capture.FullPageCaptureAlgorithm.getStitchedRegion(FullPageCaptureAlgorithm.java:87)
+	at com.applitools.eyes.selenium.SeleniumEyes.getFrameOrElementScreenshot(SeleniumEyes.java:1647)
+	at com.applitools.eyes.selenium.SeleniumEyes.getScreenshot(SeleniumEyes.java:1586)
+	at com.applitools.eyes.EyesBase.getAppOutputWithScreenshot(EyesBase.java:1231)
+	at com.applitools.eyes.EyesBase.access$400(EyesBase.java:39)
+	at com.applitools.eyes.EyesBase$3$1.getAppOutput(EyesBase.java:918)
+	at com.applitools.eyes.MatchWindowTask.tryTakeScreenshot(MatchWindowTask.java:578)
+	at com.applitools.eyes.MatchWindowTask.retryTakingScreenshot(MatchWindowTask.java:570)
+	at com.applitools.eyes.MatchWindowTask.takeScreenshot(MatchWindowTask.java:530)
+	at com.applitools.eyes.MatchWindowTask.matchWindow(MatchWindowTask.java:439)
+	at com.applitools.eyes.EyesBase.matchWindow(EyesBase.java:773)
+	at com.applitools.eyes.EyesBase.checkWindowBase(EyesBase.java:725)
+	at com.applitools.eyes.selenium.SeleniumEyes.checkFullWindow(SeleniumEyes.java:954)
+	at com.applitools.eyes.selenium.SeleniumEyes.check(SeleniumEyes.java:747)
+	at com.applitools.eyes.selenium.SeleniumEyes.check(SeleniumEyes.java:600)
+	at com.applitools.eyes.selenium.Eyes.check(Eyes.java:468)
+	at com.applitools.eyes.selenium.Eyes.checkWindow(Eyes.java:1330)
+	at com.applitools.eyes.selenium.Eyes.checkWindow(Eyes.java:1321)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.doCheckWindow(BasicKeywords.groovy:54)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:46)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 14 more
+</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepErrorException: org.openqa.selenium.StaleElementReferenceException: The element with the reference 03107fad-1fae-4041-84b1-133a46d7f23a is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I5U5259', ip: '192.168.0.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19604, moz:profile: C:\Users\SALMIN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 241a363a-622a-4d46-bf06-2ab6ec6634b8</message>
+    <frame>
+      <class>com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass</class>
+      <method>throwError</method>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass</class>
+      <method>invokeStaticMethod</method>
+      <line>73</line>
+    </frame>
+    <frame>
+      <class>Login UI-1</class>
+      <method>run</method>
+      <line>24</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>448</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>418</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>148</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>187</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1698252530637</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.StaleElementReferenceException: The element with the reference 03107fad-1fae-4041-84b1-133a46d7f23a is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-I5U5259&apos;, ip: &apos;192.168.0.89&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_362&apos;
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19604, moz:profile: C:\Users\SALMIN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 241a363a-622a-4d46-bf06-2ab6ec6634b8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at com.applitools.eyes.selenium.wrappers.EyesSeleniumDriver.executeScript(EyesSeleniumDriver.java:341)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getCurrentPosition(SeleniumScrollPositionProvider.java:29)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getCurrentPosition(SeleniumScrollPositionProvider.java:37)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getState(SeleniumScrollPositionProvider.java:72)
+	at com.applitools.eyes.selenium.capture.FullPageCaptureAlgorithm.getStitchedRegion(FullPageCaptureAlgorithm.java:87)
+	at com.applitools.eyes.selenium.SeleniumEyes.getFrameOrElementScreenshot(SeleniumEyes.java:1647)
+	at com.applitools.eyes.selenium.SeleniumEyes.getScreenshot(SeleniumEyes.java:1586)
+	at com.applitools.eyes.EyesBase.getAppOutputWithScreenshot(EyesBase.java:1231)
+	at com.applitools.eyes.EyesBase.access$400(EyesBase.java:39)
+	at com.applitools.eyes.EyesBase$3$1.getAppOutput(EyesBase.java:918)
+	at com.applitools.eyes.MatchWindowTask.tryTakeScreenshot(MatchWindowTask.java:578)
+	at com.applitools.eyes.MatchWindowTask.retryTakingScreenshot(MatchWindowTask.java:570)
+	at com.applitools.eyes.MatchWindowTask.takeScreenshot(MatchWindowTask.java:530)
+	at com.applitools.eyes.MatchWindowTask.matchWindow(MatchWindowTask.java:439)
+	at com.applitools.eyes.EyesBase.matchWindow(EyesBase.java:773)
+	at com.applitools.eyes.EyesBase.checkWindowBase(EyesBase.java:725)
+	at com.applitools.eyes.selenium.SeleniumEyes.checkFullWindow(SeleniumEyes.java:954)
+	at com.applitools.eyes.selenium.SeleniumEyes.check(SeleniumEyes.java:747)
+	at com.applitools.eyes.selenium.SeleniumEyes.check(SeleniumEyes.java:600)
+	at com.applitools.eyes.selenium.Eyes.check(Eyes.java:468)
+	at com.applitools.eyes.selenium.Eyes.checkWindow(Eyes.java:1330)
+	at com.applitools.eyes.selenium.Eyes.checkWindow(Eyes.java:1321)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.doCheckWindow(BasicKeywords.groovy:54)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:46)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252530637.run(TempTestSuite1698252530637.groovy:36)
+</property>
+  <property name="failed.exception.class">org.openqa.selenium.StaleElementReferenceException</property>
+  <property name="failed.exception.message">The element with the reference 03107fad-1fae-4041-84b1-133a46d7f23a is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-I5U5259&apos;, ip: &apos;192.168.0.89&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_362&apos;
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19604, moz:profile: C:\Users\SALMIN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 241a363a-622a-4d46-bf06-2ab6ec6634b8</property>
+</record>
+<record>
+  <date>2023-10-25T18:50:49</date>
+  <millis>1698252649464</millis>
+  <sequence>70</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(&amp;quot;Login UI&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:50:49</date>
+  <millis>1698252649471</millis>
+  <sequence>72</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Login test/Login UI-1 FAILED.
+Reason:
+org.openqa.selenium.StaleElementReferenceException: The element with the reference 03107fad-1fae-4041-84b1-133a46d7f23a is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-I5U5259&amp;apos;, ip: &amp;apos;192.168.0.89&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_362&amp;apos;
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19604, moz:profile: C:\Users\SALMIN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 241a363a-622a-4d46-bf06-2ab6ec6634b8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at com.applitools.eyes.selenium.wrappers.EyesSeleniumDriver.executeScript(EyesSeleniumDriver.java:341)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getCurrentPosition(SeleniumScrollPositionProvider.java:29)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getCurrentPosition(SeleniumScrollPositionProvider.java:37)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getState(SeleniumScrollPositionProvider.java:72)
+	at com.applitools.eyes.selenium.capture.FullPageCaptureAlgorithm.getStitchedRegion(FullPageCaptureAlgorithm.java:87)
+	at com.applitools.eyes.selenium.SeleniumEyes.getFrameOrElementScreenshot(SeleniumEyes.java:1647)
+	at com.applitools.eyes.selenium.SeleniumEyes.getScreenshot(SeleniumEyes.java:1586)
+	at com.applitools.eyes.EyesBase.getAppOutputWithScreenshot(EyesBase.java:1231)
+	at com.applitools.eyes.EyesBase.access$400(EyesBase.java:39)
+	at com.applitools.eyes.EyesBase$3$1.getAppOutput(EyesBase.java:918)
+	at com.applitools.eyes.MatchWindowTask.tryTakeScreenshot(MatchWindowTask.java:578)
+	at com.applitools.eyes.MatchWindowTask.retryTakingScreenshot(MatchWindowTask.java:570)
+	at com.applitools.eyes.MatchWindowTask.takeScreenshot(MatchWindowTask.java:530)
+	at com.applitools.eyes.MatchWindowTask.matchWindow(MatchWindowTask.java:439)
+	at com.applitools.eyes.EyesBase.matchWindow(EyesBase.java:773)
+	at com.applitools.eyes.EyesBase.checkWindowBase(EyesBase.java:725)
+	at com.applitools.eyes.selenium.SeleniumEyes.checkFullWindow(SeleniumEyes.java:954)
+	at com.applitools.eyes.selenium.SeleniumEyes.check(SeleniumEyes.java:747)
+	at com.applitools.eyes.selenium.SeleniumEyes.check(SeleniumEyes.java:600)
+	at com.applitools.eyes.selenium.Eyes.check(Eyes.java:468)
+	at com.applitools.eyes.selenium.Eyes.checkWindow(Eyes.java:1330)
+	at com.applitools.eyes.selenium.Eyes.checkWindow(Eyes.java:1321)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.doCheckWindow(BasicKeywords.groovy:54)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:46)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252530637.run(TempTestSuite1698252530637.groovy:36)
+</message>
+  <exception>
+    <message>org.openqa.selenium.StaleElementReferenceException: The element with the reference 03107fad-1fae-4041-84b1-133a46d7f23a is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I5U5259', ip: '192.168.0.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19604, moz:profile: C:\Users\SALMIN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 241a363a-622a-4d46-bf06-2ab6ec6634b8</message>
+    <frame>
+      <class>org.openqa.selenium.remote.http.W3CHttpResponseCodec</class>
+      <method>createException</method>
+      <line>187</line>
+    </frame>
+    <frame>
+      <class>org.openqa.selenium.remote.http.W3CHttpResponseCodec</class>
+      <method>decode</method>
+      <line>122</line>
+    </frame>
+    <frame>
+      <class>org.openqa.selenium.remote.http.W3CHttpResponseCodec</class>
+      <method>decode</method>
+      <line>49</line>
+    </frame>
+    <frame>
+      <class>org.openqa.selenium.remote.HttpCommandExecutor</class>
+      <method>execute</method>
+      <line>158</line>
+    </frame>
+    <frame>
+      <class>org.openqa.selenium.remote.service.DriverCommandExecutor</class>
+      <method>execute</method>
+      <line>83</line>
+    </frame>
+    <frame>
+      <class>org.openqa.selenium.remote.RemoteWebDriver</class>
+      <method>execute</method>
+      <line>552</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.selenium.driver.CFirefoxDriver</class>
+      <method>execute</method>
+      <line>27</line>
+    </frame>
+    <frame>
+      <class>org.openqa.selenium.remote.RemoteWebDriver</class>
+      <method>executeScript</method>
+      <line>489</line>
+    </frame>
+    <frame>
+      <class>com.applitools.eyes.selenium.wrappers.EyesSeleniumDriver</class>
+      <method>executeScript</method>
+      <line>341</line>
+    </frame>
+    <frame>
+      <class>com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider</class>
+      <method>getCurrentPosition</method>
+      <line>29</line>
+    </frame>
+    <frame>
+      <class>com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider</class>
+      <method>getCurrentPosition</method>
+      <line>37</line>
+    </frame>
+    <frame>
+      <class>com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider</class>
+      <method>getState</method>
+      <line>72</line>
+    </frame>
+    <frame>
+      <class>com.applitools.eyes.selenium.capture.FullPageCaptureAlgorithm</class>
+      <method>getStitchedRegion</method>
+      <line>87</line>
+    </frame>
+    <frame>
+      <class>com.applitools.eyes.selenium.SeleniumEyes</class>
+      <method>getFrameOrElementScreenshot</method>
+      <line>1647</line>
+    </frame>
+    <frame>
+      <class>com.applitools.eyes.selenium.SeleniumEyes</class>
+      <method>getScreenshot</method>
+      <line>1586</line>
+    </frame>
+    <frame>
+      <class>com.applitools.eyes.EyesBase</class>
+      <method>getAppOutputWithScreenshot</method>
+      <line>1231</line>
+    </frame>
+    <frame>
+      <class>com.applitools.eyes.EyesBase</class>
+      <method>access$400</method>
+      <line>39</line>
+    </frame>
+    <frame>
+      <class>com.applitools.eyes.EyesBase$3$1</class>
+      <method>getAppOutput</method>
+      <line>918</line>
+    </frame>
+    <frame>
+      <class>com.applitools.eyes.MatchWindowTask</class>
+      <method>tryTakeScreenshot</method>
+      <line>578</line>
+    </frame>
+    <frame>
+      <class>com.applitools.eyes.MatchWindowTask</class>
+      <method>retryTakingScreenshot</method>
+      <line>570</line>
+    </frame>
+    <frame>
+      <class>com.applitools.eyes.MatchWindowTask</class>
+      <method>takeScreenshot</method>
+      <line>530</line>
+    </frame>
+    <frame>
+      <class>com.applitools.eyes.MatchWindowTask</class>
+      <method>matchWindow</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.applitools.eyes.EyesBase</class>
+      <method>matchWindow</method>
+      <line>773</line>
+    </frame>
+    <frame>
+      <class>com.applitools.eyes.EyesBase</class>
+      <method>checkWindowBase</method>
+      <line>725</line>
+    </frame>
+    <frame>
+      <class>com.applitools.eyes.selenium.SeleniumEyes</class>
+      <method>checkFullWindow</method>
+      <line>954</line>
+    </frame>
+    <frame>
+      <class>com.applitools.eyes.selenium.SeleniumEyes</class>
+      <method>check</method>
+      <line>747</line>
+    </frame>
+    <frame>
+      <class>com.applitools.eyes.selenium.SeleniumEyes</class>
+      <method>check</method>
+      <line>600</line>
+    </frame>
+    <frame>
+      <class>com.applitools.eyes.selenium.Eyes</class>
+      <method>check</method>
+      <line>468</line>
+    </frame>
+    <frame>
+      <class>com.applitools.eyes.selenium.Eyes</class>
+      <method>checkWindow</method>
+      <line>1330</line>
+    </frame>
+    <frame>
+      <class>com.applitools.eyes.selenium.Eyes</class>
+      <method>checkWindow</method>
+      <line>1321</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.keyword.applitools.BasicKeywords</class>
+      <method>doCheckWindow</method>
+      <line>54</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.keyword.applitools.BasicKeywords</class>
+      <method>checkWindow</method>
+      <line>46</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.keyword.applitools.BasicKeywords</class>
+      <method>invokeMethod</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass</class>
+      <method>invokeStaticMethod</method>
+      <line>55</line>
+    </frame>
+    <frame>
+      <class>Login UI-1</class>
+      <method>run</method>
+      <line>24</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>448</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>418</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>148</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>187</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1698252530637</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.StaleElementReferenceException: The element with the reference 03107fad-1fae-4041-84b1-133a46d7f23a is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-I5U5259&apos;, ip: &apos;192.168.0.89&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_362&apos;
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19604, moz:profile: C:\Users\SALMIN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 241a363a-622a-4d46-bf06-2ab6ec6634b8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at com.applitools.eyes.selenium.wrappers.EyesSeleniumDriver.executeScript(EyesSeleniumDriver.java:341)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getCurrentPosition(SeleniumScrollPositionProvider.java:29)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getCurrentPosition(SeleniumScrollPositionProvider.java:37)
+	at com.applitools.eyes.selenium.positioning.SeleniumScrollPositionProvider.getState(SeleniumScrollPositionProvider.java:72)
+	at com.applitools.eyes.selenium.capture.FullPageCaptureAlgorithm.getStitchedRegion(FullPageCaptureAlgorithm.java:87)
+	at com.applitools.eyes.selenium.SeleniumEyes.getFrameOrElementScreenshot(SeleniumEyes.java:1647)
+	at com.applitools.eyes.selenium.SeleniumEyes.getScreenshot(SeleniumEyes.java:1586)
+	at com.applitools.eyes.EyesBase.getAppOutputWithScreenshot(EyesBase.java:1231)
+	at com.applitools.eyes.EyesBase.access$400(EyesBase.java:39)
+	at com.applitools.eyes.EyesBase$3$1.getAppOutput(EyesBase.java:918)
+	at com.applitools.eyes.MatchWindowTask.tryTakeScreenshot(MatchWindowTask.java:578)
+	at com.applitools.eyes.MatchWindowTask.retryTakingScreenshot(MatchWindowTask.java:570)
+	at com.applitools.eyes.MatchWindowTask.takeScreenshot(MatchWindowTask.java:530)
+	at com.applitools.eyes.MatchWindowTask.matchWindow(MatchWindowTask.java:439)
+	at com.applitools.eyes.EyesBase.matchWindow(EyesBase.java:773)
+	at com.applitools.eyes.EyesBase.checkWindowBase(EyesBase.java:725)
+	at com.applitools.eyes.selenium.SeleniumEyes.checkFullWindow(SeleniumEyes.java:954)
+	at com.applitools.eyes.selenium.SeleniumEyes.check(SeleniumEyes.java:747)
+	at com.applitools.eyes.selenium.SeleniumEyes.check(SeleniumEyes.java:600)
+	at com.applitools.eyes.selenium.Eyes.check(Eyes.java:468)
+	at com.applitools.eyes.selenium.Eyes.checkWindow(Eyes.java:1330)
+	at com.applitools.eyes.selenium.Eyes.checkWindow(Eyes.java:1321)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.doCheckWindow(BasicKeywords.groovy:54)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow(BasicKeywords.groovy:46)
+	at com.kms.katalon.keyword.applitools.BasicKeywords.invokeMethod(BasicKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login UI-1.run(Login UI-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698252530637.run(TempTestSuite1698252530637.groovy:36)
+</property>
+  <property name="failed.exception.class">org.openqa.selenium.StaleElementReferenceException</property>
+  <property name="failed.exception.message">The element with the reference 03107fad-1fae-4041-84b1-133a46d7f23a is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-I5U5259&apos;, ip: &apos;192.168.0.89&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_362&apos;
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19604, moz:profile: C:\Users\SALMIN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 241a363a-622a-4d46-bf06-2ab6ec6634b8</property>
+</record>
+<record>
+  <date>2023-10-25T18:50:49</date>
+  <millis>1698252649474</millis>
+  <sequence>74</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Login test/Login UI-1</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">true</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: true,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2023-10-25T18:50:49</date>
+  <millis>1698252649477</millis>
+  <sequence>75</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:50:49</date>
+  <millis>1698252649789</millis>
+  <sequence>181</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating HTML report folder at: C:\Users\Salmina Lephalle\git\pt.track-practice\Reports\20231025_184847\Login UI\Login UI\20231025_184850...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:50:49</date>
+  <millis>1698252649846</millis>
+  <sequence>182</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HTML report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:50:49</date>
+  <millis>1698252649846</millis>
+  <sequence>183</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating CSV report folder at: C:\Users\Salmina Lephalle\git\pt.track-practice\Reports\20231025_184847\Login UI\Login UI\20231025_184850...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:50:49</date>
+  <millis>1698252649868</millis>
+  <sequence>184</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CSV report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:50:49</date>
+  <millis>1698252649889</millis>
+  <sequence>186</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-10-25T18:50:51</date>
+  <millis>1698252651193</millis>
+  <sequence>187</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Login UI/Login UI</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>

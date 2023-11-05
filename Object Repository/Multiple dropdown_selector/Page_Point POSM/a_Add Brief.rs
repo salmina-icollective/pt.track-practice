@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Add Brief</name>
+   <tag></tag>
+   <elementGuidId>cf20fd81-d34a-492f-a82e-faceabae2c63</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-wrapper']/div[2]/div/div[2]/div/div/div/div/div/div[2]/label/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>bc0be799-fa01-4285-89a3-a835506563ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>redirectToAddBrief()</value>
+      <webElementGuid>8a82c070-0d8e-4927-ad01-bcc27b6010bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary</value>
+      <webElementGuid>aa93dff3-66b7-4a3b-b049-017df856fd66</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add Brief</value>
+      <webElementGuid>179dfd87-0e1b-4315-a4ac-b265776d855c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-wrapper&quot;)/div[@class=&quot;main ng-scope&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;wrapper wrapper-content animated fadeInRight&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;ibox&quot;]/div[@class=&quot;ibox-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-8 col-md-9 text-right&quot;]/label[@class=&quot;ng-scope&quot;]/a[@class=&quot;btn btn-primary&quot;]</value>
+      <webElementGuid>215abf68-6c64-4b76-b020-37f89ae4fb2f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-wrapper']/div[2]/div/div[2]/div/div/div/div/div/div[2]/label/a</value>
+      <webElementGuid>e04fc4e3-b63b-416c-8a77-7e5a02c14431</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Add Brief')]</value>
+      <webElementGuid>89e30275-f7df-4f84-ab8c-836fe8067955</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Brief Template'])[2]/following::a[1]</value>
+      <webElementGuid>5f98d5a0-7f4c-41ac-a187-da0829dbf62d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Brief Template'])[1]/following::a[2]</value>
+      <webElementGuid>88506465-4ea0-4635-825b-a1b73bb4cbc8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Action'])[1]/preceding::a[1]</value>
+      <webElementGuid>c1605310-13b3-47eb-ae07-754df2d9f215</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Project/Brief Name'])[1]/preceding::a[1]</value>
+      <webElementGuid>727bce4e-edfd-4d73-b879-b3787525c5e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Add Brief']/parent::*</value>
+      <webElementGuid>96b666a8-0e02-4f95-9054-625ea9cac5a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/a</value>
+      <webElementGuid>e1f29cf1-d327-425d-9d51-a0f3cdec27f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Add Brief' or . = 'Add Brief')]</value>
+      <webElementGuid>0b82de44-9b51-41ce-bf2b-16b75f3e5bcf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
